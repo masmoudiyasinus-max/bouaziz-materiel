@@ -1,0 +1,173 @@
+.footer {
+  background: var(--bg-surface);
+  border-top: 1px solid var(--border-subtle);
+  padding: 64px 0 0;
+  margin-top: 80px;
+}
+
+.footerInner {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+  gap: 48px;
+}
+
+/* ─── BRAND COLUMN ─── */
+.footerLogo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.footerLogoName {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: var(--green-800);
+}
+
+.footerLogoSub {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footerDesc {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+  margin-bottom: 20px;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 12px;
+}
+
+.socialBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background: var(--green-50);
+  border: 1px solid var(--green-100);
+  border-radius: var(--radius-full);
+  color: var(--green-800);
+  font-size: 0.82rem;
+  font-weight: 700;
+  transition: background var(--transition-fast), border-color var(--transition-fast);
+}
+
+.socialBtn:hover {
+  background: var(--green-100);
+  border-color: var(--green-800);
+}
+
+/* ─── COLUMNS ─── */
+.column {}
+
+.columnTitle {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--green-800);
+  margin-bottom: 20px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--green-800);
+  display: inline-block;
+}
+
+.linkList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footerLink {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  transition: color var(--transition-fast), padding-inline-start var(--transition-fast);
+  padding: 2px 0;
+}
+
+.footerLink:hover {
+  color: var(--green-800);
+  padding-inline-start: 4px;
+}
+
+/* ─── CONTACT ─── */
+.contactList {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 0.86rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.contactItem svg {
+  color: var(--green-800);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.contactItem a {
+  color: var(--text-secondary);
+  transition: color var(--transition-fast);
+  display: inline-block;
+  min-height: 24px;
+  line-height: 24px;
+}
+
+.contactItem a:hover {
+  color: var(--green-800);
+}
+
+/* ─── BOTTOM BAR ─── */
+.bottomBar {
+  border-top: 1px solid var(--border-subtle);
+  margin-top: 48px;
+  padding: 20px 0;
+  background: var(--bg-primary);
+}
+
+.bottomBarInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.bottomBarShipping {
+  color: var(--green-800);
+  font-weight: 700;
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 1024px) {
+  .footerInner {
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .footerInner {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .bottomBarInner {
+    flex-direction: column;
+    gap: 8px;
+    text-align: text-center;
+  }
+}

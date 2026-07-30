@@ -1,0 +1,307 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  border-radius: var(--radius-lg);
+  background: #ffffff;
+  border: 1px solid #eaecf0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
+  will-change: transform;
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card:hover {
+  border-color: #d1d5db;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.card:focus-visible {
+  outline: 2px solid #153e2b;
+  outline-offset: 2px;
+}
+
+/* Status Badges (Top Left) */
+.badge {
+  position: absolute;
+  top: 12px;
+  inset-inline-start: 12px;
+  z-index: 2;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+}
+
+.badgePro {
+  background: #153e2b;
+  color: #ffffff;
+  border: 1px solid #153e2b;
+}
+
+.badgeNouveau {
+  background: #d4a373;
+  color: #111827;
+  border: 1px solid #c49363;
+}
+
+.badgePopular {
+  background: #e8f5e9;
+  color: #153e2b;
+  border: 1px solid #c8e6c9;
+}
+
+/* Floating Spec Badge (Top Right) */
+.specBadge {
+  position: absolute;
+  top: 12px;
+  inset-inline-end: 12px;
+  z-index: 2;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  color: #153e2b;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+/* ─── IMAGE ─── */
+.imageWrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  overflow: hidden;
+  background: #f8f9fa;
+  border-bottom: 1px solid #eaecf0;
+}
+
+.productImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slow);
+}
+
+.card:hover .productImg {
+  transform: scale(1.03);
+}
+
+.imagePlaceholder {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(180deg, #f9fafb 0%, #f3f4f6 100%);
+}
+
+.placeholderIcon {
+  color: #153e2b;
+}
+
+.placeholderText {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 0 14px;
+  max-width: 85%;
+  line-height: 1.3;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(21, 62, 43, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-slow);
+  z-index: 3;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.overlayBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 18px;
+  background: #ffffff;
+  border-radius: var(--radius-full);
+  color: #153e2b;
+  font-size: 0.85rem;
+  font-weight: 700;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transform: scale(0.95);
+  transition: transform var(--transition-slow);
+}
+
+.card:hover .overlayBtn {
+  transform: scale(1);
+}
+
+/* ─── CONTENT CONTAINER ─── */
+.content {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  gap: 16px;
+}
+
+.topInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.category {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #153e2b;
+  font-weight: 700;
+}
+
+.name {
+  font-family: var(--font-heading);
+  font-size: 1.02rem;
+  font-weight: 800;
+  font-stretch: normal !important;
+  color: #111827;
+  line-height: 1.35;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.7em;
+}
+
+/* Sleek Tech Subtitle Badge */
+.specSubBox {
+  margin-top: 2px;
+}
+
+.specSubText {
+  display: inline-block;
+  padding: 4px 10px;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #4b5563;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ─── VARIANT SELECTOR CONTAINER ─── */
+.variantWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px;
+  background: #f9fafb;
+  border: 1px solid #f3f4f6;
+  border-radius: var(--radius-md);
+}
+
+.variantLabelRow {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.variantContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.variantPill {
+  font-size: 0.72rem;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
+  line-height: 1.2;
+}
+
+/* Active Pill Style */
+.variantPillActive {
+  background: #153e2b !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  border: 1px solid #153e2b !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Inactive Pill Style */
+.variantPillInactive {
+  background: #ffffff !important;
+  border: 1px solid #e5e7eb !important;
+  color: #374151 !important;
+  font-weight: 600;
+}
+
+.variantPillInactive:hover {
+  background: #f3f4f6 !important;
+  border-color: #d1d5db !important;
+  color: #111827 !important;
+}
+
+/* ─── BOTTOM INFO & ACTIONS ─── */
+.bottomInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid #f3f4f6;
+}
+
+.priceRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.priceLabel {
+  font-size: 0.8rem;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+.price {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 1.15rem;
+  color: #b5824e;
+}
+
+.addBtn {
+  width: 100%;
+  justify-content: center;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Bouaziz Matériel Agricole",
+  "short_name": "Bouaziz Agri",
+  "description": "Le spécialiste N°1 en équipements agricoles et avicoles en Tunisie",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#153e2b",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
