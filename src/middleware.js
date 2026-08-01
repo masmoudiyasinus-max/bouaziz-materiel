@@ -26,18 +26,6 @@ export function middleware(request) {
       )
     );
   }
-
-  // Admin Route Protection
-  if (pathname.includes('/admin') && !pathname.includes('/admin/login')) {
-    const sessionCookie = request.cookies.get('adminSession');
-    
-    if (!sessionCookie) {
-      // Find the current locale from the path, e.g., /ar/admin -> ar
-      const localeMatch = pathname.match(/^\/(ar|fr)\//);
-      const currentLocale = localeMatch ? localeMatch[1] : defaultLocale;
-      return NextResponse.redirect(new URL(`/${currentLocale}/admin/login`, request.url));
-    }
-  }
 }
 
 export const config = {

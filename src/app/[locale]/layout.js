@@ -20,6 +20,14 @@ const tajawal = Tajawal({
   variable: "--font-tajawal",
 });
 
+export function generateStaticParams() {
+  return [{ locale: "fr" }, { locale: "ar" }];
+}
+
+export const viewport = {
+  themeColor: "#153e2b",
+};
+
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const isAr = locale === "ar";
@@ -45,7 +53,6 @@ export async function generateMetadata({ params }) {
       type: "website",
     },
     manifest: "/manifest.json",
-    themeColor: "#153e2b",
     appleWebApp: {
       capable: true,
       statusBarStyle: "default",
