@@ -111,6 +111,3 @@ export function getCategoryBySlug(slug) {
   return categories.find((c) => c.slug === slug);
 }
 
-export function getCategoryById(id) {
-  return categories.find((c) => c.id === id);
-}
