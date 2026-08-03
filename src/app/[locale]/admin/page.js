@@ -3,6 +3,8 @@ import styles from "./admin.module.css";
 import { Package, Grid, AlertTriangle, Plus } from "lucide-react";
 import Link from "next/link";
 
+export const dynamic = 'force-dynamic';
+
 export default async function AdminDashboard({ params }) {
   const { locale } = await params;
   

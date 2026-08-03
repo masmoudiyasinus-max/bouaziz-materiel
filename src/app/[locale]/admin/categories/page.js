@@ -2,6 +2,8 @@ import { prisma } from "@/lib/prisma";
 import styles from "../admin.module.css";
 import { Plus, Search, Edit, Trash2 } from "lucide-react";
 
+export const dynamic = 'force-dynamic';
+
 export default async function AdminCategoriesPage({ params }) {
   const { locale } = await params;
   const isAr = locale === 'ar';

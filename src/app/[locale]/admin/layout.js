@@ -6,6 +6,8 @@ import { I18nProvider } from "@/context/I18nContext";
 import { AdminThemeProvider } from "@/context/AdminThemeContext";
 import { headers } from "next/headers";
 
+export const dynamic = 'force-dynamic';
+
 export const metadata = {
   title: "Admin Dashboard - Bouaziz",
   robots: {

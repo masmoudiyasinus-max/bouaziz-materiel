@@ -1,6 +1,8 @@
 import styles from "../admin.module.css";
 import { Settings, Shield, Bell, Globe } from "lucide-react";
 
+export const dynamic = 'force-dynamic';
+
 export default async function AdminSettingsPage({ params }) {
   const { locale } = await params;
   const isAr = locale === 'ar';
