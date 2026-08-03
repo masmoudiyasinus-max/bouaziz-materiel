@@ -3,13 +3,25 @@ import ProductCard from "@/components/ProductCard";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
   const locales = ["fr", "ar"];
-  const categories = await getCategories();
-  return categories.flatMap((cat) =>
+  const staticCategorySlugs = [
+    "couveuses-chauffage",
+    "mangeoires-abreuvoirs",
+    "cages-batteries",
+    "elevage-bovin-ovin",
+    "machines-agricoles",
+    "ventilation-irrigation",
+    "alimentation-sante",
+    "balances-equipements"
+  ];
+
+  return staticCategorySlugs.flatMap((categorie) =>
     locales.map((locale) => ({
       locale,
-      categorie: cat.slug,
+      categorie,
     }))
   );
 }

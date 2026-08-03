@@ -3,16 +3,10 @@ import ProductClient from "./ProductClient";
 import { notFound } from "next/navigation";
 
 export const dynamic = 'force-dynamic';
+export const dynamicParams = true;
 
 export async function generateStaticParams() {
-  const locales = ["fr", "ar"];
-  const products = await getProducts();
-  return products.flatMap((p) =>
-    locales.map((locale) => ({
-      locale,
-      slug: p.slug,
-    }))
-  );
+  return [];
 }
 
 export default async function ProductPage({ params }) {
