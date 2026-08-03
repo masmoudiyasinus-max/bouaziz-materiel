@@ -2,16 +2,13 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { getProductBySlug, getProductsByCategory } from "@/data/products";
-import { getCategoryBySlug } from "@/data/categories";
 import { useCart } from "@/context/CartContext";
 import { useI18n } from "@/context/I18nContext";
 import ProductCard from "@/components/ProductCard";
-import { ShoppingCart, Check, ChevronRight, Package, Truck, Shield, ZoomIn, X } from "lucide-react";
+import { ShoppingCart, Check, ChevronRight, Package, Truck, Shield, ZoomIn, X, PackageX, PhoneCall } from "lucide-react";
 import styles from "./produit.module.css";
 
-export default function ProductClient({ slug }) {
-  const product = getProductBySlug(slug);
+export default function ProductClient({ product, category, relatedProducts }) {
   const { addToCart } = useCart();
   const { locale, t, isAr } = useI18n();
   const [quantity, setQuantity] = useState(1);
@@ -60,16 +57,11 @@ export default function ProductClient({ slug }) {
   const currentSpecBadge = currentVariant ? getProp(currentVariant, "specBadge", "specBadgeAr") : getProp(product, "specBadge", "specBadgeAr");
   const currentSpecSub = currentVariant ? getProp(currentVariant, "specSub", "specSubAr") : getProp(product, "specSub", "specSubAr");
   const currentPrice = currentVariant ? currentVariant.price : product.price;
-  const mainImageSrc = currentVariant ? currentVariant.image : (product.image || `/images/products/${product.slug}.jpg`);
+  const mainImageSrc = (currentVariant && currentVariant.image) ? currentVariant.image : (product.image || `/images/products/${product.slug}.jpg`);
 
   // Brand / Manufacturer options
   const defaultBrands = ["River (Italie)", "Bouaziz / AGR", "Philips", "OMSA Pro"];
   const availableBrands = product.brands || defaultBrands;
-
-  const category = getCategoryBySlug(product.category);
-  const relatedProducts = getProductsByCategory(product.category)
-    .filter((p) => p.id !== product.id)
-    .slice(0, 4);
 
   const handleMouseMove = (e) => {
     const { left, top, width, height } = e.currentTarget.getBoundingClientRect();
@@ -150,6 +142,7 @@ export default function ProductClient({ slug }) {
                 alt={currentTitle}
                 fill
                 priority
+                unoptimized
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className={styles.singleProductImg}
                 style={{
@@ -187,19 +180,37 @@ export default function ProductClient({ slug }) {
               <p className={styles.pdpSpecSub}>{currentSpecSub}</p>
             )}
 
-            <div className={styles.priceBlock}>
+            <div className={styles.priceBlock} style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
               <div style={{ display: 'flex', flexDirection: 'column' }}>
                 <span className={styles.priceLabel} style={{ fontSize: '0.9rem', color: 'var(--text-muted)', fontWeight: 500, marginBottom: '2px' }}>
-                  {currentPrice === 0 ? "" : (isAr ? "ابتداءً من:" : "À partir de :")}
+                  {currentPrice === 0 ? "" : (isAr ? "السعر الرئيسي:" : "Prix public :")}
                 </span>
-                <span className={styles.price}>
-                  {currentPrice === 0 ? (isAr ? "حسب الطلب" : "Sur devis") : `${currentPrice.toFixed(2)} DT`}
-                </span>
+                <div style={{ display: 'flex', alignItems: 'baseline', gap: '10px', flexWrap: 'wrap' }}>
+                  <span className={styles.price}>
+                    {currentPrice === 0 ? (isAr ? "حسب الطلب" : "Sur devis") : `${currentPrice.toFixed(2)} DT`}
+                  </span>
+
+                  {product.oldPrice && parseFloat(product.oldPrice) > currentPrice && currentPrice > 0 && (
+                    <>
+                      <span style={{ textDecoration: "line-through", color: "#94a3b8", fontSize: "1.1rem", fontWeight: "600" }}>
+                        {parseFloat(product.oldPrice).toFixed(2)} DT
+                      </span>
+                      <span style={{ background: "#ef4444", color: "#ffffff", fontWeight: "800", fontSize: "0.8rem", padding: "3px 10px", borderRadius: "100px", boxShadow: "0 2px 6px rgba(239, 68, 68, 0.3)" }}>
+                        -{Math.round(((parseFloat(product.oldPrice) - currentPrice) / parseFloat(product.oldPrice)) * 100)}%
+                      </span>
+                    </>
+                  )}
+                </div>
               </div>
-              {product.inStock ? (
-                <span className="badge badge-green">{t.product?.inStock}</span>
+
+              {!product.inStock ? (
+                <span className="badge badge-red" style={{ marginInlineStart: 'auto' }}>{t.product?.outOfStock || (isAr ? "نفذ من المخزون" : "Rupture de stock")}</span>
+              ) : product.badge === "Sur Commande" || product.badge === "تحت الطلب" ? (
+                <span className="badge badge-amber" style={{ marginInlineStart: 'auto', background: "#fef3c7", color: "#b45309", border: "1px solid #fde68a", fontWeight: "700", padding: "4px 12px", borderRadius: "100px" }}>
+                  {isAr ? "تحت الطلب" : "Sur commande"}
+                </span>
               ) : (
-                <span className="badge badge-red">{t.product?.outOfStock}</span>
+                <span className="badge badge-green" style={{ marginInlineStart: 'auto' }}>{t.product?.inStock || (isAr ? "متوفر بالمخزون" : "En stock")}</span>
               )}
             </div>
 
@@ -244,43 +255,83 @@ export default function ProductClient({ slug }) {
               </div>
             </div>
 
-            {/* Quantity & Add to Cart Row */}
-            <div className={styles.actions}>
-              <div className={styles.quantityControl}>
+            {/* Quantity & Add to Cart Row OR Out of Stock Contact Company Block */}
+            {product.inStock ? (
+              <div className={styles.actions}>
+                <div className={styles.quantityControl}>
+                  <button
+                    onClick={() => setQuantity(Math.max(1, quantity - 1))}
+                    className={styles.qtyBtn}
+                    type="button"
+                    aria-label={t.product?.decrease || "Diminuer"}
+                  >
+                    &#8722;
+                  </button>
+                  <span className={styles.qtyValue}>{quantity}</span>
+                  <button
+                    onClick={() => setQuantity(quantity + 1)}
+                    className={styles.qtyBtn}
+                    type="button"
+                    aria-label={t.product?.increase || "Augmenter"}
+                  >
+                    &#43;
+                  </button>
+                </div>
+
                 <button
-                  onClick={() => setQuantity(Math.max(1, quantity - 1))}
-                  className={styles.qtyBtn}
-                  type="button"
-                  aria-label={t.product?.decrease || "Diminuer"}
+                  className={`btn ${added ? "btn-secondary" : "btn-gold"} btn-lg ${styles.addCartBtn}`}
+                  onClick={handleAddToCart}
                 >
-                  &#8722;
-                </button>
-                <span className={styles.qtyValue}>{quantity}</span>
-                <button
-                  onClick={() => setQuantity(quantity + 1)}
-                  className={styles.qtyBtn}
-                  type="button"
-                  aria-label={t.product?.increase || "Augmenter"}
-                >
-                  &#43;
+                  {added ? (
+                    <>
+                      <Check size={18} /> {t.product?.addedToCart}
+                    </>
+                  ) : (
+                    <>
+                      <ShoppingCart size={18} /> {t.product?.addToCart}
+                    </>
+                  )}
                 </button>
               </div>
+            ) : (
+              <div style={{
+                background: "#fef2f2",
+                border: "1px solid #fca5a5",
+                borderRadius: "12px",
+                padding: "20px",
+                marginTop: "16px"
+              }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "10px", color: "#991b1b", fontWeight: "700", fontSize: "0.95rem", marginBottom: "8px" }}>
+                  <PackageX size={20} />
+                  <span>{isAr ? "المنتج غير متوفر حالياً بالمخزون" : "Produit temporairement en rupture de stock"}</span>
+                </div>
+                <p style={{ color: "#7f1d1d", fontSize: "0.85rem", margin: "0 0 16px 0", lineHeight: "1.5" }}>
+                  {isAr 
+                    ? "هذا المنتج غير متوفر في الوقت الحالي للطلب المباشر. يرجى التواصل معنا مباشرة للاستفسار أو توفيره على الطلب."
+                    : "Ce produit n'est pas disponible pour la commande directe actuellement. Veuillez nous contacter directement pour passer commande."}
+                </p>
 
-              <button
-                className={`btn ${added ? "btn-secondary" : "btn-gold"} btn-lg ${styles.addCartBtn}`}
-                onClick={handleAddToCart}
-              >
-                {added ? (
-                  <>
-                    <Check size={18} /> {t.product?.addedToCart}
-                  </>
-                ) : (
-                  <>
-                    <ShoppingCart size={18} /> {t.product?.addToCart}
-                  </>
-                )}
-              </button>
-            </div>
+                <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
+                  <a
+                    href="tel:+21626244244"
+                    className="btn btn-primary"
+                    style={{ display: "inline-flex", alignItems: "center", gap: "8px", padding: "10px 18px", fontSize: "0.9rem" }}
+                  >
+                    <PhoneCall size={16} />
+                    {isAr ? "اتصال بالشركة (+216 26 244 244)" : "Appeler la société (+216 26 244 244)"}
+                  </a>
+                  <a
+                    href="https://wa.me/21626244244"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn"
+                    style={{ display: "inline-flex", alignItems: "center", gap: "8px", padding: "10px 18px", fontSize: "0.9rem", background: "#25D366", color: "#ffffff", border: "none" }}
+                  >
+                    💬 {isAr ? "واتساب مباشر" : "WhatsApp direct"}
+                  </a>
+                </div>
+              </div>
+            )}
 
             {/* Technical Bullet Points */}
             {(isAr ? product.featuresAr : product.features)?.length > 0 && (
@@ -323,18 +374,18 @@ export default function ProductClient({ slug }) {
           </div>
         </div>
 
-        {/* Related Products */}
-        {relatedProducts.length > 0 && (
-          <section className={styles.related}>
-            <h2 className="section-title">
-              {t.product?.related} <span className="text-gradient">{t.product?.relatedHighlight}</span>
+        {/* Related Products Section */}
+        {relatedProducts && relatedProducts.length > 0 && (
+          <div className={styles.relatedSection}>
+            <h2 className={styles.relatedTitle}>
+              {t.product?.relatedTitle || "Vous aimerez aussi"}
             </h2>
             <div className={styles.relatedGrid}>
-              {relatedProducts.map((p) => (
+              {relatedProducts.slice(0, 4).map((p) => (
                 <ProductCard key={p.id} product={p} />
               ))}
             </div>
-          </section>
+          </div>
         )}
 
         {/* Click-to-Enlarge Fullscreen Lightbox Modal */}

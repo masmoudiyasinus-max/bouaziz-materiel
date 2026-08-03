@@ -1,0 +1,3656 @@
+[
+  {
+    "id": 1,
+    "slug": "couveuses-chauffage",
+    "name": "Couveuses & Chauffage",
+    "nameAr": "الفقاسات والتدفئة",
+    "description": "Couveuses automatiques, incubateurs, systèmes de chauffage et accessoires de couvaison pour volailles",
+    "descriptionAr": "فقاسات بيض أوتوماتيكية، حاضنات، أنظمة تدفئة ومستلزمات تفقيس الدواجن",
+    "icon": "Egg",
+    "image": "/images/categories/couveuses.jpg",
+    "createdAt": "2026-08-03T12:18:28.101Z",
+    "updatedAt": "2026-08-03T12:18:28.101Z",
+    "products": [
+      {
+        "id": 1,
+        "slug": "couveuse-river-49-oeufs",
+        "name": "Couveuse River Automatique 49 œufs",
+        "nameAr": "فقاسة ريفر أوتوماتيكية 49 بيضة",
+        "description": "Couveuse automatique professionnelle fabriquée en Italie. Système de retournement automatique des œufs, régulation électronique de précision de la température et affichage numérique LCD.",
+        "descriptionAr": "فقاسة أوتوماتيكية احترافية صنع إيطالي. تتميز بنظام تقليب آلي للبيض، ضبط إلكتروني دقيق لدرجة الحرارة وشاشة عرض رقمية LCD.",
+        "price": 750,
+        "oldPrice": 800,
+        "inStock": true,
+        "badge": "Best-seller",
+        "badgeAr": "الأكثر مبيعاً",
+        "specBadge": "49 œufs",
+        "specBadgeAr": "49 بيضة",
+        "specSub": "Retournement Auto | Marque River (Italie)",
+        "specSubAr": "تقليب آلي | ماركة ريفر الإيطالية",
+        "image": "/images/products/couveuse-river-49-oeufs.jpg",
+        "thumbnail": "/images/products/couveuse-river-49-oeufs.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 1,
+        "createdAt": "2026-08-03T12:18:28.190Z",
+        "updatedAt": "2026-08-03T12:18:28.190Z",
+        "features": [
+          {
+            "id": 1,
+            "text": "Capacité 49 œufs de poule / oie ou 196 œufs de caille",
+            "textAr": "سعة 49 بيضة دجاج / إوز أو 196 بيضة سمان",
+            "sortOrder": 0,
+            "productId": 1
+          },
+          {
+            "id": 2,
+            "text": "Retournement automatique de précision",
+            "textAr": "نظام تقليب أوتوماتيكي دقيق",
+            "sortOrder": 1,
+            "productId": 1
+          },
+          {
+            "id": 3,
+            "text": "Régulation électronique de température",
+            "textAr": "ضبط إلكتروني لدرجة الحرارة",
+            "sortOrder": 2,
+            "productId": 1
+          },
+          {
+            "id": 4,
+            "text": "Fabriquée en Italie (River Systems)",
+            "textAr": "صناعة إيطالية عالية الجودة (River Systems)",
+            "sortOrder": 3,
+            "productId": 1
+          }
+        ],
+        "variants": [
+          {
+            "id": 1,
+            "label": "24 œufs (River Italie)",
+            "labelAr": "24 بيضة (River إيطاليا)",
+            "title": "Couveuse River Automatique 24 œufs",
+            "titleAr": "فقاسة ريفر أوتوماتيكية 24 بيضة",
+            "specBadge": "24 œufs",
+            "specBadgeAr": "24 بيضة",
+            "specSub": "Modèle 24 œufs | River Italie",
+            "specSubAr": "نموذج 24 بيضة | ريفر الإيطالية",
+            "price": 520,
+            "sortOrder": 0,
+            "productId": 1
+          },
+          {
+            "id": 2,
+            "label": "49 œufs (River Italie)",
+            "labelAr": "49 بيضة (River إيطاليا)",
+            "title": "Couveuse River Automatique 49 œufs",
+            "titleAr": "فقاسة ريفر أوتوماتيكية 49 بيضة",
+            "specBadge": "49 œufs",
+            "specBadgeAr": "49 بيضة",
+            "specSub": "Modèle 49 œufs | River Italie",
+            "specSubAr": "نموذج 49 بيضة | ريفر الإيطالية",
+            "price": 750,
+            "sortOrder": 1,
+            "productId": 1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "slug": "couveuse-puisor-x2-51-oeufs",
+        "name": "Couveuse Puișor X2 51 œufs",
+        "nameAr": "فقاسة بويشور 51 بيضة",
+        "description": "Couveuse compacte semi-automatique avec affichage de température et répartition uniforme de la chaleur. Idéale pour petits élevages et amateurs.",
+        "descriptionAr": "فقاسة مدمجة نصف أوتوماتيكية مع شاشة لقراءة الحرارة وتوزيع متجانس للحرارة. مثالية للمربين الصغار والهواة.",
+        "price": 400,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Populaire",
+        "badgeAr": "شائع",
+        "specBadge": "51 œufs",
+        "specBadgeAr": "51 بيضة",
+        "specSub": "Compacte | Marque Puișor (Roumanie)",
+        "specSubAr": "مدمجة | صناعة رومانية",
+        "image": "/images/products/couveuse-puisor-x2-51-oeufs.jpg",
+        "thumbnail": "/images/products/couveuse-puisor-x2-51-oeufs.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 1,
+        "createdAt": "2026-08-03T12:18:28.204Z",
+        "updatedAt": "2026-08-03T12:18:28.204Z",
+        "features": [
+          {
+            "id": 5,
+            "text": "Capacité 51 œufs de poule",
+            "textAr": "سعة 51 بيضة دجاج",
+            "sortOrder": 0,
+            "productId": 2
+          },
+          {
+            "id": 6,
+            "text": "Thermostat de précision pré-réglé",
+            "textAr": "منظم حرارة دقيق مضبوط مسبقاً",
+            "sortOrder": 1,
+            "productId": 2
+          },
+          {
+            "id": 7,
+            "text": "Consommation électrique réduite",
+            "textAr": "استهلاك منخفض للكهرباء",
+            "sortOrder": 2,
+            "productId": 2
+          },
+          {
+            "id": 8,
+            "text": "Fabriquée en Roumanie",
+            "textAr": "صناعة رومانية",
+            "sortOrder": 3,
+            "productId": 2
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 3,
+        "slug": "couveuse-numerique-pto-56-oeufs",
+        "name": "Couveuse Numérique PTO 56/72 œufs 12V",
+        "nameAr": "فقاسة رقمية PTO 56/72 بيضة 12V",
+        "description": "Couveuse numérique polyvalente fonctionnant sur 220V et batterie 12V en cas de coupure d'électricité. Double affichage température et humidité.",
+        "descriptionAr": "فقاسة رقمية متعددة الاستخدامات تعمل على كهرباء 220V وبطارية 12V عند انقطاع التيار. شاشة مزدوجة لدرجة الحرارة والرطوبة.",
+        "price": 350,
+        "oldPrice": 380,
+        "inStock": true,
+        "badge": "Double Alimentation",
+        "badgeAr": "تغذية مزدوجة",
+        "specBadge": "56/72 œufs",
+        "specBadgeAr": "56/72 بيضة",
+        "specSub": "Batterie 12V | Double Alimentation",
+        "specSubAr": "تعمل بالبطارية والكهرباء",
+        "image": "/images/products/couveuse-numerique-pto-56-oeufs.jpg",
+        "thumbnail": "/images/products/couveuse-numerique-pto-56-oeufs.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 1,
+        "createdAt": "2026-08-03T12:18:28.223Z",
+        "updatedAt": "2026-08-03T12:18:28.223Z",
+        "features": [
+          {
+            "id": 9,
+            "text": "Alimentation hybride 220V / Batterie 12V",
+            "textAr": "تغذية مزدوجة 220V وبطارية 12V",
+            "sortOrder": 0,
+            "productId": 3
+          },
+          {
+            "id": 10,
+            "text": "Retournement automatique toutes les 2 heures",
+            "textAr": "تقليب أوتوماتيكي كل ساعتين",
+            "sortOrder": 1,
+            "productId": 3
+          },
+          {
+            "id": 11,
+            "text": "Alarme de température et humidité",
+            "textAr": "جرس إنذار عند تغيّر الحرارة والرطوبة",
+            "sortOrder": 2,
+            "productId": 3
+          }
+        ],
+        "variants": [
+          {
+            "id": 3,
+            "label": "56 œufs 12V",
+            "labelAr": "56 بيضة 12V",
+            "title": "Couveuse Numérique PTO 56 œufs 12V",
+            "titleAr": "فقاسة رقمية PTO 56 بيضة 12V",
+            "specBadge": "56 œufs",
+            "specBadgeAr": "56 بيضة",
+            "specSub": "Modèle 56 œufs 12V",
+            "specSubAr": "نموذج 56 بيضة 12V",
+            "price": 350,
+            "sortOrder": 0,
+            "productId": 3
+          },
+          {
+            "id": 4,
+            "label": "72 œufs 12V",
+            "labelAr": "72 بيضة 12V",
+            "title": "Couveuse Numérique PTO 72 œufs 12V",
+            "titleAr": "فقاسة رقمية PTO 72 بيضة 12V",
+            "specBadge": "72 œufs",
+            "specBadgeAr": "72 بيضة",
+            "specSub": "Modèle 72 œufs 12V",
+            "specSubAr": "نموذج 72 بيضة 12V",
+            "price": 420,
+            "sortOrder": 1,
+            "productId": 3
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "slug": "couveuse-pto-smart-270-oeufs",
+        "name": "Couveuse PTO Smart 270 œufs",
+        "nameAr": "فقاسة PTO ذكية 270 بيضة",
+        "description": "Couveuse automatique grand format avec écran tactile smart LCD, contrôle précis de l'humidité et de la ventilation assurant un taux d'éclosion optimal.",
+        "descriptionAr": "فقاسة أوتوماتيكية كبيرة الحجم مع شاشة لمس ذكية LCD، ضبط دقيق للرطوبة والتهوية لضمان أعلى نسبة تفقيس.",
+        "price": 1200,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Smart LCD",
+        "badgeAr": "شاشة ذكية",
+        "specBadge": "270 œufs",
+        "specBadgeAr": "270 بيضة",
+        "specSub": "Smart LCD | Armoire Automatique",
+        "specSubAr": "شاشة LCD | خزانة أوتوماتيكية",
+        "image": "/images/products/couveuse-pto-smart-270-oeufs.jpg",
+        "thumbnail": "/images/products/couveuse-pto-smart-270-oeufs.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 1,
+        "createdAt": "2026-08-03T12:18:28.234Z",
+        "updatedAt": "2026-08-03T12:18:28.234Z",
+        "features": [
+          {
+            "id": 12,
+            "text": "Capacité 270 œufs",
+            "textAr": "سعة 270 بيضة",
+            "sortOrder": 0,
+            "productId": 4
+          },
+          {
+            "id": 13,
+            "text": "Écran Smart LCD couleur",
+            "textAr": "شاشة لمس ملونة LCD Smart",
+            "sortOrder": 1,
+            "productId": 4
+          },
+          {
+            "id": 14,
+            "text": "Système d'humidification automatique",
+            "textAr": "نظام ترطيب أوتوماتيكي",
+            "sortOrder": 2,
+            "productId": 4
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 5,
+        "slug": "couveuse-durafiable-ah500",
+        "name": "Couveuse Armoire Industrielle DuraFiable",
+        "nameAr": "فقاسة خزانة صناعية DuraFiable",
+        "description": "Couveuse armoire industrielle haute capacité conçue pour les couvoirs professionnels. Châssis renforcé, ventilation axiale multi-points et régulateur industriel.",
+        "descriptionAr": "فقاسة خزانة صناعية ذات سعة عالية مخصصة للمشاريع الكبرى. هيكل مقوى، تهوية مروحية متكاملة ومنظم حراري صناعي دقيق.",
+        "price": 2800,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Industriel",
+        "badgeAr": "صناعي",
+        "specBadge": "500 à 1100 œufs",
+        "specBadgeAr": "500 إلى 1100 بيضة",
+        "specSub": "Usage Pro | Modèles AH500 / AH700",
+        "specSubAr": "استخدام احترافي | نماذج AH500 و AH700",
+        "image": "/images/products/couveuse-durafiable-ah500.jpg",
+        "thumbnail": "/images/products/couveuse-durafiable-ah500.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 1,
+        "createdAt": "2026-08-03T12:18:28.243Z",
+        "updatedAt": "2026-08-03T12:18:28.243Z",
+        "features": [
+          {
+            "id": 15,
+            "text": "Capacité 500 à 1100 œufs selon modèle",
+            "textAr": "سعة 500 إلى 1100 بيضة حسب النموذج",
+            "sortOrder": 0,
+            "productId": 5
+          },
+          {
+            "id": 16,
+            "text": "Châssis isotherme renforcé",
+            "textAr": "هيكل عازل حراري مقوى",
+            "sortOrder": 1,
+            "productId": 5
+          },
+          {
+            "id": 17,
+            "text": "Retournement pneumatique/électrique des tiroirs",
+            "textAr": "تقليب هيدروليكي/كهربائي للرفوف",
+            "sortOrder": 2,
+            "productId": 5
+          },
+          {
+            "id": 18,
+            "text": "Garantie professionnelle",
+            "textAr": "ضمان احترافي",
+            "sortOrder": 3,
+            "productId": 5
+          }
+        ],
+        "variants": [
+          {
+            "id": 5,
+            "label": "500 œufs (AH500)",
+            "labelAr": "500 بيضة (AH500)",
+            "title": "Couveuse Armoire DuraFiable AH500",
+            "titleAr": "فقاسة خزانة DuraFiable 500 بيضة",
+            "specBadge": "500 œufs",
+            "specBadgeAr": "500 بيضة",
+            "specSub": "Modèle AH500",
+            "specSubAr": "نموذج AH500",
+            "price": 2800,
+            "sortOrder": 0,
+            "productId": 5
+          },
+          {
+            "id": 6,
+            "label": "1100 œufs (AH700)",
+            "labelAr": "1100 بيضة (AH700)",
+            "title": "Couveuse Armoire DuraFiable AH700",
+            "titleAr": "فقاسة خزانة DuraFiable 1100 بيضة",
+            "specBadge": "1100 œufs",
+            "specBadgeAr": "1100 بيضة",
+            "specSub": "Modèle AH700",
+            "specSubAr": "نموذج AH700",
+            "price": 4500,
+            "sortOrder": 1,
+            "productId": 5
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "slug": "mire-oeufs-led-regulateur-xh",
+        "name": "Mire-Œufs LED & Régulateur Thermostat XH-W3001",
+        "nameAr": "فاحص بيض LED ومنظم حرارة XH-W3001",
+        "description": "Kit de contrôle de couvaison comprenant un mire-œufs haute intensité LED pour vérifier la fécondité et des régulateurs numériques de température et d'humidité XH-W3001 / SHT20.",
+        "descriptionAr": "مجموعة مراقبة التفقيس تشمل فاحص بيض إضاءة عالية LED لفحص خصوبة البيض مع منظمات حرارة ورطوبة رقمية XH-W3001 و SHT20.",
+        "price": 45,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Accessoire",
+        "badgeAr": "ملحق",
+        "specBadge": "Mire-Œufs / XH",
+        "specBadgeAr": "فاحص بيض ومنظم",
+        "specSub": "Test Fécondité & Régulateur SHT20",
+        "specSubAr": "اختبار الخصوبة وضبط الحرارة",
+        "image": "/images/products/mire-oeufs-led-regulateur-xh.jpg",
+        "thumbnail": "/images/products/mire-oeufs-led-regulateur-xh.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 1,
+        "createdAt": "2026-08-03T12:18:28.249Z",
+        "updatedAt": "2026-08-03T12:18:28.249Z",
+        "features": [
+          {
+            "id": 19,
+            "text": "Lampe LED froide n'endommageant pas l'embryon",
+            "textAr": "إضاءة LED باردة لا تؤذي الجنين",
+            "sortOrder": 0,
+            "productId": 6
+          },
+          {
+            "id": 20,
+            "text": "Régulateur XH-W3001 haute précision 0.1°C",
+            "textAr": "منظم حرارة XH-W3001 بدقة 0.1 درجة",
+            "sortOrder": 1,
+            "productId": 6
+          },
+          {
+            "id": 21,
+            "text": "Sonde étanche incluse",
+            "textAr": "حساس حراري مقاوم للماء مشمول",
+            "sortOrder": 2,
+            "productId": 6
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 7,
+        "slug": "lampe-chauffante-philips-250w",
+        "name": "Lampe Chauffante Infrarouge Philips 250W",
+        "nameAr": "مصباح تدفئة فيليبس 250 وات",
+        "description": "Lampe chauffante infrarouge originale Philips 250W pour poussins, porcelets et petits animaux. Chaleur pénétrante favorisant la croissance et la circulation sanguine.",
+        "descriptionAr": "مصباح تدفئة بالأشعة تحت الحمراء أصلي فيليبس 250 وات للصيصان والمواشي الصغيرة. يوفر حرارة نافذة تحفز النمو والدورة الدموية.",
+        "price": 35,
+        "oldPrice": 40,
+        "inStock": true,
+        "badge": "Philips Original",
+        "badgeAr": "فيليبس أصلي",
+        "specBadge": "250W Infrarouge",
+        "specBadgeAr": "250 وات أحمر",
+        "specSub": "Infrarouge | Philips Original",
+        "specSubAr": "أشعة تحت الحمراء | أصلي",
+        "image": "/images/products/lampe-chauffante-philips-250w.jpg",
+        "thumbnail": "/images/products/lampe-chauffante-philips-250w.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 1,
+        "createdAt": "2026-08-03T12:18:28.255Z",
+        "updatedAt": "2026-08-03T12:18:28.255Z",
+        "features": [
+          {
+            "id": 22,
+            "text": "Verre renforce incassable Philips",
+            "textAr": "زجاج مقوى مقاوم للصدمات فيليبس",
+            "sortOrder": 0,
+            "productId": 7
+          },
+          {
+            "id": 23,
+            "text": "Douille E27 standard",
+            "textAr": "قاعدة E27 قياسية",
+            "sortOrder": 1,
+            "productId": 7
+          },
+          {
+            "id": 24,
+            "text": "Durée de vie 5000 heures",
+            "textAr": "عمر افتراضي 5000 ساعة",
+            "sortOrder": 2,
+            "productId": 7
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 8,
+        "slug": "chauffage-gaz-inox-poulaillers",
+        "name": "Chauffage Gaz Inox 48 bar pour Poulaillers",
+        "nameAr": "مدفأة غاز إنوكس للمداجن",
+        "description": "Radiant à gaz suspendu en acier inoxydable 304 pour le chauffage des bâtiments avicoles. Pression 48 bar avec sélecteur de température et sécurité thermocouple.",
+        "descriptionAr": "مشع حراري بالغاز معلق من الفولاذ المقاوم للصدأ 304 لتدفئة مداجن الدواجن. ضغط 48 بار مع صمام أمان وضاغط حراري.",
+        "price": 180,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Inox 304",
+        "badgeAr": "إنوكس 304",
+        "specBadge": "48 bar",
+        "specBadgeAr": "48 بار",
+        "specSub": "Acier Inox 304 | Gaz",
+        "specSubAr": "فولاذ مقاوم للصدأ | غاز",
+        "image": "/images/products/chauffage-gaz-inox-poulaillers.jpg",
+        "thumbnail": "/images/products/chauffage-gaz-inox-poulaillers.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 1,
+        "createdAt": "2026-08-03T12:18:28.260Z",
+        "updatedAt": "2026-08-03T12:18:28.260Z",
+        "features": [
+          {
+            "id": 25,
+            "text": "Acier Inox 304 anti-corrosion",
+            "textAr": "فولاذ إنوكس 304 مضاد للصدأ",
+            "sortOrder": 0,
+            "productId": 8
+          },
+          {
+            "id": 26,
+            "text": "Pression de service 48 bar",
+            "textAr": "ضغط عمل 48 بار",
+            "sortOrder": 1,
+            "productId": 8
+          },
+          {
+            "id": 27,
+            "text": "Sécurité thermocouple intégrée",
+            "textAr": "نظام صمام أمان حراري",
+            "sortOrder": 2,
+            "productId": 8
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 9,
+        "slug": "canon-chaleur-diesel-automatique",
+        "name": "Canon à Chaleur Diesel Automatique",
+        "nameAr": "مدفع حرارة ديزل أوتوماتيكي",
+        "description": "Générateur d'air chaud au fioul/diesel avec thermostat d'ambiance automatique pour grands hangars, serres et couvoirs.",
+        "descriptionAr": "مدفع تدفئة وجني هواء ساخن يعمل بالديزل مع منظم حرارة أوتوماتيكي للمداجن الكبرى والمستودعات والبيوت المكشوفة.",
+        "price": 1400,
+        "oldPrice": 1550,
+        "inStock": true,
+        "badge": "Grand Hangar",
+        "badgeAr": "للمداجن الكبرى",
+        "specBadge": "Diesel Auto",
+        "specBadgeAr": "ديزل أوتو",
+        "specSub": "Canon Automatique | Grande Surface",
+        "specSubAr": "أوتوماتيكي | مساحات كبرى",
+        "image": "/images/products/canon-chaleur-diesel-automatique.jpg",
+        "thumbnail": "/images/products/canon-chaleur-diesel-automatique.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 1,
+        "createdAt": "2026-08-03T12:18:28.265Z",
+        "updatedAt": "2026-08-03T12:18:28.265Z",
+        "features": [
+          {
+            "id": 28,
+            "text": "Puissance thermique 20kW à 50kW",
+            "textAr": "قوة حرارية من 20 إلى 50 كيلو وات",
+            "sortOrder": 0,
+            "productId": 9
+          },
+          {
+            "id": 29,
+            "text": "Réservoir diesel intégré avec jauge",
+            "textAr": "خزان ديزل مدمج مع مؤشر مستوى",
+            "sortOrder": 1,
+            "productId": 9
+          },
+          {
+            "id": 30,
+            "text": "Thermostat d'ambiance automatique",
+            "textAr": "منظم حرارة محيطي أوتوماتيكي",
+            "sortOrder": 2,
+            "productId": 9
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 10,
+        "slug": "cage-eleveuse-poussins-lampe",
+        "name": "Cage Éleveuse Poussins avec Lampe Parasol",
+        "nameAr": "قفص حضانة للصيصان مع مصباح ومظلة",
+        "description": "Cage de démarrage et d'élevage pour poussins équipée d'un réflecteur parasol en aluminium, mangeoire et abreuvoir de démarrage.",
+        "descriptionAr": "قفص تحضين وبداية للصيصان مزود بمظلة ألمنيوم عاكسة للحرارة مع معلف ومشرب محدد للصيصان حديثة الفقس.",
+        "price": 150,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Démarrage",
+        "badgeAr": "تحضين",
+        "specBadge": "Parasol Alu",
+        "specBadgeAr": "مظلة ألمنيوم",
+        "specSub": "Cage Démarrage avec Parasol",
+        "specSubAr": "قفص بداية مع مظلة تدفئة",
+        "image": "/images/products/cage-eleveuse-poussins-lampe.jpg",
+        "thumbnail": "/images/products/cage-eleveuse-poussins-lampe.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 1,
+        "createdAt": "2026-08-03T12:18:28.271Z",
+        "updatedAt": "2026-08-03T12:18:28.271Z",
+        "features": [
+          {
+            "id": 31,
+            "text": "Structure galvanisée facile à nettoyer",
+            "textAr": "هيكل مجلفن سهل التنظيف والتعقيم",
+            "sortOrder": 0,
+            "productId": 10
+          },
+          {
+            "id": 32,
+            "text": "Réflecteur parasol aluminium inclus",
+            "textAr": "مظلة عاكسة ألمنيوم مشمولة",
+            "sortOrder": 1,
+            "productId": 10
+          },
+          {
+            "id": 33,
+            "text": "Plateau amovible pour déjections",
+            "textAr": "درج سفلي متحرك لجمع الفضلات",
+            "sortOrder": 2,
+            "productId": 10
+          }
+        ],
+        "variants": []
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "mangeoires-abreuvoirs",
+    "name": "Mangeoires & Abreuvoirs",
+    "nameAr": "المعالف والمشارب",
+    "description": "Mangeoires, abreuvoirs automatiques et systèmes d'alimentation pour volailles et oiseaux",
+    "descriptionAr": "معالف، مشارب أوتوماتيكية وأنظمة تغذية للدواجن والطيور",
+    "icon": "Droplets",
+    "image": "/images/categories/mangeoires.jpg",
+    "createdAt": "2026-08-03T12:18:28.132Z",
+    "updatedAt": "2026-08-03T12:18:28.132Z",
+    "products": [
+      {
+        "id": 11,
+        "slug": "mangeoire-plastique-suspendue-20kg",
+        "name": "Mangeoire Plastique Suspendue Turbo Anti-Gaspillage",
+        "nameAr": "معلف بلاستيك معلق تيربو مضاد للهدر",
+        "description": "Mangeoire suspendue robuste en plastique traité anti-UV avec grille anti-gaspillage intégrée. Réglage facile du débit d'aliment.",
+        "descriptionAr": "معلف معلق متين من البلاستيك المعالج ضد الأشعة فوق البنفسجية مع شبكة داخلية مضادة للهدر. إمكانية تعديل تدفق العلف بسهولة.",
+        "price": 25,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Best-seller",
+        "badgeAr": "الأكثر مبيعاً",
+        "specBadge": "5kg à 25kg",
+        "specBadgeAr": "5كغ إلى 25كغ",
+        "specSub": "Système Turbo | Anti-gaspillage",
+        "specSubAr": "نظام تيربو | مضاد للهدر",
+        "image": "/images/products/mangeoire-plastique-suspendue-20kg.jpg",
+        "thumbnail": "/images/products/mangeoire-plastique-suspendue-20kg.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 2,
+        "createdAt": "2026-08-03T12:18:28.278Z",
+        "updatedAt": "2026-08-03T12:18:28.278Z",
+        "features": [
+          {
+            "id": 34,
+            "text": "Plastique haute densité aliment-grade",
+            "textAr": "بلاستيك ممتاز عالي الكثافة آمن للأغذية",
+            "sortOrder": 0,
+            "productId": 11
+          },
+          {
+            "id": 35,
+            "text": "Grille anti-gaspillage alvéolée",
+            "textAr": "شبكة حماية مضادة لهدر وتناثر العلف",
+            "sortOrder": 1,
+            "productId": 11
+          },
+          {
+            "id": 36,
+            "text": "Anse d'accrochage renforcée",
+            "textAr": "مقبض تعليق مقوى",
+            "sortOrder": 2,
+            "productId": 11
+          }
+        ],
+        "variants": [
+          {
+            "id": 7,
+            "label": "5kg Plastique",
+            "labelAr": "5 كغ بلاستيك",
+            "title": "Mangeoire Plastique Suspendue 5kg",
+            "titleAr": "معلف بلاستيك معلق 5 كغ",
+            "specBadge": "5 Kg",
+            "specBadgeAr": "5 كغ",
+            "specSub": "Contenance 5kg",
+            "specSubAr": "سعة 5 كغ",
+            "price": 12,
+            "sortOrder": 0,
+            "productId": 11
+          },
+          {
+            "id": 8,
+            "label": "10kg Plastique",
+            "labelAr": "10 كغ بلاستيك",
+            "title": "Mangeoire Plastique Suspendue 10kg",
+            "titleAr": "معلف بلاستيك معلق 10 كغ",
+            "specBadge": "10 Kg",
+            "specBadgeAr": "10 كغ",
+            "specSub": "Contenance 10kg",
+            "specSubAr": "سعة 10 كغ",
+            "price": 18,
+            "sortOrder": 1,
+            "productId": 11
+          },
+          {
+            "id": 9,
+            "label": "20kg Plastique Turbo",
+            "labelAr": "20 كغ بلاستيك",
+            "title": "Mangeoire Plastique Suspendue 20kg",
+            "titleAr": "معلف بلاستيك معلق 20 كغ",
+            "specBadge": "20 Kg",
+            "specBadgeAr": "20 كغ",
+            "specSub": "Contenance 20kg",
+            "specSubAr": "سعة 20 كغ",
+            "price": 25,
+            "sortOrder": 2,
+            "productId": 11
+          },
+          {
+            "id": 10,
+            "label": "25kg Plastique Turbo XL",
+            "labelAr": "25 كغ بلاستيك XL",
+            "title": "Mangeoire Plastique Suspendue 25kg XL",
+            "titleAr": "معلف بلاستيك معلق 25 كغ XL",
+            "specBadge": "25 Kg",
+            "specBadgeAr": "25 كغ",
+            "specSub": "Contenance 25kg XL",
+            "specSubAr": "سعة 25 كغ XL",
+            "price": 32,
+            "sortOrder": 3,
+            "productId": 11
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "slug": "mangeoire-galvanisee-conique-20kg",
+        "name": "Mangeoire Galvanisée Conique 20kg",
+        "nameAr": "معلف صاج مجلفن مخروطي 20 كغ",
+        "description": "Mangeoire conique extra-forte en tôle d'acier galvanisé à chaud anti-rouille. Capacité 20kg d'aliment pour volailles adultes.",
+        "descriptionAr": "معلف مخروطي صلب من الصاج المجلفن حرارياً المقاوم للصدأ. سعة 20 كغ من العلف للدواجن البالغة.",
+        "price": 45,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Galvanisé",
+        "badgeAr": "مجلفن",
+        "specBadge": "20 Kg",
+        "specBadgeAr": "20 كغ",
+        "specSub": "Acier Galvanisé | Conique",
+        "specSubAr": "صاج مجلفن | شكل مخروطي",
+        "image": "/images/products/mangeoire-galvanisee-conique-20kg.jpg",
+        "thumbnail": "/images/products/mangeoire-galvanisee-conique-20kg.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 2,
+        "createdAt": "2026-08-03T12:18:28.285Z",
+        "updatedAt": "2026-08-03T12:18:28.285Z",
+        "features": [
+          {
+            "id": 37,
+            "text": "Tôle d'acier galvanisé à chaud",
+            "textAr": "صاج مجلفن حرارياً ضد التآكل",
+            "sortOrder": 0,
+            "productId": 12
+          },
+          {
+            "id": 38,
+            "text": "Forme conique anti-perchage",
+            "textAr": "شكل مخروطي يمنع وقوف الطيور أعلاه",
+            "sortOrder": 1,
+            "productId": 12
+          },
+          {
+            "id": 39,
+            "text": "Grande résistance aux chocs",
+            "textAr": "مقاومة عالية للصدمات والاستخدام الشاق",
+            "sortOrder": 2,
+            "productId": 12
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 13,
+        "slug": "mangeoire-lineaire-galvanisee-1m",
+        "name": "Mangeoire Linéaire Galvanisée 1m",
+        "nameAr": "معلف طولي مجلفن 1 متر",
+        "description": "Mangeoire linéaire au sol avec grille tournante anti-gaspillage et anti-souillure. Longueur 1 mètre en acier galvanisé.",
+        "descriptionAr": "معلف طولي أرضي مزود بشبكة دوارة تمنع هدر العلف واتساخه. بطول 1 متر مصنوع من الفولاذ المجلفن.",
+        "price": 30,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Linéaire",
+        "badgeAr": "طولي",
+        "specBadge": "1 Mètre",
+        "specBadgeAr": "1 متر",
+        "specSub": "Tôle Galvanisée | Linéaire",
+        "specSubAr": "صفائح مجلفنة | طولي",
+        "image": "/images/products/mangeoire-lineaire-galvanisee-1m.jpg",
+        "thumbnail": "/images/products/mangeoire-lineaire-galvanisee-1m.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 2,
+        "createdAt": "2026-08-03T12:18:28.293Z",
+        "updatedAt": "2026-08-03T12:18:28.293Z",
+        "features": [
+          {
+            "id": 40,
+            "text": "Longueur 100cm",
+            "textAr": "طول 100 صم",
+            "sortOrder": 0,
+            "productId": 13
+          },
+          {
+            "id": 41,
+            "text": "Grille anti-souillure amovible",
+            "textAr": "شبكة دوارة منعاً لاتساخ العلف",
+            "sortOrder": 1,
+            "productId": 13
+          },
+          {
+            "id": 42,
+            "text": "Bords repliés anti-coupure",
+            "textAr": "حواف دائرية آمنة على الطيور",
+            "sortOrder": 2,
+            "productId": 13
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 14,
+        "slug": "plats-demarrage-poussins",
+        "name": "Plats Démarrage & Mangeoires Poussins 20cm",
+        "nameAr": "صحون بداية ومعالف تحضين للصيصان",
+        "description": "Plats de démarrage rouges alvéolés pour poussins d'un jour. Accès facile à la nourriture et évite le piétinement de l'aliment.",
+        "descriptionAr": "صحون تحضين حمراء مخصصة للصيصان بعمر يوم واحد. تسهيل وصول الفلوس للعلف وتمنع داس حبوب العلف.",
+        "price": 8,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Poussins",
+        "badgeAr": "صيصان",
+        "specBadge": "Démarrage",
+        "specBadgeAr": "تحضين",
+        "specSub": "Plats Rouges Poussins & Sclous 20cm",
+        "specSubAr": "صحون حمراء للصيصان",
+        "image": "/images/products/plats-demarrage-poussins.jpg",
+        "thumbnail": "/images/products/plats-demarrage-poussins.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 2,
+        "createdAt": "2026-08-03T12:18:28.297Z",
+        "updatedAt": "2026-08-03T12:18:28.297Z",
+        "features": [
+          {
+            "id": 43,
+            "text": "Diamètre 30cm à 40cm",
+            "textAr": "قطر 30 إلى 40 صم",
+            "sortOrder": 0,
+            "productId": 14
+          },
+          {
+            "id": 44,
+            "text": "Plastique flexible incassable",
+            "textAr": "بلاستيك مرن غير قابل للكسر",
+            "sortOrder": 1,
+            "productId": 14
+          },
+          {
+            "id": 45,
+            "text": "Couleur rouge stimulante",
+            "textAr": "لون أحمر جاذب للصيصان",
+            "sortOrder": 2,
+            "productId": 14
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 15,
+        "slug": "abreuvoir-plastique-14l",
+        "name": "Abreuvoir Plastique à Siphon Inversé",
+        "nameAr": "مشرب بلاستيك سيفون مقلوب",
+        "description": "Abreuvoir à niveau constant fonctionnant par siphon inversé. Socle stable avec poignée de transport et fermeture à baïonnette.",
+        "descriptionAr": "مشرب بلاستيكي ذو مستوى مياه ثابت يعمل بنظام السيفون المقلوب. قاعدة مستقرة مع مقبض حمل وغلق محكم.",
+        "price": 20,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Inversé",
+        "badgeAr": "مقلوب",
+        "specBadge": "3L à 30L",
+        "specBadgeAr": "3 لتر إلى 30 لتر",
+        "specSub": "Plastique Inversé | Robuste",
+        "specSubAr": "بلاستيك مقلوب | متين",
+        "image": "/images/products/abreuvoir-plastique-14l.jpg",
+        "thumbnail": "/images/products/abreuvoir-plastique-14l.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 2,
+        "createdAt": "2026-08-03T12:18:28.303Z",
+        "updatedAt": "2026-08-03T12:18:28.303Z",
+        "features": [
+          {
+            "id": 46,
+            "text": "Capacités de 3L, 8L, 14L à 30L",
+            "textAr": "سعات متوفرة من 3L و 8L و 14L إلى 30L",
+            "sortOrder": 0,
+            "productId": 15
+          },
+          {
+            "id": 47,
+            "text": "Plastique translucide pour contrôle du niveau",
+            "textAr": "بلاستيك شفاف لمراقبة مستوى الماء",
+            "sortOrder": 1,
+            "productId": 15
+          },
+          {
+            "id": 48,
+            "text": "Nettoyage rapide",
+            "textAr": "تنظيف وتعقيم سريع",
+            "sortOrder": 2,
+            "productId": 15
+          }
+        ],
+        "variants": [
+          {
+            "id": 11,
+            "label": "5L Plastique",
+            "labelAr": "5 لتر بلاستيك",
+            "title": "Abreuvoir Plastique 5L",
+            "titleAr": "مشرب بلاستيك سعة 5 لتر",
+            "specBadge": "5 L",
+            "specBadgeAr": "5 لتر",
+            "specSub": "Siphon 5L",
+            "specSubAr": "سيفون 5 لتر",
+            "price": 10,
+            "sortOrder": 0,
+            "productId": 15
+          },
+          {
+            "id": 12,
+            "label": "10L Plastique",
+            "labelAr": "10 لتر بلاستيك",
+            "title": "Abreuvoir Plastique 10L",
+            "titleAr": "مشرب بلاستيك سعة 10 لتر",
+            "specBadge": "10 L",
+            "specBadgeAr": "10 لتر",
+            "specSub": "Siphon 10L",
+            "specSubAr": "سيفون 10 لتر",
+            "price": 15,
+            "sortOrder": 1,
+            "productId": 15
+          },
+          {
+            "id": 13,
+            "label": "14L Plastique",
+            "labelAr": "14 لتر بلاستيك",
+            "title": "Abreuvoir Plastique 14L",
+            "titleAr": "مشرب بلاستيك سعة 14 لتر",
+            "specBadge": "14 L",
+            "specBadgeAr": "14 لتر",
+            "specSub": "Siphon 14L",
+            "specSubAr": "سيفون 14 لتر",
+            "price": 20,
+            "sortOrder": 2,
+            "productId": 15
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "slug": "abreuvoir-automatique-giordano",
+        "name": "Abreuvoir Automatique Giordano Jumbo",
+        "nameAr": "مشرب أوتوماتيكي جوردانو جامبو",
+        "description": "Abreuvoir automatique à ballast suspendu de marque Giordano (Italie). Distribution d'eau fraîche en continu réglée par valve automatique.",
+        "descriptionAr": "مشرب أوتوماتيكي بحصاة معلقة ماركة جوردانو الإيطالية. توفير مياه نقية باستمرار مضبوط بواسطة صمام أوتوماتيكي.",
+        "price": 45,
+        "oldPrice": 50,
+        "inStock": true,
+        "badge": "Giordano Italie",
+        "badgeAr": "جوردانو إيطاليا",
+        "specBadge": "Jumbo Auto",
+        "specBadgeAr": "جامبو أوتو",
+        "specSub": "Régulation d'eau | Giordano",
+        "specSubAr": "تنظيم المياه | جوردانو الإيطالية",
+        "image": "/images/products/abreuvoir-automatique-giordano.jpg",
+        "thumbnail": "/images/products/abreuvoir-automatique-giordano.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 2,
+        "createdAt": "2026-08-03T12:18:28.309Z",
+        "updatedAt": "2026-08-03T12:18:28.309Z",
+        "features": [
+          {
+            "id": 49,
+            "text": "Fabriqué en Italie par Giordano",
+            "textAr": "صناعة إيطالية من شركة Giordano",
+            "sortOrder": 0,
+            "productId": 16
+          },
+          {
+            "id": 50,
+            "text": "Système de ballast anti-balancement",
+            "textAr": "نظام حصاة عاكسة تمنع اهتزاز المشرب",
+            "sortOrder": 1,
+            "productId": 16
+          },
+          {
+            "id": 51,
+            "text": "Raccordement direct au réseau d'eau",
+            "textAr": "ربط مباشر بخط مياه المزرعة",
+            "sortOrder": 2,
+            "productId": 16
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 17,
+        "slug": "abreuvoir-lineaire-flotteur-1m",
+        "name": "Abreuvoir Linéaire avec Flotteur 1m",
+        "nameAr": "مشرب طولي أوتوماتيكي بطوافة 1 متر",
+        "description": "Abreuvoir automatique en acier galvanisé avec valve à flotteur réglable pour maintien constant du niveau d'eau.",
+        "descriptionAr": "مشرب أوتوماتيكي طولي من الفولاذ المجلفن مزود بطوافة تعديل آلية للحفاظ على مستوى ماء ثابت.",
+        "price": 60,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Flotteur Auto",
+        "badgeAr": "طوافة آلية",
+        "specBadge": "1 Mètre",
+        "specBadgeAr": "1 متر",
+        "specSub": "Flotteur Auto | Anti-débordement",
+        "specSubAr": "طوافة آلية | مضاد للفيضان",
+        "image": "/images/products/abreuvoir-lineaire-flotteur-1m.jpg",
+        "thumbnail": "/images/products/abreuvoir-lineaire-flotteur-1m.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 2,
+        "createdAt": "2026-08-03T12:18:28.328Z",
+        "updatedAt": "2026-08-03T12:18:28.328Z",
+        "features": [
+          {
+            "id": 52,
+            "text": "Longueur 1 mètre",
+            "textAr": "طول 1 متر",
+            "sortOrder": 0,
+            "productId": 17
+          },
+          {
+            "id": 53,
+            "text": "Valve à flotteur laiton anti-débordement",
+            "textAr": "صمام طوافة من النحاس لمنع الفيضان",
+            "sortOrder": 1,
+            "productId": 17
+          },
+          {
+            "id": 54,
+            "text": "Bouchon de vidange pour nettoyage",
+            "textAr": "سدادة تفريغ سهلة لتغيير الماء والغسيل",
+            "sortOrder": 2,
+            "productId": 17
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 18,
+        "slug": "systeme-nipple-drinkers",
+        "name": "Système Nipple Drinkers Automatique",
+        "nameAr": "نظام حلمات الشرب الأوتوماتيكي (نيبل)",
+        "description": "Pipettes tétines inox 360° montées sur tubes carrés en PVC avec tasses récupératrices d'eau. Hygiène maximale et zéro gaspillage d'eau.",
+        "descriptionAr": "حلمات شرب بيطرية إينوكس 360 درجة مثبتة على أنابيب مربعة مع كؤوس تجميع قطرات الماء. نظافة تامة وبدون هدر للمياه.",
+        "price": 15,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Hygiène Top",
+        "badgeAr": "نظافة ممتازة",
+        "specBadge": "Pipettes 360°",
+        "specBadgeAr": "حلمات 360°",
+        "specSub": "Nipple Drinkers | Tubes Carrés",
+        "specSubAr": "حلمات شرب على أنابيب مربعة",
+        "image": "/images/products/systeme-nipple-drinkers.jpg",
+        "thumbnail": "/images/products/systeme-nipple-drinkers.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 2,
+        "createdAt": "2026-08-03T12:18:28.333Z",
+        "updatedAt": "2026-08-03T12:18:28.333Z",
+        "features": [
+          {
+            "id": 55,
+            "text": "Pipettes Inox 360° anti-goutte",
+            "textAr": "حلمات إينوكس 360 درجة مانعة للتسرب",
+            "sortOrder": 0,
+            "productId": 18
+          },
+          {
+            "id": 56,
+            "text": "Tasses récupératrices monobloc",
+            "textAr": "كؤوس بلاستيكية لتجميع القطرات",
+            "sortOrder": 1,
+            "productId": 18
+          },
+          {
+            "id": 57,
+            "text": "Adapté aux poulets et pondeuses",
+            "textAr": "مناسبة للدجاج البياض وتسمين الدواجن",
+            "sortOrder": 2,
+            "productId": 18
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 19,
+        "slug": "ligne-alimentation-automatique",
+        "name": "Ligne Alimentation Automatique Complète pour Hangars",
+        "nameAr": "خط تغذية أوتوماتيكي كامل للمداجن",
+        "description": "Ligne complète d'alimentation automatique pour bâtiments avicoles comprenant trémie de démarrage, vis sans fin, assiettes de distribution et treuils de relevage.",
+        "descriptionAr": "خط تغذية أوتوماتيكي كامل للمداجن يشمل قمع التغذية الرئيسي، الحلزون النقال، صحون التوزيع التلقائي وروافع الكابلات.",
+        "price": 0,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Sur Devis",
+        "badgeAr": "حسب الطلب",
+        "specBadge": "Pro Hangar",
+        "specBadgeAr": "للمداجن الكبرى",
+        "specSub": "Ligne Complète avec Treuils",
+        "specSubAr": "خط كامل مع روافع وكابلات",
+        "image": "/images/products/ligne-alimentation-automatique.jpg",
+        "thumbnail": "/images/products/ligne-alimentation-automatique.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 2,
+        "createdAt": "2026-08-03T12:18:28.338Z",
+        "updatedAt": "2026-08-03T16:41:12.461Z",
+        "features": [
+          {
+            "id": 58,
+            "text": "Vis sans fin haute résistance",
+            "textAr": "حلزون ناقل للعلف عالي الصلابة",
+            "sortOrder": 0,
+            "productId": 19
+          },
+          {
+            "id": 59,
+            "text": "Assiettes de distribution automatiques avec capteur",
+            "textAr": "صحون توزيع أوتوماتيكية مع حساس التوقف",
+            "sortOrder": 1,
+            "productId": 19
+          },
+          {
+            "id": 60,
+            "text": "Treuils et câbles de suspension",
+            "textAr": "روافع وكابلات تعليق مقواة",
+            "sortOrder": 2,
+            "productId": 19
+          },
+          {
+            "id": 61,
+            "text": "Sur devis selon dimensions du hangar",
+            "textAr": "حسب الطلب وفق مساحة المدجنة",
+            "sortOrder": 3,
+            "productId": 19
+          }
+        ],
+        "variants": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "cages-batteries",
+    "name": "Cages & Batteries",
+    "nameAr": "الأقفاص والبطاريات",
+    "description": "Cages d'élevage, batteries pour poules pondeuses, caisses de transport et équipements d'abattage",
+    "descriptionAr": "أقفاص تربية، بطاريات دجاج بياض، صناديق نقل ومعدات ذبح",
+    "icon": "Grid3x3",
+    "image": "/images/categories/cages.jpg",
+    "createdAt": "2026-08-03T12:18:28.148Z",
+    "updatedAt": "2026-08-03T12:18:28.148Z",
+    "products": [
+      {
+        "id": 20,
+        "slug": "batterie-cages-lapins-maternite",
+        "name": "Batterie Cages Lapins Galvanisée",
+        "nameAr": "بطارية أقفاص أرانب مجلفنة",
+        "description": "Batterie d'élevage et maternité pour lapins en fil d’acier galvanisé à chaud. Équipée de nids de mise bas, mangeoires trémies et abreuvoirs pipettes.",
+        "descriptionAr": "بطارية تربية وأمومة للأرانب مصنوعة من السلك المجلفن حرارياً. مجهزة بصناديق ولادة، معالف قمعية ومشارب أوتوماتيكية.",
+        "price": 350,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Galvanisé",
+        "badgeAr": "مجلفن",
+        "specBadge": "Maternité / Engraissement",
+        "specBadgeAr": "أمومة / تسمين",
+        "specSub": "Multi-étages | Acier Galvanisé",
+        "specSubAr": "متعددة الطوابق | صاج مجلفن",
+        "image": "/images/products/batterie-cages-lapins-maternite.jpg",
+        "thumbnail": "/images/products/batterie-cages-lapins-maternite.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 3,
+        "createdAt": "2026-08-03T12:18:28.344Z",
+        "updatedAt": "2026-08-03T12:18:28.344Z",
+        "features": [
+          {
+            "id": 62,
+            "text": "Acier galvanisé à chaud anti-corrosion",
+            "textAr": "سلك مجلفن حرارياً ضد الصدأ",
+            "sortOrder": 0,
+            "productId": 20
+          },
+          {
+            "id": 63,
+            "text": "Mangeoires et pipettes incluse",
+            "textAr": "معالف ومشارب نيبل مشمولة",
+            "sortOrder": 1,
+            "productId": 20
+          },
+          {
+            "id": 64,
+            "text": "Nettoyage et évacuation des déjections faciles",
+            "textAr": "سهولة تنظيف وإخراج الفضلات",
+            "sortOrder": 2,
+            "productId": 20
+          }
+        ],
+        "variants": [
+          {
+            "id": 14,
+            "label": "Maternité (avec nids)",
+            "labelAr": "أمومة (مع صناديق ولادة)",
+            "title": "Batterie Cages Lapins Maternité",
+            "titleAr": "بطارية أقفاص أرانب للأمومة",
+            "specBadge": "Maternité",
+            "specBadgeAr": "أمومة",
+            "specSub": "Avec nids de mise bas",
+            "specSubAr": "مع بيوت ولادة",
+            "price": 350,
+            "sortOrder": 0,
+            "productId": 20
+          },
+          {
+            "id": 15,
+            "label": "Engraissement",
+            "labelAr": "تسمين",
+            "title": "Batterie Cages Lapins Engraissement",
+            "titleAr": "بطارية أقفاص أرانب للتسمين",
+            "specBadge": "Engraissement",
+            "specBadgeAr": "تسمين",
+            "specSub": "Cages d'engraissement",
+            "specSubAr": "أقفاص تسمين",
+            "price": 320,
+            "sortOrder": 1,
+            "productId": 20
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "slug": "cage-poules-pondeuses-multi-etages",
+        "name": "Cage Poules Pondeuses & Cailles Multi-étages",
+        "nameAr": "أقفاص دجاج بياض وسمان متعددة الطوابق",
+        "description": "Cage professionnelle en grillage galvanisé avec pente de récolte d'œufs automatique, mangeoires linéaires PVC et système d'abreuvoir à pipette.",
+        "descriptionAr": "قفص احترافي من السلك المجلفن مزود بميلان لجمع البيض تلقائياً، معالف طولية PVC ونظام شرب أوتوماتيكي بالحلمات.",
+        "price": 600,
+        "oldPrice": 650,
+        "inStock": true,
+        "badge": "Pondeuses",
+        "badgeAr": "دجاج بياض",
+        "specBadge": "Multi-étages",
+        "specBadgeAr": "متعدد الطوابق",
+        "specSub": "Poules Pondeuses & Cailles",
+        "specSubAr": "للدجاج البياض والسمان",
+        "image": "/images/products/cage-poules-pondeuses-multi-etages.jpg",
+        "thumbnail": "/images/products/cage-poules-pondeuses-multi-etages.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 3,
+        "createdAt": "2026-08-03T12:18:28.349Z",
+        "updatedAt": "2026-08-03T12:18:28.349Z",
+        "features": [
+          {
+            "id": 65,
+            "text": "Sol incliné pour récupération sécurisée des œufs",
+            "textAr": "أرضية مائلة لجمع البيض بأمان وبدون كسر",
+            "sortOrder": 0,
+            "productId": 21
+          },
+          {
+            "id": 66,
+            "text": "Système d'abreuvement automatique pipette",
+            "textAr": "نظام شرب أوتوماتيكي بحلمات النيبل",
+            "sortOrder": 1,
+            "productId": 21
+          },
+          {
+            "id": 67,
+            "text": "Évacuation de fiente par plaques PVC",
+            "textAr": "لوحات PVC لجمع وإزالة الفضلات",
+            "sortOrder": 2,
+            "productId": 21
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 22,
+        "slug": "caisse-transport-volailles-pliable",
+        "name": "Caisse de Transport Volailles Pliable Plastique",
+        "nameAr": "صندوق نقل دواجن بلاستيكي قابل للطي",
+        "description": "Caisse de transport ventilée pour poulets et dindons en plastique PEHD haute résistance. Modèle pliable avec trappes supérieure et coulissante.",
+        "descriptionAr": "صندوق نقل دواجن عالي التهوية مصنوع من بلاستيك PEHD عالي الصلابة. موديل قابل للطي مع غطاء علوي وباب جانبي منزلق.",
+        "price": 50,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Pliable",
+        "badgeAr": "قابل للطي",
+        "specBadge": "PEHD Pliable",
+        "specBadgeAr": "بلاستيك مطوي",
+        "specSub": "Plastique Résistant | Transport",
+        "specSubAr": "بلاستيك مقاوم لنقل الدواجن",
+        "image": "/images/products/caisse-transport-volailles-pliable.jpg",
+        "thumbnail": "/images/products/caisse-transport-volailles-pliable.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 3,
+        "createdAt": "2026-08-03T12:18:28.357Z",
+        "updatedAt": "2026-08-03T12:18:28.357Z",
+        "features": [
+          {
+            "id": 68,
+            "text": "Capacité 10 à 14 poulets adultes",
+            "textAr": "سعة 10 إلى 14 دجاجة بالغة",
+            "sortOrder": 0,
+            "productId": 22
+          },
+          {
+            "id": 69,
+            "text": "Plastique PEHD incassable et lavable",
+            "textAr": "بلاستيك صلب قاطعي غير قابل للكسر",
+            "sortOrder": 1,
+            "productId": 22
+          },
+          {
+            "id": 70,
+            "text": "Pliable pour gain de place au retour",
+            "textAr": "قابل للطي لتوفير المساحة أثناء الترجيع",
+            "sortOrder": 2,
+            "productId": 22
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 23,
+        "slug": "plumeuse-electrique-inox",
+        "name": "Plumeuse Électrique Inox 304 pour Volailles",
+        "nameAr": "نتافة ريش كهربائية إينوكس 304",
+        "description": "Plumeuse à cuve rotative en acier inoxydable 304. Plumatge ultra-rapide des poulets, canards et dindons en moins de 30 secondes sans abîmer la peau.",
+        "descriptionAr": "نتافة ريش بحوض يدور من الفولاذ المقاوم للصدأ 304. تنظيف ريش الدجاج والبط والديك الرومي في أقل من 30 ثانية دون تجريح الجلد.",
+        "price": 1100,
+        "oldPrice": 1200,
+        "inStock": true,
+        "badge": "Inox 304",
+        "badgeAr": "إينوكس 304",
+        "specBadge": "Inox 304 Pro",
+        "specBadgeAr": "إينوكس 304 احترافي",
+        "specSub": "Plumeuse Électrique | Haute Vitesse",
+        "specSubAr": "عالية السرعة | إينوكس بالكامل",
+        "image": "/images/products/plumeuse-electrique-inox.jpg",
+        "thumbnail": "/images/products/plumeuse-electrique-inox.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 3,
+        "createdAt": "2026-08-03T12:18:28.362Z",
+        "updatedAt": "2026-08-03T12:18:28.362Z",
+        "features": [
+          {
+            "id": 71,
+            "text": "Moteur cuivre 1.5kW à 2.2kW",
+            "textAr": "محرك نحاس قوي 1.5 إلى 2.2 كيلو وات",
+            "sortOrder": 0,
+            "productId": 23
+          },
+          {
+            "id": 72,
+            "text": "Doigts en caoutchouc naturel de haute qualité",
+            "textAr": "أصابع نتف من المطاط الطبيعي الممتاز",
+            "sortOrder": 1,
+            "productId": 23
+          },
+          {
+            "id": 73,
+            "text": "Évacuation d'eau et plumes intégrée",
+            "textAr": "مخرج مخصص لتصريف المياه والريش",
+            "sortOrder": 2,
+            "productId": 23
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 24,
+        "slug": "doigts-plumage-caoutchouc",
+        "name": "Doigts de Plumage en Caoutchouc",
+        "nameAr": "أصابع نتافات ريش مطاطية",
+        "description": "Doigts de rechange en caoutchouc souple pour plumeuses automatiques. Différentes souplesses et tailles selon volailles (poulets, cailles, dindons).",
+        "descriptionAr": "أصابع نتف مطاطية مرنة لنتافات الريش الأوتوماتيكية. درجات مرونة وأحجام متعددة حسب نوع الطيور (دواجن، سمان، رومي).",
+        "price": 1.5,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Rechange",
+        "badgeAr": "قطعة غيار",
+        "specBadge": "Rubber Doigts",
+        "specBadgeAr": "أصابع مطاطية",
+        "specSub": "Gris, Vert, Noir & Jaune",
+        "specSubAr": "ألوان متعددة وحسب الطيور",
+        "image": "/images/products/doigts-plumage-caoutchouc.jpg",
+        "thumbnail": "/images/products/doigts-plumage-caoutchouc.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 3,
+        "createdAt": "2026-08-03T12:18:28.368Z",
+        "updatedAt": "2026-08-03T12:18:28.368Z",
+        "features": [
+          {
+            "id": 74,
+            "text": "Caoutchouc naturel résistant à l'usure",
+            "textAr": "مطاط طبيعي صلب مقاوم للتآكل",
+            "sortOrder": 0,
+            "productId": 24
+          },
+          {
+            "id": 75,
+            "text": "Modèles pour poulets, dindons et cailles",
+            "textAr": "مقاسات مخصصة للدواجن والديك الرومي والسمان",
+            "sortOrder": 1,
+            "productId": 24
+          },
+          {
+            "id": 76,
+            "text": "Couleurs gris, noir, vert et jaune",
+            "textAr": "ألوان رمادي، أسود، أخضر وأصفر",
+            "sortOrder": 2,
+            "productId": 24
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 25,
+        "slug": "poste-abattage-triple-cone",
+        "name": "Poste d'Abattage Triple Cône Inox",
+        "nameAr": "محطة ذبح بثلاثة أقماع من الإينوكس",
+        "description": "Support d'abattage mural ou sur pied avec 3 cônes en acier inoxydable pour l'immobilisation et saignée propre des volailles.",
+        "descriptionAr": "حامل ذبح جداري أو على أرجل بثلاثة أقماع من الإينوكس لتثبيت الطيور وتسهيل عملية الذبح والنزف بنظافة.",
+        "price": 350,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Abattage Inox",
+        "badgeAr": "ذبح إينوكس",
+        "specBadge": "Triple Cône",
+        "specBadgeAr": "ثلاثية الأقماع",
+        "specSub": "Poste Abattage | Inox Pro",
+        "specSubAr": "محطة ذبح احترافية من الإينوكس",
+        "image": "/images/products/poste-abattage-triple-cone.jpg",
+        "thumbnail": "/images/products/poste-abattage-triple-cone.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 3,
+        "createdAt": "2026-08-03T12:18:28.372Z",
+        "updatedAt": "2026-08-03T12:18:28.372Z",
+        "features": [
+          {
+            "id": 77,
+            "text": "Cônes inox démontables pour lavage",
+            "textAr": "أقماع إينوكس قابلة للفك والغسيل",
+            "sortOrder": 0,
+            "productId": 25
+          },
+          {
+            "id": 78,
+            "text": "Bac de récupération du sang",
+            "textAr": "حوض سفلي لتجميع الدماء",
+            "sortOrder": 1,
+            "productId": 25
+          },
+          {
+            "id": 79,
+            "text": "Conception hygiénique conforme aux normes",
+            "textAr": "تصميم صحي مطابق لشروط السلامة",
+            "sortOrder": 2,
+            "productId": 25
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 26,
+        "slug": "rotissoire-charbon-commerciale",
+        "name": "Rôtissoire Charbon Commerciale pour Poulets",
+        "nameAr": "شواية دجاج على الفحم تجارية",
+        "description": "Rôtissoire professionnelle à charbon de bois pour restaurants et rôtisseries. Broches rotatives motorisées et bac à braise renforcé.",
+        "descriptionAr": "شواية دجاج تجارية احترافية تعمل بالفحم للمطاعم والمشواة. أسياخ دوارة بمحرك كهربائي مع حوض جمر مقوى.",
+        "price": 1200,
+        "oldPrice": 1350,
+        "inStock": true,
+        "badge": "Commerciale",
+        "badgeAr": "تجارية",
+        "specBadge": "Rôtissoire Charbon",
+        "specBadgeAr": "شواية فحم",
+        "specSub": "Charbon de Bois | Mobile",
+        "specSubAr": "شواية متنقلة على الفحم",
+        "image": "/images/products/rotissoire-charbon-commerciale.jpg",
+        "thumbnail": "/images/products/rotissoire-charbon-commerciale.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 3,
+        "createdAt": "2026-08-03T12:18:28.390Z",
+        "updatedAt": "2026-08-03T12:18:28.390Z",
+        "features": [
+          {
+            "id": 80,
+            "text": "Broches inox motorisées 220V",
+            "textAr": "أسياخ إينوكس بمحرك كهربائي 220V",
+            "sortOrder": 0,
+            "productId": 26
+          },
+          {
+            "id": 81,
+            "text": "Capacité 12 à 24 poulets",
+            "textAr": "سعة من 12 إلى 24 دجاجة",
+            "sortOrder": 1,
+            "productId": 26
+          },
+          {
+            "id": 82,
+            "text": "Structure inox et briques réfractaires",
+            "textAr": "هيكل إينوكس مع آجُر حراري عازل",
+            "sortOrder": 2,
+            "productId": 26
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 27,
+        "slug": "pieges-cages-capture",
+        "name": "Pièges & Cages de Capture pour Nuisibles",
+        "nameAr": "أقفاص وفخاخ للصيد والتقاط الآفات",
+        "description": "Cages pièges métalliques à bascule pour la capture sans blessure des rongeurs, oiseaux et nuisibles en élevage.",
+        "descriptionAr": "أقفاص وفخاخ معدنية بزنبرك إغلاق تلقائي لالتقاط القوارض والطيور والآفات داخل المزارع بدون إيذائها.",
+        "price": 40,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Capture",
+        "badgeAr": "صيد وآفات",
+        "specBadge": "Cages Capture",
+        "specBadgeAr": "أقفاص صيد",
+        "specSub": "Capture Oiseaux, Rongeurs & Nuisibles",
+        "specSubAr": "للقوارض، الطيور والآفات",
+        "image": "/images/products/pieges-cages-capture.jpg",
+        "thumbnail": "/images/products/pieges-cages-capture.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 3,
+        "createdAt": "2026-08-03T12:18:28.395Z",
+        "updatedAt": "2026-08-03T12:18:28.395Z",
+        "features": [
+          {
+            "id": 83,
+            "text": "Mécanisme de déclenchement ultra-sensible",
+            "textAr": "آلية إغلاق حساسة ومباشرة",
+            "sortOrder": 0,
+            "productId": 27
+          },
+          {
+            "id": 84,
+            "text": "Fil galvanisé anti-morsure",
+            "textAr": "سلك مجلفن صلب مانع للقرض",
+            "sortOrder": 1,
+            "productId": 27
+          },
+          {
+            "id": 85,
+            "text": "Poignée de transport sécurisée",
+            "textAr": "مقبض حمل آمن",
+            "sortOrder": 2,
+            "productId": 27
+          }
+        ],
+        "variants": []
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "elevage-bovin-ovin",
+    "name": "Élevage Bovin & Ovin",
+    "nameAr": "تربية الأبقار والأغنام",
+    "description": "Machines à traire, matériel vétérinaire, tondeuses à laine et accessoires d'élevage",
+    "descriptionAr": "آلات حلابة، معدات بيطرية، آلات جز صوف ومستلزمات تربية",
+    "icon": "Beef",
+    "image": "/images/categories/bovin.jpg",
+    "createdAt": "2026-08-03T12:18:28.153Z",
+    "updatedAt": "2026-08-03T12:18:28.153Z",
+    "products": [
+      {
+        "id": 28,
+        "slug": "machine-traire-omsa-20l",
+        "name": "Machine à Traire OMSA 20L Inox",
+        "nameAr": "آلة حلابة أبقار OMSA 20 لتر",
+        "description": "Machine à traire mobile sur chariot pour 1 ou 2 vaches. Pot d'aspiration en acier inox 304 de 20 litres, pompe à vide performante et pulsatuer OMSA original.",
+        "descriptionAr": "آلة حلابة متنقلة على عربة بعجلات لبقرة أو بقرتين. خزان حليب إينوكس 304 سعة 20 لتر، مضخة تفريغ قوية ومخفّض نبضات OMSA الأصلي.",
+        "price": 1400,
+        "oldPrice": 1500,
+        "inStock": true,
+        "badge": "Best-seller",
+        "badgeAr": "الأكثر مبيعاً",
+        "specBadge": "20 Litres",
+        "specBadgeAr": "20 لتر",
+        "specSub": "Cuve Inox | Marque OMSA / Barbaros",
+        "specSubAr": "خزان إينوكس | ماركة OMSA / Barbaros",
+        "image": "/images/products/machine-traire-omsa-20l.jpg",
+        "thumbnail": "/images/products/machine-traire-omsa-20l.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 4,
+        "createdAt": "2026-08-03T12:18:28.401Z",
+        "updatedAt": "2026-08-03T12:18:28.401Z",
+        "features": [
+          {
+            "id": 86,
+            "text": "Pot Inox 304 hygiénique 20L",
+            "textAr": "وعاء إينوكس 304 صحي سعة 20 لتر",
+            "sortOrder": 0,
+            "productId": 28
+          },
+          {
+            "id": 87,
+            "text": "Moteur 0.75CV / 220V",
+            "textAr": "محرك 0.75 حصان / 220 فولت",
+            "sortOrder": 1,
+            "productId": 28
+          },
+          {
+            "id": 88,
+            "text": "Pulsateur pneumatique réglable OMSA / Barbaros",
+            "textAr": "منظم نبضات هوائي OMSA / Barbaros الأصلي",
+            "sortOrder": 2,
+            "productId": 28
+          },
+          {
+            "id": 89,
+            "text": "Chassis robuste sur grandes roues",
+            "textAr": "عربة صلبة على عجلات كبيرة سهلة التنقل",
+            "sortOrder": 3,
+            "productId": 28
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 29,
+        "slug": "baratte-lait-electrique-40l",
+        "name": "Baratte à Lait & Beurre Électrique Inox",
+        "nameAr": "مخضة لبن وزبدة كهربائية إينوكس",
+        "description": "Baratte centrifugeuse électrique pour l'extraction du beurre et le barattage du lait. Cuve en acier inoxydable de 40L ou 60L avec moteur supérieur silencieux.",
+        "descriptionAr": "خاضة حليب كهربائية لاستخراج الزبدة البلدية ومخيض اللبن. خزان من الفولاذ المقاوم للصدأ بسعة 40 لتر أو 60 لتر مع محرك علوي هادئ.",
+        "price": 650,
+        "oldPrice": 700,
+        "inStock": true,
+        "badge": "Inox 40L/60L",
+        "badgeAr": "إينوكس 40/60 لتر",
+        "specBadge": "40L à 60L",
+        "specBadgeAr": "40 إلى 60 لتر",
+        "specSub": "220V Électrique | Inox 40L/60L",
+        "specSubAr": "كهربائية 220 فولت | سعة 40 و 60 لتر",
+        "image": "/images/products/baratte-lait-electrique-40l.jpg",
+        "thumbnail": "/images/products/baratte-lait-electrique-40l.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 4,
+        "createdAt": "2026-08-03T12:18:28.407Z",
+        "updatedAt": "2026-08-03T12:18:28.407Z",
+        "features": [
+          {
+            "id": 90,
+            "text": "Cuve Inox alimentaire facile à laver",
+            "textAr": "خزان إينوكس غذائي سهل الغسيل والتطهير",
+            "sortOrder": 0,
+            "productId": 29
+          },
+          {
+            "id": 91,
+            "text": "Moteur 220V avec hélice en aluminium",
+            "textAr": "محرك 220 فولت مع مراوح خض ألمنيوم",
+            "sortOrder": 1,
+            "productId": 29
+          },
+          {
+            "id": 92,
+            "text": "Rendement élevé d'extraction de beurre",
+            "textAr": "إنتاجية عالية واستخراج سريع للزبدة",
+            "sortOrder": 2,
+            "productId": 29
+          }
+        ],
+        "variants": [
+          {
+            "id": 16,
+            "label": "40L Inox",
+            "labelAr": "40 لتر إينوكس",
+            "title": "Baratte à Lait Électrique Inox 40L",
+            "titleAr": "مخضة لبن وزبدة كهربائية إينوكس 40 لتر",
+            "specBadge": "40 Litres",
+            "specBadgeAr": "40 لتر",
+            "specSub": "Contenance 40L",
+            "specSubAr": "سعة 40 لتر",
+            "price": 650,
+            "sortOrder": 0,
+            "productId": 29
+          },
+          {
+            "id": 17,
+            "label": "60L Inox",
+            "labelAr": "60 لتر إينوكس",
+            "title": "Baratte à Lait Électrique Inox 60L",
+            "titleAr": "مخضة لبن وزبدة كهربائية إينوكس 60 لتر",
+            "specBadge": "60 Litres",
+            "specBadgeAr": "60 لتر",
+            "specSub": "Contenance 60L",
+            "specSubAr": "سعة 60 لتر",
+            "price": 780,
+            "sortOrder": 1,
+            "productId": 29
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "slug": "chauffe-lait-pasteurisateur",
+        "name": "Chauffe-Lait & Pasteurisateur Électrique pour Veaux",
+        "nameAr": "مسخن حليب ومبستر كهربائي للعجول",
+        "description": "Thermoplongeur électrique inox pour réchauffer et pasteuriser le lait d'allaitement des veaux et agneaux à température exacte.",
+        "descriptionAr": "مسخن حليب غاطس كهربائي من الإينوكس لتسخين ومبسترة حليب الرضاعة للعجول والحملان بدرجة حرارة دقيقة.",
+        "price": 800,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Pasteurisateur",
+        "badgeAr": "مبستر",
+        "specBadge": "Chauffe-Lait",
+        "specBadgeAr": "مسخن حليب",
+        "specSub": "Chauffage Lait Veaux Électrique",
+        "specSubAr": "تسخين حليب العجول",
+        "image": "/images/products/chauffe-lait-pasteurisateur.jpg",
+        "thumbnail": "/images/products/chauffe-lait-pasteurisateur.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 4,
+        "createdAt": "2026-08-03T12:18:28.413Z",
+        "updatedAt": "2026-08-03T12:18:28.413Z",
+        "features": [
+          {
+            "id": 93,
+            "text": "Résistance inox anti-incrustation",
+            "textAr": "مقاومة إينوكس ضد التراكمات والحروق",
+            "sortOrder": 0,
+            "productId": 30
+          },
+          {
+            "id": 94,
+            "text": "Thermostat de sécurité réglable",
+            "textAr": "منظم حرارة أمان قابل للتعديل",
+            "sortOrder": 1,
+            "productId": 30
+          },
+          {
+            "id": 95,
+            "text": "Poignée isolante ergonomique",
+            "textAr": "مقبض عازل للحرارة",
+            "sortOrder": 2,
+            "productId": 30
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 31,
+        "slug": "tondeuse-moutons-electrique-pro",
+        "name": "Tondeuse Moutons Électrique Pro",
+        "nameAr": "آلة جز صوف الأغنام احترافية",
+        "description": "Tondeuse électrique professionnelle haute puissance pour la tonte des moutons, chèvres et alpagas. Jeu de peignes et contre-peignes en acier trempé.",
+        "descriptionAr": "آلة جز صوف كهربائية احترافية عالية القوة لجز الأغنام والماعز. طقم أمشاط وشفرات من الفولاذ الصلب.",
+        "price": 350,
+        "oldPrice": 390,
+        "inStock": true,
+        "badge": "Pro Power",
+        "badgeAr": "قوة احترافية",
+        "specBadge": "Tondeuse Laine",
+        "specBadgeAr": "جز صوف",
+        "specSub": "Tondeuse Laine | Lames Pro",
+        "specSubAr": "لجز الصوف | شفرات قوية",
+        "image": "/images/products/tondeuse-moutons-electrique-pro.jpg",
+        "thumbnail": "/images/products/tondeuse-moutons-electrique-pro.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 4,
+        "createdAt": "2026-08-03T12:18:28.417Z",
+        "updatedAt": "2026-08-03T12:18:28.417Z",
+        "features": [
+          {
+            "id": 96,
+            "text": "Moteur puissant 350W à 690W",
+            "textAr": "محرك قوي من 350 إلى 690 وات",
+            "sortOrder": 0,
+            "productId": 31
+          },
+          {
+            "id": 97,
+            "text": "Vitesse de coupe réglable 6 positions",
+            "textAr": "سرعة قص قابلة للعديل بـ 6 مستويات",
+            "sortOrder": 1,
+            "productId": 31
+          },
+          {
+            "id": 98,
+            "text": "Valise de transport avec huile et brosse",
+            "textAr": "حقيبة نقل مع زيت وشفرات احتياطية",
+            "sortOrder": 2,
+            "productId": 31
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 32,
+        "slug": "seringue-veterinaire-hsw",
+        "name": "Seringue Vétérinaire Automatique HSW Multi-Matic",
+        "nameAr": "حقنة بيطرية أوتوماتيكية HSW Multi-Matic",
+        "description": "Seringue automatique à pistolet doseur HSW Multi-Matic (Allemagne) pour la vaccination et le traitement en série du bétail.",
+        "descriptionAr": "حقنة بيطرية أوتوماتيكية بنظام مسدس معايرة HSW Multi-Matic (صناعة ألمانية) لتلقيح وعلاج المواشي بسرعة ودقة.",
+        "price": 85,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "HSW Germany",
+        "badgeAr": "HSW ألمانيا",
+        "specBadge": "30ml Auto",
+        "specBadgeAr": "30 مل أوتو",
+        "specSub": "HSW Multi-Matic | Injection & Drench",
+        "specSubAr": "ماركة HSW الألمانية | للحقن والشرب",
+        "image": "/images/products/seringue-veterinaire-hsw.jpg",
+        "thumbnail": "/images/products/seringue-veterinaire-hsw.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 4,
+        "createdAt": "2026-08-03T12:18:28.423Z",
+        "updatedAt": "2026-08-03T12:18:28.423Z",
+        "features": [
+          {
+            "id": 99,
+            "text": "Fabriquée en Allemagne (Henke Sass Wolf)",
+            "textAr": "صناعة ألمانية ممتازة (Henke Sass Wolf)",
+            "sortOrder": 0,
+            "productId": 32
+          },
+          {
+            "id": 100,
+            "text": "Dosage réglable 1ml à 5ml avec grande précision",
+            "textAr": "معايرة الجرعة من 1مل إلى 5مل بدقة متناهية",
+            "sortOrder": 1,
+            "productId": 32
+          },
+          {
+            "id": 101,
+            "text": "Corps en métal et cylindre incassable",
+            "textAr": "جسم معدني وأنبوب غير قابل للكسر",
+            "sortOrder": 2,
+            "productId": 32
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 33,
+        "slug": "aiguillon-electrique-handyshock",
+        "name": "Aiguillon Électrique HandyShock",
+        "nameAr": "مهماز كهربائي HandyShock",
+        "description": "Aiguillon électrique rechargeable pour le déplacement sécurisé des bovins et porcins sans traumatisme.",
+        "descriptionAr": "مهماز كهربائي قابل للشحن لتحريك وتوجيه الأبقار والمواشي بآمان وبدون إحداث جروح.",
+        "price": 120,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "HandyShock",
+        "badgeAr": "مهماز كهربائي",
+        "specBadge": "Rechargeable",
+        "specBadgeAr": "قابل للشحن",
+        "specSub": "Aiguillon HandyShock | Sécurisé",
+        "specSubAr": "مهماز HandyShock | آمن وفعال",
+        "image": "/images/products/aiguillon-electrique-handyshock.jpg",
+        "thumbnail": "/images/products/aiguillon-electrique-handyshock.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 4,
+        "createdAt": "2026-08-03T12:18:28.428Z",
+        "updatedAt": "2026-08-03T12:18:28.428Z",
+        "features": [
+          {
+            "id": 102,
+            "text": "Boîtier étanche résistant à la poussière",
+            "textAr": "هيكل مقاوم للماء والغبار",
+            "sortOrder": 0,
+            "productId": 33
+          },
+          {
+            "id": 103,
+            "text": "Batterie rechargeable longue durée",
+            "textAr": "بطارية قابلة للشحن يدوم شحنها طويلاً",
+            "sortOrder": 1,
+            "productId": 33
+          },
+          {
+            "id": 104,
+            "text": "Bouton poussoir de sécurité",
+            "textAr": "زر أمان مدمج لمنع الصدمات التلقائية",
+            "sortOrder": 2,
+            "productId": 33
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 34,
+        "slug": "biberon-veaux-agneaux-4l",
+        "name": "Biberon Veaux et Agneaux 4L",
+        "nameAr": "رضاعة للعجول والحملان سعة 4 لتر",
+        "description": "Biberon gradué de 4 litres en plastique souple avec poignée et tétine en caoutchouc naturel pour l'allaitement des jeunes animaux.",
+        "descriptionAr": "رضاعة مدرجة سعة 4 لتر من البلاستيك المرن مع مقبض وحلمة مطاط طبيعي لرضاعة العجول والحملان حديثة الولادة.",
+        "price": 35,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Allaitement",
+        "badgeAr": "رضاعة",
+        "specBadge": "4 Litres",
+        "specBadgeAr": "4 لتر",
+        "specSub": "Tétine Caoutchouc Naturel",
+        "specSubAr": "حلمة من المطاط الطبيعي",
+        "image": "/images/products/biberon-veaux-agneaux-4l.jpg",
+        "thumbnail": "/images/products/biberon-veaux-agneaux-4l.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 4,
+        "createdAt": "2026-08-03T12:18:28.433Z",
+        "updatedAt": "2026-08-03T12:18:28.433Z",
+        "features": [
+          {
+            "id": 105,
+            "text": "Graduation en litres bien visible",
+            "textAr": "تدريج لترات واضح وقابل للقراءة",
+            "sortOrder": 0,
+            "productId": 34
+          },
+          {
+            "id": 106,
+            "text": "Tétine souple clapet anti-retour",
+            "textAr": "حلمة مطاطية مع صمام منع الارتجاع",
+            "sortOrder": 1,
+            "productId": 34
+          },
+          {
+            "id": 107,
+            "text": "Nettoyage facile à l'eau chaude",
+            "textAr": "سهلة الغسيل بالماء الساخن",
+            "sortOrder": 2,
+            "productId": 34
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 35,
+        "slug": "anneau-anti-tete-ukal",
+        "name": "Anneau Anti-Tété UKAL Nose Ring",
+        "nameAr": "حلقة أنف بلاستيكية مانعة لرضاعة العجول",
+        "description": "Anneau nasal anti-tété en plastique rigide avec picots UKAL pour le sevrage naturel des veaux et bovins.",
+        "descriptionAr": "حلقة أنف مانعة للرضاعة من البلاستيك الصلب بشوك ناعم ماركة UKAL للفطام الطبيعي للعجول والأبقار.",
+        "price": 8,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "UKAL France",
+        "badgeAr": "UKAL فرنسا",
+        "specBadge": "Anti-Tété UKAL",
+        "specBadgeAr": "حلقة فطام",
+        "specSub": "Anti-Tété Veaux & Bovins",
+        "specSubAr": "لمنع العجول والأبقار من الرضاعة",
+        "image": "/images/products/anneau-anti-tete-ukal.jpg",
+        "thumbnail": "/images/products/anneau-anti-tete-ukal.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 4,
+        "createdAt": "2026-08-03T12:18:28.437Z",
+        "updatedAt": "2026-08-03T12:18:28.437Z",
+        "features": [
+          {
+            "id": 108,
+            "text": "Plastique souple n'abîmant pas le museau",
+            "textAr": "بلاستيك مرن لا يؤذي أنف الحيوان",
+            "sortOrder": 0,
+            "productId": 35
+          },
+          {
+            "id": 109,
+            "text": "Vis de serrage réglable sans perçage",
+            "textAr": "برغي تثبيت قابل للتعديل بدون ثقب",
+            "sortOrder": 1,
+            "productId": 35
+          },
+          {
+            "id": 110,
+            "text": "Marque française UKAL",
+            "textAr": "ماركة أصلية UKAL فرنسية",
+            "sortOrder": 2,
+            "productId": 35
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 36,
+        "slug": "ruban-zoometrique-betail",
+        "name": "Ruban Zoomètrique Pesage Bétail",
+        "nameAr": "شريط قياس وزن المواشي",
+        "description": "Ruban mètre zoomètrique indéchirable pour l'estimation rapide du poids vif des bovins et porcins selon le tour de poitrine.",
+        "descriptionAr": "شريط قياس أوزان المواشي والأبقار المقاوم للتمزق لتقدير الوزن الحي بدقة عالية عبر قياس محيط الصدر.",
+        "price": 25,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Pesage Sans Balance",
+        "badgeAr": "وزن بدون ميزان",
+        "specBadge": "Zoomètrique",
+        "specBadgeAr": "شريط قياس",
+        "specSub": "Ruban Pesage | Bovins & Ovins",
+        "specSubAr": "لقياس وزن الأبقار والأغنام بدون ميزان",
+        "image": "/images/products/ruban-zoometrique-betail.jpg",
+        "thumbnail": "/images/products/ruban-zoometrique-betail.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 4,
+        "createdAt": "2026-08-03T12:18:28.456Z",
+        "updatedAt": "2026-08-03T12:18:28.456Z",
+        "features": [
+          {
+            "id": 111,
+            "text": "Conversion directe tour de poitrine -> poids en kg",
+            "textAr": "تحويل مباشر من محيط الصدر إلى الوزن بالـ كغ",
+            "sortOrder": 0,
+            "productId": 36
+          },
+          {
+            "id": 112,
+            "text": "Ruban à enroulement automatique 2.5m",
+            "textAr": "شريط سحب أوتوماتيكي بطول 2.5 متر",
+            "sortOrder": 1,
+            "productId": 36
+          },
+          {
+            "id": 113,
+            "text": "Précision d'estimation éprouvée",
+            "textAr": "تقدير دقيق ومجرب في الميدان",
+            "sortOrder": 2,
+            "productId": 36
+          }
+        ],
+        "variants": []
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "machines-agricoles",
+    "name": "Machines Agricoles",
+    "nameAr": "الآلات الزراعية",
+    "description": "Motoculteurs, décortiqueuses, broyeurs d'aliments et équipements de récolte",
+    "descriptionAr": "جرارات يدوية (Motoculteur)، مقشرات، مطاحن أعلاف ومعدات جني",
+    "icon": "Tractor",
+    "image": "/images/categories/machines.jpg",
+    "createdAt": "2026-08-03T12:18:28.159Z",
+    "updatedAt": "2026-08-03T12:18:28.159Z",
+    "products": [
+      {
+        "id": 37,
+        "slug": "motoculteur-7cv-benzine",
+        "name": "Motoculteur Agricole avec Fraises",
+        "nameAr": "جرار زراعي يدوي (Motoculteur)",
+        "description": "Motoculteur puissant pour le labour, le binage et la préparation des sols agricoles. Livré avec jeu de rotovators/fraises et charrue.",
+        "descriptionAr": "جرار يدوي قوي لراثة وتنعيم وإعداد التربة الزراعية. مرفق بمجموعة سكاكين المحراث الترددي والمحراث العادي.",
+        "price": 2200,
+        "oldPrice": 2400,
+        "inStock": true,
+        "badge": "Robuste",
+        "badgeAr": "قوي ومتين",
+        "specBadge": "7CV / 12CV",
+        "specBadgeAr": "7 / 12 حصان",
+        "specSub": "Moteur Essence / Diesel 4 Temps",
+        "specSubAr": "محرك بنزين / ديزل 4 أوقات",
+        "image": "/images/products/motoculteur-7cv-benzine.jpg",
+        "thumbnail": "/images/products/motoculteur-7cv-benzine.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 5,
+        "createdAt": "2026-08-03T12:18:28.462Z",
+        "updatedAt": "2026-08-03T12:18:28.462Z",
+        "features": [
+          {
+            "id": 114,
+            "text": "Motorisation 7CV Essence ou 12CV Diesel",
+            "textAr": "محركات 7 حصان بنزين أو 12 حصان ديزل",
+            "sortOrder": 0,
+            "productId": 37
+          },
+          {
+            "id": 115,
+            "text": "Boîte de vitesse avec marche arrière",
+            "textAr": "علبة سرعات مع حركة للوراء",
+            "sortOrder": 1,
+            "productId": 37
+          },
+          {
+            "id": 116,
+            "text": "Guidon réglable en hauteur et déport",
+            "textAr": "مقود قابل للتعديل والدوران",
+            "sortOrder": 2,
+            "productId": 37
+          }
+        ],
+        "variants": [
+          {
+            "id": 18,
+            "label": "7CV Essence",
+            "labelAr": "7 حصان بنزين",
+            "title": "Motoculteur 7CV Benzine",
+            "titleAr": "جرار زراعي يدوي 7 حصان بنزين",
+            "specBadge": "7 CV",
+            "specBadgeAr": "7 حصان",
+            "specSub": "Moteur Essence 7CV",
+            "specSubAr": "محرك بنزين 7 حصان",
+            "price": 2200,
+            "sortOrder": 0,
+            "productId": 37
+          },
+          {
+            "id": 19,
+            "label": "12CV Diesel (Démarreur)",
+            "labelAr": "12 حصان ديزل (مارش)",
+            "title": "Motoculteur 12CV Diesel",
+            "titleAr": "جرار زراعي يدوي 12 حصان ديزل",
+            "specBadge": "12 CV",
+            "specBadgeAr": "12 حصان",
+            "specSub": "Moteur Diesel 12CV Démarreur",
+            "specSubAr": "محرك ديزل 12 حصان مع تشغيل أوتو",
+            "price": 3900,
+            "sortOrder": 1,
+            "productId": 37
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "slug": "decortiqueuse-amandes-bouaziz",
+        "name": "Décortiqueuse & Casseuse d'Amandes et Pistaches Bouaziz",
+        "nameAr": "آلة تقشير اللوز والفستق صنع بوعزيز",
+        "description": "Machine professionnelle de décorticage et séchage des amandes et pistaches fabriquée localement par Bouaziz (AGR METAL LUXE). Faible taux de casse et haut rendement.",
+        "descriptionAr": "آلة احترافية لتقشير وفصل اللوز والفستق مصنعة محلياً ورشة بوعزيز (AGR METAL LUXE). تتميز بنسبة كسر منخفضة جداً وإنتاجية عالية.",
+        "price": 3500,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Fabrication Locale",
+        "badgeAr": "صناعة محلية",
+        "specBadge": "Bouaziz AGR",
+        "specBadgeAr": "صنع بوعزيز",
+        "specSub": "Faible Casse | Marque Bouaziz",
+        "specSubAr": "نسبة كسر منخفضة | ماركة بوعزيز",
+        "image": "/images/products/decortiqueuse-amandes-bouaziz.jpg",
+        "thumbnail": "/images/products/decortiqueuse-amandes-bouaziz.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 5,
+        "createdAt": "2026-08-03T12:18:28.467Z",
+        "updatedAt": "2026-08-03T12:18:28.467Z",
+        "features": [
+          {
+            "id": 117,
+            "text": "Fabrication locale Bouaziz sur roues",
+            "textAr": "صناعة محترفة بوعزيز محددة على عجلات",
+            "sortOrder": 0,
+            "productId": 38
+          },
+          {
+            "id": 118,
+            "text": "Moteur électrique 220V ou 380V",
+            "textAr": "محرك كهربائي 220 فولت أو 380 فولت",
+            "sortOrder": 1,
+            "productId": 38
+          },
+          {
+            "id": 119,
+            "text": "Séparation propre de la coque et du fruit",
+            "textAr": "فصل تام بين القشرة وحبة اللوز",
+            "sortOrder": 2,
+            "productId": 38
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 39,
+        "slug": "recolteuse-olives-cifarelli",
+        "name": "Récolteuse d'Olives Cifarelli Italie",
+        "nameAr": "آلة جني الزيتون سيفاريلي الإيطالية",
+        "description": "Vibreur secoueur à moteur thermique Cifarelli (Italie) pour la récolte rapide des olives et fruits à coque sans abîmer les branches.",
+        "descriptionAr": "آلة هز وجني الزيتون بمحرك حراري سيفاريلي الإيطالية. جني سريع للزيتون والمكسرات بدون إضرار بأغصان الأشجار.",
+        "price": 1800,
+        "oldPrice": 1950,
+        "inStock": true,
+        "badge": "Cifarelli Italie",
+        "badgeAr": "سيفاريلي إيطاليا",
+        "specBadge": "Cifarelli",
+        "specBadgeAr": "سيفاريلي",
+        "specSub": "Origine Italie | Haute Vitesse",
+        "specSubAr": "صنع إيطالي | سرعة أداء عالية",
+        "image": "/images/products/recolteuse-olives-cifarelli.jpg",
+        "thumbnail": "/images/products/recolteuse-olives-cifarelli.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 5,
+        "createdAt": "2026-08-03T12:18:28.472Z",
+        "updatedAt": "2026-08-03T12:18:28.472Z",
+        "features": [
+          {
+            "id": 120,
+            "text": "Moteur Cifarelli 2 temps haute performance",
+            "textAr": "محرك Cifarelli شوتين عالي الأداء",
+            "sortOrder": 0,
+            "productId": 39
+          },
+          {
+            "id": 121,
+            "text": "Système anti-vibration breveté pour l'utilisateur",
+            "textAr": "نظام ماص للاهتزازات لحماية مستخدم الآلة",
+            "sortOrder": 1,
+            "productId": 39
+          },
+          {
+            "id": 122,
+            "text": "Origine Italie certifiée",
+            "textAr": "صنع إيطالي أصلي معتمد",
+            "sortOrder": 2,
+            "productId": 39
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 40,
+        "slug": "peignes-shakers-olives",
+        "name": "Peignes & Shakers Électriques pour Récolte d'Olives",
+        "nameAr": "أمشاط اهتزازية كهربائية لجني الزيتون",
+        "description": "Peigne secoueur électrique sur perche télescopique pour la récolte des olives. Tête à tiges en carbone haute résistance.",
+        "descriptionAr": "مشط هزاز كهربائي على عصا تليسكوبية لجني الزيتون. رأس بشفرات من ألياف الكربون المقواة.",
+        "price": 650,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Batterie 12V",
+        "badgeAr": "بطارية 12V",
+        "specBadge": "Peignes Carbone",
+        "specBadgeAr": "أمشاط كربون",
+        "specSub": "Shakers Peignes & Filets d'Olives",
+        "specSubAr": "أمشاط اهتزازية وشباك زيتون",
+        "image": "/images/products/peignes-shakers-olives.jpg",
+        "thumbnail": "/images/products/peignes-shakers-olives.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 5,
+        "createdAt": "2026-08-03T12:18:28.476Z",
+        "updatedAt": "2026-08-03T12:18:28.476Z",
+        "features": [
+          {
+            "id": 123,
+            "text": "Alimentation batterie 12V",
+            "textAr": "عمل ببطارية 12V",
+            "sortOrder": 0,
+            "productId": 40
+          },
+          {
+            "id": 124,
+            "text": "Perche télescopique en aluminium 2m à 3m",
+            "textAr": "عصا ألمنيوم تليسكوبية تمتد من 2 إلى 3 أمتار",
+            "sortOrder": 1,
+            "productId": 40
+          },
+          {
+            "id": 125,
+            "text": "Doigts en carbone remplaçables",
+            "textAr": "أصابع كربونية قابلة للتبديل",
+            "sortOrder": 2,
+            "productId": 40
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 41,
+        "slug": "broyeur-fourrage-melasty",
+        "name": "Broyeur Fourrage Électrique Melasty 220V",
+        "nameAr": "مطحنة أعلاف كهربائية ميلاستي 220V",
+        "description": "Broyeur concasseur d'aliments et de fourrage Melasty (Turquie). Idéal pour broyer maïs, paille, foin, céréales et dattes.",
+        "descriptionAr": "مطحنة ومجرشة أعلاف كهربائية ميلاستي (تركيا). مثالية لجرش وجرش الذرة، القش، الشعير، التمر والأعلاف الجافة.",
+        "price": 1200,
+        "oldPrice": 1300,
+        "inStock": true,
+        "badge": "Melasty Turquie",
+        "badgeAr": "ميلاستي تركيا",
+        "specBadge": "2.2 kW",
+        "specBadgeAr": "2.2 ك.و",
+        "specSub": "Marque Melasty | Vert & Rouge",
+        "specSubAr": "ماركة ميلاستي التركية الأصلية",
+        "image": "/images/products/broyeur-fourrage-melasty.jpg",
+        "thumbnail": "/images/products/broyeur-fourrage-melasty.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 5,
+        "createdAt": "2026-08-03T12:18:28.481Z",
+        "updatedAt": "2026-08-03T12:18:28.481Z",
+        "features": [
+          {
+            "id": 126,
+            "text": "Moteur électrique 2.2kW / 220V",
+            "textAr": "محرك كهربائي 2.2 كيلووات / 220 فولت",
+            "sortOrder": 0,
+            "productId": 41
+          },
+          {
+            "id": 127,
+            "text": "Grilles d'interchangeables de différentes mailles",
+            "textAr": "غربال متعدد الفتحات قابل للتغيير",
+            "sortOrder": 1,
+            "productId": 41
+          },
+          {
+            "id": 128,
+            "text": "Fabriqué en Turquie par Melasty",
+            "textAr": "صنع تركيا من شركة Melasty",
+            "sortOrder": 2,
+            "productId": 41
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 42,
+        "slug": "granulateur-aliments-4-5kw",
+        "name": "Granulateur d'Aliments & Pellets 4.5kW",
+        "nameAr": "آلة صنع وتكبيس العلف المحبب (Granulateur)",
+        "description": "Presse granulatrice industrielle pour la fabrication de granulés d'aliments pour volailles, lapins et bétail à partir de mélanges d'aliments.",
+        "descriptionAr": "كباسة آلة تحبيب وتصنيع العلف المحبب (Pellets) للدواجن والأرانب والمواشي من خلطات الأعلاف المختلفة.",
+        "price": 3800,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Pellets",
+        "badgeAr": "تحبيب أعلاف",
+        "specBadge": "4.5 kW",
+        "specBadgeAr": "4.5 ك.و",
+        "specSub": "Granulateur Pellets | Aliments",
+        "specSubAr": "لصنع علف محبب متجانس",
+        "image": "/images/products/granulateur-aliments-4-5kw.jpg",
+        "thumbnail": "/images/products/granulateur-aliments-4-5kw.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 5,
+        "createdAt": "2026-08-03T12:18:28.485Z",
+        "updatedAt": "2026-08-03T12:18:28.485Z",
+        "features": [
+          {
+            "id": 129,
+            "text": "Puissance moteur 4.5kW trifasé/monophasé",
+            "textAr": "قوة محرك 4.5 كيلو وات",
+            "sortOrder": 0,
+            "productId": 42
+          },
+          {
+            "id": 130,
+            "text": "Matrice plate perforée 4mm / 6mm",
+            "textAr": "قرص ومصفوفة ثقوب 4مم أو 6مم",
+            "sortOrder": 1,
+            "productId": 42
+          },
+          {
+            "id": 131,
+            "text": "Production 100 à 200 kg/heure",
+            "textAr": "إنتاجية 100 إلى 200 كغ في الساعة",
+            "sortOrder": 2,
+            "productId": 42
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 43,
+        "slug": "moulin-grains-cereales",
+        "name": "Moulin à Grains Céréales & Dattes",
+        "nameAr": "مطحنة حبوب وتمر متعددة الاستخدامات",
+        "description": "Moulin marteaux électrique pour la mouture fine et moyenne des céréales (blé, orge, maïs) et des dattes séchées.",
+        "descriptionAr": "مطحنة مطارق كهربائية لطحن القمح والشعير والذرة والتمر المجفف بدرجات ناعمة ومتوسطة.",
+        "price": 1500,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Multi-Grains",
+        "badgeAr": "متعددة الحبوب",
+        "specBadge": "Moulin Marteaux",
+        "specBadgeAr": "مطحنة مطارق",
+        "specSub": "Maïs, Blé, Orge & Dattes",
+        "specSubAr": "للذرة والقمح والشعير والتمر",
+        "image": "/images/products/moulin-grains-cereales.jpg",
+        "thumbnail": "/images/products/moulin-grains-cereales.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 5,
+        "createdAt": "2026-08-03T12:18:28.491Z",
+        "updatedAt": "2026-08-03T12:18:28.491Z",
+        "features": [
+          {
+            "id": 132,
+            "text": "Système broyeur à marteaux en acier trempé",
+            "textAr": "نظام مطارق مطحنة من الصلب المعالج",
+            "sortOrder": 0,
+            "productId": 43
+          },
+          {
+            "id": 133,
+            "text": "Entonnoir de chargement grand volume",
+            "textAr": "قمع تحضير وتحميل كبير",
+            "sortOrder": 1,
+            "productId": 43
+          },
+          {
+            "id": 134,
+            "text": "Évacuation directe avec sac de collecte",
+            "textAr": "تفريغ مباشر مع كيس تجميع",
+            "sortOrder": 2,
+            "productId": 43
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 44,
+        "slug": "tronconneuse-bois-essence",
+        "name": "Tronçonneuse à Bois Essence",
+        "nameAr": "منشار خشب يعمل بالبنزين",
+        "description": "Tronçonneuse thermique à chaîne pour l'élagage des arbres fruitiers et l'abattage de bois de chauffage.",
+        "descriptionAr": "منشار خشب حراري بسلسلة لتقليم الأشجار المثمرة وقطع أخشاب التدفئة والأشجار.",
+        "price": 250,
+        "oldPrice": 280,
+        "inStock": true,
+        "badge": "Élagage",
+        "badgeAr": "تقليم أخشاب",
+        "specBadge": "Chainsaw",
+        "specBadgeAr": "منشار بنزين",
+        "specSub": "Moteur Thermique Essence",
+        "specSubAr": "محرك حراري قوي",
+        "image": "/images/products/tronconneuse-bois-essence.jpg",
+        "thumbnail": "/images/products/tronconneuse-bois-essence.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 5,
+        "createdAt": "2026-08-03T12:18:28.495Z",
+        "updatedAt": "2026-08-03T12:18:28.495Z",
+        "features": [
+          {
+            "id": 135,
+            "text": "Guide chaîne 45cm à 50cm",
+            "textAr": "سيف منشار بطول 45 إلى 50 صم",
+            "sortOrder": 0,
+            "productId": 44
+          },
+          {
+            "id": 136,
+            "text": "Système de démarrage facile Easy-Start",
+            "textAr": "نظام تشغيل سريع وسهل Easy-Start",
+            "sortOrder": 1,
+            "productId": 44
+          },
+          {
+            "id": 137,
+            "text": "Graissage automatique de la chaîne",
+            "textAr": "تزييت أوتوماتيكي للسلسلة",
+            "sortOrder": 2,
+            "productId": 44
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 45,
+        "slug": "machine-coudre-sacs-portative",
+        "name": "Machine à Coudre Sacs Portative",
+        "nameAr": "آلة خياطة أكياس الأعلاف محمولة",
+        "description": "Coudreuse portative électrique pour la fermeture étanche des sacs de jute, papier, polypropylène et d'aliments bétail.",
+        "descriptionAr": "آلة خياطة أكياس محموية كهربائية لإغلاق أكياس الأعلاف، الخيش، البلاستيك والدقيق بسرعة ومتانة.",
+        "price": 280,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Coudresse",
+        "badgeAr": "خياطة أكياس",
+        "specBadge": "Portative",
+        "specBadgeAr": "محمولة",
+        "specSub": "Coudresse Sacs d'Aliments Portative",
+        "specSubAr": "لغلق أكياس العلف والدقيق",
+        "image": "/images/products/machine-coudre-sacs-portative.jpg",
+        "thumbnail": "/images/products/machine-coudre-sacs-portative.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 5,
+        "createdAt": "2026-08-03T12:18:28.498Z",
+        "updatedAt": "2026-08-03T12:18:28.498Z",
+        "features": [
+          {
+            "id": 138,
+            "text": "Point de couture à un fil résistant",
+            "textAr": "غرزة خياطة بخيط واحد صلب",
+            "sortOrder": 0,
+            "productId": 45
+          },
+          {
+            "id": 139,
+            "text": "Couteau coupe-fil automatique",
+            "textAr": "سكين أوتوماتيكي لقص الخيط",
+            "sortOrder": 1,
+            "productId": 45
+          },
+          {
+            "id": 140,
+            "text": "Moteur 220V robuste",
+            "textAr": "محرك 220V قوي وتحمل شاق",
+            "sortOrder": 2,
+            "productId": 45
+          }
+        ],
+        "variants": []
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "ventilation-irrigation",
+    "name": "Ventilation & Irrigation",
+    "nameAr": "التهوية والرش",
+    "description": "Extracteurs d'air, pad cooling, pulvérisateurs et pompes d'irrigation",
+    "descriptionAr": "مراوح سحب، لوحات تبريد، آلات رش مبيدات ومضخات مياه",
+    "icon": "Wind",
+    "image": "/images/categories/ventilation.jpg",
+    "createdAt": "2026-08-03T12:18:28.163Z",
+    "updatedAt": "2026-08-03T12:18:28.163Z",
+    "products": [
+      {
+        "id": 46,
+        "slug": "extracteur-air-industriel-140cm",
+        "name": "Extracteur d'Air Industriel 1.40m Pales Inox",
+        "nameAr": "مروحة سحب هواء صناعية 1.40 متر بشفرات إينوكس",
+        "description": "Extracteur d'air mural grand débit 140cm x 140cm pour bâtiments avicoles et serres. Pales en acier inoxydable et volets papillons automatiques.",
+        "descriptionAr": "مروحة سحب هواء صناعية ذات تدفق عالي 1.40 م × 1.40 م للمداجن والبيوت المكيفة. شفرات إينوكس ونوافذ إغلاق أوتوماتيكية.",
+        "price": 850,
+        "oldPrice": 920,
+        "inStock": true,
+        "badge": "Grand Débit",
+        "badgeAr": "تدفق عالي",
+        "specBadge": "1.40 Mètre",
+        "specBadgeAr": "1.40 متر",
+        "specSub": "Pales Inox | Volets Automatiques",
+        "specSubAr": "شفرات إينوكس | نوافذ آلية",
+        "image": "/images/products/extracteur-air-industriel-140cm.jpg",
+        "thumbnail": "/images/products/extracteur-air-industriel-140cm.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 6,
+        "createdAt": "2026-08-03T12:18:28.517Z",
+        "updatedAt": "2026-08-03T12:18:28.517Z",
+        "features": [
+          {
+            "id": 141,
+            "text": "Pales en acier inox 304 auto-nettoyantes",
+            "textAr": "شفرات سحب من الإينوكس 304 تمنع التراكمات",
+            "sortOrder": 0,
+            "productId": 46
+          },
+          {
+            "id": 142,
+            "text": "Moteur triphasé/monophasé haute efficacité",
+            "textAr": "محرك عالي الكفاءة",
+            "sortOrder": 1,
+            "productId": 46
+          },
+          {
+            "id": 143,
+            "text": "Volets automatiques anti-poussière et vent",
+            "textAr": "نوافظ سحب آلية تفتح وتغلق أوتوماتيكياً",
+            "sortOrder": 2,
+            "productId": 46
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 47,
+        "slug": "shaffat-extracteur-daxis",
+        "name": "Shaffat Extracteur d'Air DAXIS / KDAXIS",
+        "nameAr": "شفاط هواء جداري DAXIS / KDAXIS",
+        "description": "Extracteur d'air helicoïde mural DAXIS pour la ventilation continue des locaux avicoles, ateliers et locaux techniques.",
+        "descriptionAr": "شفاط هواء جداري DAXIS للتهوية المستمرة للمداجن والمستودعات والورشات.",
+        "price": 180,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "DAXIS",
+        "badgeAr": "DAXIS",
+        "specBadge": "20cm à 60cm",
+        "specBadgeAr": "20 إلى 60 صم",
+        "specSub": "Shaffats Muraux 20cm, 35cm, 60cm",
+        "specSubAr": "مقاسات 20 إلى 60 صم",
+        "image": "/images/products/shaffat-extracteur-daxis.jpg",
+        "thumbnail": "/images/products/shaffat-extracteur-daxis.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 6,
+        "createdAt": "2026-08-03T12:18:28.523Z",
+        "updatedAt": "2026-08-03T12:18:28.523Z",
+        "features": [
+          {
+            "id": 144,
+            "text": "Tailles disponibles : 20cm, 35cm, 60cm",
+            "textAr": "مقاسات متوفرة: 20صم، 35صm، 60صم",
+            "sortOrder": 0,
+            "productId": 47
+          },
+          {
+            "id": 145,
+            "text": "Grille de protection métallique avant/arrière",
+            "textAr": "شبكة حماية معدنية أمامية وخلفية",
+            "sortOrder": 1,
+            "productId": 47
+          },
+          {
+            "id": 146,
+            "text": "Moteur à roulement à billes silencieux",
+            "textAr": "محرك محوري هادئ طويل العمر",
+            "sortOrder": 2,
+            "productId": 47
+          }
+        ],
+        "variants": [
+          {
+            "id": 20,
+            "label": "20cm DAXIS",
+            "labelAr": "20 صم DAXIS",
+            "title": "Shaffat Extracteur d'Air DAXIS 20cm",
+            "titleAr": "شفاط هواء جداري DAXIS 20صم",
+            "specBadge": "20 cm",
+            "specBadgeAr": "20 صم",
+            "specSub": "Diamètre 20cm",
+            "specSubAr": "قطر 20 صم",
+            "price": 90,
+            "sortOrder": 0,
+            "productId": 47
+          },
+          {
+            "id": 21,
+            "label": "35cm DAXIS",
+            "labelAr": "35 صم DAXIS",
+            "title": "Shaffat Extracteur d'Air DAXIS 35cm",
+            "titleAr": "شفاط هواء جداري DAXIS 35صم",
+            "specBadge": "35 cm",
+            "specBadgeAr": "35 صم",
+            "specSub": "Diamètre 35cm",
+            "specSubAr": "قطر 35 صم",
+            "price": 140,
+            "sortOrder": 1,
+            "productId": 47
+          },
+          {
+            "id": 22,
+            "label": "60cm DAXIS",
+            "labelAr": "60 صم DAXIS",
+            "title": "Shaffat Extracteur d'Air DAXIS 60cm",
+            "titleAr": "شفاط هواء جداري DAXIS 60صم",
+            "specBadge": "60 cm",
+            "specBadgeAr": "60 صم",
+            "specSub": "Diamètre 60cm",
+            "specSubAr": "قطر 60 صم",
+            "price": 220,
+            "sortOrder": 2,
+            "productId": 47
+          }
+        ]
+      },
+      {
+        "id": 48,
+        "slug": "panneau-pad-cooling",
+        "name": "Panneau Pad Cooling Refroidissement Évaporatif",
+        "nameAr": "لوحة تبريد مائي (Pad Cooling)",
+        "description": "Panneau rafraîchisseur en papier alvéolé spécial traité résine pour la climatisation évaporative des bâtiments d'élevage.",
+        "descriptionAr": "لوحة تبريد وتكييف مائي من الورق المعالج بالريسين لخفض درجات الحرارة داخل المداجن والمشاريع الزراعية.",
+        "price": 220,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Refroidissement",
+        "badgeAr": "تبريد مائي",
+        "specBadge": "Pad 10/15cm",
+        "specBadgeAr": "تبريد 10/15صم",
+        "specSub": "Refroidissement Évaporatif Pad",
+        "specSubAr": "تبريد تبخيري فعال للمداجن",
+        "image": "/images/products/panneau-pad-cooling.jpg",
+        "thumbnail": "/images/products/panneau-pad-cooling.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 6,
+        "createdAt": "2026-08-03T12:18:28.530Z",
+        "updatedAt": "2026-08-03T12:18:28.530Z",
+        "features": [
+          {
+            "id": 147,
+            "text": "Hauteur 1.5m et 2m / Épaisseur 10cm et 15cm",
+            "textAr": "ارتفاع 1.5م و 2م / سمك 10صم و 15صم",
+            "sortOrder": 0,
+            "productId": 48
+          },
+          {
+            "id": 148,
+            "text": "Papier alvéolé haute absorption d'eau",
+            "textAr": "ورق خلوي عالي الامتصاص للماء",
+            "sortOrder": 1,
+            "productId": 48
+          },
+          {
+            "id": 149,
+            "text": "Traitement anti-moisissure",
+            "textAr": "معالجة ضد البكتيريا والعفن",
+            "sortOrder": 2,
+            "productId": 48
+          }
+        ],
+        "variants": [
+          {
+            "id": 23,
+            "label": "1.5m × 10cm",
+            "labelAr": "1.5م × 10صم",
+            "title": "Panneau Pad Cooling 1.5m × 10cm",
+            "titleAr": "لوحة تبريد مائي 1.5م × 10صم",
+            "specBadge": "1.5m × 10cm",
+            "specBadgeAr": "1.5م × 10صم",
+            "specSub": "Modèle 1.5m × 10cm",
+            "specSubAr": "نموذج 1.5م × 10صم",
+            "price": 160,
+            "sortOrder": 0,
+            "productId": 48
+          },
+          {
+            "id": 24,
+            "label": "2m × 15cm",
+            "labelAr": "2م × 15صم",
+            "title": "Panneau Pad Cooling 2m × 15cm",
+            "titleAr": "لوحة تبريد مائي 2م × 15صم",
+            "specBadge": "2m × 15cm",
+            "specBadgeAr": "2م × 15صم",
+            "specSub": "Modèle 2m × 15cm",
+            "specSubAr": "نموذج 2م × 15صم",
+            "price": 220,
+            "sortOrder": 1,
+            "productId": 48
+          }
+        ]
+      },
+      {
+        "id": 49,
+        "slug": "pulverisateur-tracte-400l",
+        "name": "Pulvérisateur Tracté 400L à Turbine",
+        "nameAr": "آلة رش مبيدات مجرورة بتوربين 400 لتر",
+        "description": "Pulvérisateur atomiseur à turbine 400 litres porté sur prise de force tracteur pour le traitement des vergers et oliviers.",
+        "descriptionAr": "آلة رش مبيدات وأسمدة مجرورة بتوربين سعة 400 لتر تعمل على مأخذ الحركة بالجرار لرش أشجار الزيتون والقوارص.",
+        "price": 4500,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Turbine 400L",
+        "badgeAr": "توربين 400 لتر",
+        "specBadge": "400 Litres",
+        "specBadgeAr": "400 لتر",
+        "specSub": "Turbine Tractée pour Tracteur",
+        "specSubAr": "تجر بالجرار الزراعي",
+        "image": "/images/products/pulverisateur-tracte-400l.jpg",
+        "thumbnail": "/images/products/pulverisateur-tracte-400l.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 6,
+        "createdAt": "2026-08-03T12:18:28.534Z",
+        "updatedAt": "2026-08-03T12:18:28.534Z",
+        "features": [
+          {
+            "id": 150,
+            "text": "Cuve polyéthylène 400 litres avec lave-mains",
+            "textAr": "خزان خفيف صلب 400 لتر مع غسالة أيدي",
+            "sortOrder": 0,
+            "productId": 49
+          },
+          {
+            "id": 151,
+            "text": "Pompe membrane haute pression",
+            "textAr": "مضخة غشاء ذات ضغط عالي",
+            "sortOrder": 1,
+            "productId": 49
+          },
+          {
+            "id": 152,
+            "text": "Turbine orientable avec buses double jet",
+            "textAr": "توربين توجيه رش بشفرات إينوكس",
+            "sortOrder": 2,
+            "productId": 49
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 50,
+        "slug": "pulverisateur-dos-electrique-16l",
+        "name": "Pulvérisateur à Dos Électrique 16L",
+        "nameAr": "بخاخة مبيدات ظهرية كهربائية 16 لتر",
+        "description": "Pulvérisateur à dos rechargeable de 16 litres avec batterie lithium/plomb et lances de traitement interchangeables.",
+        "descriptionAr": "رشاشة مبيدات ظهرية ببطارية قابلة للشحن سعة 16 لتر مع قسطل رش استانلس ستيل ورؤوس رش متعددة.",
+        "price": 110,
+        "oldPrice": 125,
+        "inStock": true,
+        "badge": "Batterie 16L",
+        "badgeAr": "بطارية 16 لتر",
+        "specBadge": "16 Litres",
+        "specBadgeAr": "16 لتر",
+        "specSub": "Batterie Rechargeable | À Dos",
+        "specSubAr": "تعمل ببطارية قابلة للشحن",
+        "image": "/images/products/pulverisateur-dos-electrique-16l.jpg",
+        "thumbnail": "/images/products/pulverisateur-dos-electrique-16l.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 6,
+        "createdAt": "2026-08-03T12:18:28.537Z",
+        "updatedAt": "2026-08-03T12:18:28.537Z",
+        "features": [
+          {
+            "id": 153,
+            "text": "Batterie rechargeable 12V / 8Ah",
+            "textAr": "بطارية قابلة للشحن 12V / 8Ah",
+            "sortOrder": 0,
+            "productId": 50
+          },
+          {
+            "id": 154,
+            "text": "Pression de travail réglable",
+            "textAr": "مفتاح ضبط وقوة الرش",
+            "sortOrder": 1,
+            "productId": 50
+          },
+          {
+            "id": 155,
+            "text": "Lance télescopique inox et buses incluses",
+            "textAr": "عصا رش تليسكوبية إينوكس مع 4 رؤوس",
+            "sortOrder": 2,
+            "productId": 50
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 51,
+        "slug": "pompe-immergee-dongyin-10cv",
+        "name": "Pompe Immergée Dongyin 10CV pour Puits",
+        "nameAr": "مضخة مياه غاطسة Dongyin بقوة 10 حصان",
+        "description": "Pompe immergée de forage multicellulaire Dongyin 10CV pour le pompage d'eau profonde et l'irrigation agricole.",
+        "descriptionAr": "مضخة مياه غاطسة للآبار الارتوازية العميقة Dongyin بقوة 10 حصان للري والضخ الزراعي.",
+        "price": 2200,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Dongyin 10CV",
+        "badgeAr": "Dongyin 10 حصان",
+        "specBadge": "10 CV",
+        "specBadgeAr": "10 حصان",
+        "specSub": "Pompe Puits Artésiens Dongyin",
+        "specSubAr": "للآبار الارتوازية | ماركة Dongyin",
+        "image": "/images/products/pompe-immergee-dongyin-10cv.jpg",
+        "thumbnail": "/images/products/pompe-immergee-dongyin-10cv.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 6,
+        "createdAt": "2026-08-03T12:18:28.541Z",
+        "updatedAt": "2026-08-03T12:18:28.541Z",
+        "features": [
+          {
+            "id": 156,
+            "text": "Corps de pompe et turbine inox",
+            "textAr": "جسم وشفرات مضخة من الإينوكس المقوى",
+            "sortOrder": 0,
+            "productId": 51
+          },
+          {
+            "id": 157,
+            "text": "Moteur à bain d'huile rébobinable",
+            "textAr": "محرك زيت هادئ قابل للتجديد",
+            "sortOrder": 1,
+            "productId": 51
+          },
+          {
+            "id": 158,
+            "text": "Marque Dongyin certifiée",
+            "textAr": "ماركة Dongyin معتمدة للآبار",
+            "sortOrder": 2,
+            "productId": 51
+          }
+        ],
+        "variants": []
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "alimentation-sante-animale",
+    "name": "Alimentation & Santé Animale",
+    "nameAr": "التغذية والصحة الحيوانية",
+    "description": "Aliments composés, vitamines, compléments alimentaires, antiparasitaires et raticides",
+    "descriptionAr": "أعلاف مركبة، فيتامينات، مكملات غذائية، مبيدات حشرات وسموم فئران",
+    "icon": "Pill",
+    "image": "/images/categories/alimentation.jpg",
+    "createdAt": "2026-08-03T12:18:28.166Z",
+    "updatedAt": "2026-08-03T12:18:28.166Z",
+    "products": [
+      {
+        "id": 52,
+        "slug": "aliment-poulets-engraissement-gms",
+        "name": "Aliment Poulets Engraissement GMS 50kg",
+        "nameAr": "علف تسمين الدواجن GMS 50 كغ",
+        "description": "Aliment complet équilibré pour poulets de chair en période de finition et d'engraissement. Enrichi en protéines, vitamines et minéraux.",
+        "descriptionAr": "علف مركّب متوازن لدواجن التسمين في مرحلة النمو والإنهاء. غني بالبروتينات والفيتامينات والمعادن الضرورية.",
+        "price": 75,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "GMS Original",
+        "badgeAr": "علف GMS الأصلي",
+        "specBadge": "50 Kg",
+        "specBadgeAr": "50 كغ",
+        "specSub": "Formule GMS | Engraissement",
+        "specSubAr": "تركيبة GMS الممتازة للتسمين",
+        "image": "/images/products/aliment-poulets-engraissement-gms.jpg",
+        "thumbnail": "/images/products/aliment-poulets-engraissement-gms.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 7,
+        "createdAt": "2026-08-03T12:18:28.544Z",
+        "updatedAt": "2026-08-03T12:18:28.544Z",
+        "features": [
+          {
+            "id": 159,
+            "text": "Sac de 50kg renforcé",
+            "textAr": "كيس 50 كغ مقوى",
+            "sortOrder": 0,
+            "productId": 52
+          },
+          {
+            "id": 160,
+            "text": "Formulation GMS équilibrée",
+            "textAr": "تركيبة GMS متوازنة ومجربة",
+            "sortOrder": 1,
+            "productId": 52
+          },
+          {
+            "id": 161,
+            "text": "Améliore l'indice de consommation",
+            "textAr": "تحسين معدل النمو والتحويل الغذائي",
+            "sortOrder": 2,
+            "productId": 52
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 53,
+        "slug": "aliment-lapin-mixte-gms",
+        "name": "Aliment Lapin Mixte GMS 50kg",
+        "nameAr": "علف أرانب مركب GMS 50 كغ",
+        "description": "Aliment extrudé en granulés pour lapins d'élevage et de maternité. Contient des fibres digestibles et des anticoccidiens.",
+        "descriptionAr": "علف محبب مخصص للأرانب في مرحلة الأمومة والتسمين. يحتوي على ألياف سهلة الهضم ومكونات وقائية.",
+        "price": 68,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "GMS Lapin",
+        "badgeAr": "علف أرانب GMS",
+        "specBadge": "50 Kg",
+        "specBadgeAr": "50 كغ",
+        "specSub": "GMS Lapin Mixte | Économique",
+        "specSubAr": "علف أرانب اقتصادي ومتكامل",
+        "image": "/images/products/aliment-lapin-mixte-gms.jpg",
+        "thumbnail": "/images/products/aliment-lapin-mixte-gms.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 7,
+        "createdAt": "2026-08-03T12:18:28.548Z",
+        "updatedAt": "2026-08-03T12:18:28.548Z",
+        "features": [
+          {
+            "id": 162,
+            "text": "Sac de 50kg",
+            "textAr": "كيس 50 كغ",
+            "sortOrder": 0,
+            "productId": 53
+          },
+          {
+            "id": 163,
+            "text": "Granulés durs anti-gaspillage",
+            "textAr": "حبيبات علف متماسكة يقلل الهدر",
+            "sortOrder": 1,
+            "productId": 53
+          },
+          {
+            "id": 164,
+            "text": "Riche en luzerne et vitamines",
+            "textAr": "غني بالفصّة والألياف الطبيعية",
+            "sortOrder": 2,
+            "productId": 53
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 54,
+        "slug": "lait-poudre-veaux-novilac-25kg",
+        "name": "Lait en Poudre pour Veaux Novilac 25kg",
+        "nameAr": "حليب مجفف للعجول Novilac 25 كغ",
+        "description": "Aliment d'allaitement complet en poudre pour veaux et agneaux. Solubilité parfaite à chaud et excellente digestibilité.",
+        "descriptionAr": "بديل حليب مجفف متكامل للعجول والحملان. ذوبان تام في الماء الساخن وهضم ممتاز بدون مشاكل إسهال.",
+        "price": 265,
+        "oldPrice": 280,
+        "inStock": true,
+        "badge": "Novilac",
+        "badgeAr": "حليب Novilac",
+        "specBadge": "25 Kg",
+        "specBadgeAr": "25 كغ",
+        "specSub": "Novilac / Sofivo | Veaux & Agneaux",
+        "specSubAr": "للعجول والحملان | جودة عالية",
+        "image": "/images/products/lait-poudre-veaux-novilac-25kg.jpg",
+        "thumbnail": "/images/products/lait-poudre-veaux-novilac-25kg.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 7,
+        "createdAt": "2026-08-03T12:18:28.552Z",
+        "updatedAt": "2026-08-03T12:18:28.552Z",
+        "features": [
+          {
+            "id": 165,
+            "text": "Sac de 25kg",
+            "textAr": "كيس 25 كغ",
+            "sortOrder": 0,
+            "productId": 54
+          },
+          {
+            "id": 166,
+            "text": "Enrichi en vitamines A, D3, E et oligo-éléments",
+            "textAr": "مدعم بالفيتامينات والمعادن النادرة",
+            "sortOrder": 1,
+            "productId": 54
+          },
+          {
+            "id": 167,
+            "text": "Marque européenne Novilac / Sofivo",
+            "textAr": "ماركة أوروبية Novilac / Sofivo",
+            "sortOrder": 2,
+            "productId": 54
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 55,
+        "slug": "pierre-lecher-minerale-5kg",
+        "name": "Pierre à Lécher Minérale 5kg",
+        "nameAr": "حجر أملاح معدنية 5 كغ للعلائق",
+        "description": "Bloc de sel minéral enrichi en oligo-éléments pour bovins, ovins et caprins. Stimule l'appétit et évite les carences.",
+        "descriptionAr": "قالب ملح معدني مغذي بالأملاح والمعادن النادرة للأبقار والأغنام والماعز. يحفز الشهية ويمنع نقص المعادن.",
+        "price": 12,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Minéraux",
+        "badgeAr": "أملاح معدنية",
+        "specBadge": "5 Kg",
+        "specBadgeAr": "5 كغ",
+        "specSub": "Pierre Minérale & Calcique",
+        "specSubAr": "غني بالمعادن والكالسيوم",
+        "image": "/images/products/pierre-lecher-minerale-5kg.jpg",
+        "thumbnail": "/images/products/pierre-lecher-minerale-5kg.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 7,
+        "createdAt": "2026-08-03T12:18:28.558Z",
+        "updatedAt": "2026-08-03T12:18:28.558Z",
+        "features": [
+          {
+            "id": 168,
+            "text": "Bloc résistant de 5kg avec trou central",
+            "textAr": "قالب صلب 5 كغ مع فتحة تعليق وسطية",
+            "sortOrder": 0,
+            "productId": 55
+          },
+          {
+            "id": 169,
+            "text": "Enrichi en Zinc, Manganèse, Cobalt et Sélénium",
+            "textAr": "غني بالزنك والمنغنيز والأنك والكوبالت",
+            "sortOrder": 1,
+            "productId": 55
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 56,
+        "slug": "soluvit-ad3ec-vitamines-1l",
+        "name": "Soluvit AD3EC Vitamines Liquide 1L",
+        "nameAr": "فيتامين سائل Soluvit AD3EC 1 لتر",
+        "description": "Complexe multivitaminé liquide hydrosoluble AD3EC B6 pour administration dans l'eau de boisson des volailles et du bétail.",
+        "descriptionAr": "مركب فيتامينات سائل ذائب في الماء AD3EC B6 للإضافة في مياه شرب الدواجن والمواشي لتعزيز النمو والمناعة.",
+        "price": 45,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Vitamines",
+        "badgeAr": "فيتامينات",
+        "specBadge": "1 Litre",
+        "specBadgeAr": "1 لتر",
+        "specSub": "Vitamines AD3EC B6 Liquide",
+        "specSubAr": "مركب فيتامينات سائل",
+        "image": "/images/products/soluvit-ad3ec-vitamines-1l.jpg",
+        "thumbnail": "/images/products/soluvit-ad3ec-vitamines-1l.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 7,
+        "createdAt": "2026-08-03T12:18:28.562Z",
+        "updatedAt": "2026-08-03T12:18:28.562Z",
+        "features": [
+          {
+            "id": 170,
+            "text": "Flacon de 1 Litre",
+            "textAr": "قارورة سعة 1 لتر",
+            "sortOrder": 0,
+            "productId": 56
+          },
+          {
+            "id": 171,
+            "text": "Haute concentration en vitamine A, D3, E, C et B6",
+            "textAr": "تركيز عالي من فيتامين A, D3, E, C و B6",
+            "sortOrder": 1,
+            "productId": 56
+          },
+          {
+            "id": 172,
+            "text": "Facile à doser dans le bac d'eau",
+            "textAr": "سهل المعايرة في مياه الشرب",
+            "sortOrder": 2,
+            "productId": 56
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 57,
+        "slug": "heatstop-anti-stress-1l",
+        "name": "HeatStop Anti-Stress Thermique 1L",
+        "nameAr": "HeatStop مضاد الاحتباس الحراري 1 لتر",
+        "description": "Solution buvable anti-stress thermique et réhydratante pour volailles lors des fortes chaleurs estivales.",
+        "descriptionAr": "محلول مائي مضاد للإجهاد والاحتباس الحراري مخصص للدواجن خلال فترات الحرارة المرتفعة في الصيف.",
+        "price": 55,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Anti-Chaleur",
+        "badgeAr": "مضاد حرارة",
+        "specBadge": "1 Litre",
+        "specBadgeAr": "1 لتر",
+        "specSub": "Formule Anti-Stress Thermique",
+        "specSubAr": "تركيبة لتخفيف إجهاد الحرارة",
+        "image": "/images/products/heatstop-anti-stress-1l.jpg",
+        "thumbnail": "/images/products/heatstop-anti-stress-1l.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 7,
+        "createdAt": "2026-08-03T12:18:28.566Z",
+        "updatedAt": "2026-08-03T12:18:28.566Z",
+        "features": [
+          {
+            "id": 173,
+            "text": "Régule l'équilibre électrolytique et le pH",
+            "textAr": "ينظم التوازن الإلكتروليتي والـ pH في الجسم",
+            "sortOrder": 0,
+            "productId": 57
+          },
+          {
+            "id": 174,
+            "text": "Réduit la mortalité due aux coups de chaleur",
+            "textAr": "يقلل نفوق الطيور الناتج عن ضربات الشمس",
+            "sortOrder": 1,
+            "productId": 57
+          },
+          {
+            "id": 175,
+            "text": "Flacon de 1 Litre",
+            "textAr": "عبوة سعة 1 لتر",
+            "sortOrder": 2,
+            "productId": 57
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 58,
+        "slug": "protetto-anti-puces-bio-1kg",
+        "name": "Protetto Anti-Puces Bio 1kg",
+        "nameAr": "بودرة Protetto البيولوجية ضد الحشرات 1 كغ",
+        "description": "Poudre minérale naturelle écologique Protetto (Terre de Diatomée) pour la lutte contre les poux rouges et puces en poulailler.",
+        "descriptionAr": "مسحوق بيولوجي طبيعي Protetto (تربة دياتوميت) للقضاء على القمل الأحمر والحشرات في المداجن بدون مواد كيميائية.",
+        "price": 30,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Bio 100%",
+        "badgeAr": "طبيعي 100%",
+        "specBadge": "1 Kg",
+        "specBadgeAr": "1 كغ",
+        "specSub": "Poudre Bio Anti-Puces Volailles",
+        "specSubAr": "بودرة طبيعية للقضاء على الحشرات",
+        "image": "/images/products/protetto-anti-puces-bio-1kg.jpg",
+        "thumbnail": "/images/products/protetto-anti-puces-bio-1kg.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 7,
+        "createdAt": "2026-08-03T12:18:28.569Z",
+        "updatedAt": "2026-08-03T12:18:28.569Z",
+        "features": [
+          {
+            "id": 176,
+            "text": "100% Naturel et sans danger pour les animaux",
+            "textAr": "طبيعي 100% وآمن تماماً على الدواجن والبيض",
+            "sortOrder": 0,
+            "productId": 58
+          },
+          {
+            "id": 177,
+            "text": "Action mécanique asséchante sur les parasites",
+            "textAr": "تأثير تجفيف ميكانيكي على الحشرات والطفيلية",
+            "sortOrder": 1,
+            "productId": 58
+          },
+          {
+            "id": 178,
+            "text": "Boîte de 1kg",
+            "textAr": "عبوة سعة 1 كغ",
+            "sortOrder": 2,
+            "productId": 58
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 59,
+        "slug": "rattox-raticide-pate-rouge",
+        "name": "Rattox Raticide Pâte Rouge 100g",
+        "nameAr": "عجينة RATTOX الحمراء لقتل الفئران 100غ",
+        "description": "Appât raticide prêt à l'emploi en sachet de pâte fraîche rouge. Élimination rapide et efficace des rats et souris en élevage.",
+        "descriptionAr": "طُعم عجينة حمراء جاهزة للاستخدام للقضاء السريع والفعال على الفئران والقوارض داخل المزارع والمستودعات.",
+        "price": 15,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "RATTOX",
+        "badgeAr": "سم فئران",
+        "specBadge": "100g",
+        "specBadgeAr": "100 غرام",
+        "specSub": "Raticide Pâte Rouge RATTOX",
+        "specSubAr": "سم فئران فعال في شكل عجينة",
+        "image": "/images/products/rattox-raticide-pate-rouge.jpg",
+        "thumbnail": "/images/products/rattox-raticide-pate-rouge.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 7,
+        "createdAt": "2026-08-03T12:18:28.587Z",
+        "updatedAt": "2026-08-03T12:18:28.587Z",
+        "features": [
+          {
+            "id": 179,
+            "text": "Pâte fraîche rouge très appétente",
+            "textAr": "عجينة حمراء طازجة جاذبة للقوارض",
+            "sortOrder": 0,
+            "productId": 59
+          },
+          {
+            "id": 180,
+            "text": "Action puissante anticoagulante",
+            "textAr": "تأثير قوي ومباشر",
+            "sortOrder": 1,
+            "productId": 59
+          },
+          {
+            "id": 181,
+            "text": "Boîte de 100g",
+            "textAr": "علبة سعة 100 غرام",
+            "sortOrder": 2,
+            "productId": 59
+          }
+        ],
+        "variants": []
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "balances-equipements",
+    "name": "Balances & Équipements",
+    "nameAr": "الموازين والمعدات",
+    "description": "Balances commerciales, pèse-bétail, générateurs électriques et instruments de mesure",
+    "descriptionAr": "موازين تجارية، موازين مواشي، مولدات كهرباء وأدوات قياس",
+    "icon": "Scale",
+    "image": "/images/categories/balances.jpg",
+    "createdAt": "2026-08-03T12:18:28.170Z",
+    "updatedAt": "2026-08-03T12:18:28.170Z",
+    "products": [
+      {
+        "id": 60,
+        "slug": "balance-elicom-s200l-30kg",
+        "name": "Balance Commerciale ELICOM S200L 30kg",
+        "nameAr": "ميزان تجاري ELICOM 30 كغ",
+        "description": "Balance électronique commerciale certifiée ELICOM S200L avec calcul de prix, double affichage LCD rétroéclairé et batterie rechargeable.",
+        "descriptionAr": "ميزان تجاري إلكتروني معتمد ELICOM S200L بحاسبة ثمن وشاشة مزدوجة مضيئة وبطارية شحن تدوم طويلاً.",
+        "price": 320,
+        "oldPrice": 350,
+        "inStock": true,
+        "badge": "ELICOM Europe",
+        "badgeAr": "ELICOM أوروبا",
+        "specBadge": "30 Kg",
+        "specBadgeAr": "30 كغ",
+        "specSub": "Double Affichage | Marque ELICOM",
+        "specSubAr": "شاشة مزدوجة | ماركة ELICOM الأوروبية",
+        "image": "/images/products/balance-elicom-s200l-30kg.jpg",
+        "thumbnail": "/images/products/balance-elicom-s200l-30kg.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 8,
+        "createdAt": "2026-08-03T12:18:28.591Z",
+        "updatedAt": "2026-08-03T12:18:28.591Z",
+        "features": [
+          {
+            "id": 182,
+            "text": "Portée 30kg avec précision 5g",
+            "textAr": "حمولة 30 كغ بدقة 5 غرام",
+            "sortOrder": 0,
+            "productId": 60
+          },
+          {
+            "id": 183,
+            "text": "Fabriquée en Europe par ELICOM",
+            "textAr": "صناعة أوروبية معتمدة من ELICOM",
+            "sortOrder": 1,
+            "productId": 60
+          },
+          {
+            "id": 184,
+            "text": "Plateau en acier inoxydable",
+            "textAr": "صحن من الفولاذ المقاوم للصدأ",
+            "sortOrder": 2,
+            "productId": 60
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 61,
+        "slug": "tiroir-caisse-cash-drawer",
+        "name": "Tiroir-Caisse Monnaie Cash Drawer 5B/8C",
+        "nameAr": "درج حفظ النقود المعدني للكاشير",
+        "description": "Tiroir-caisse renforcé en acier pour magasins et comptoirs avec ouverture automatique ou par clé. 5 compartiments billets et 8 pièces.",
+        "descriptionAr": "درج نقود معدني مقوى للكاشير والمحلات التجارية، فتح أوتوماتيكي عبر الطابعة أو بالمفتاح. 5 خانات أوراق نقدية و 8 خانات قطع معدنية.",
+        "price": 90,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "Cash Drawer",
+        "badgeAr": "درج نقود",
+        "specBadge": "5B / 8C",
+        "specBadgeAr": "5 أوراق / 8 قطع",
+        "specSub": "5 Billets / 8 Pièces avec Serrure",
+        "specSubAr": "بأقسام متعددة مع قفل أمان",
+        "image": "/images/products/tiroir-caisse-cash-drawer.jpg",
+        "thumbnail": "/images/products/tiroir-caisse-cash-drawer.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 8,
+        "createdAt": "2026-08-03T12:18:28.595Z",
+        "updatedAt": "2026-08-03T12:18:28.595Z",
+        "features": [
+          {
+            "id": 185,
+            "text": "Structure en acier renforcé avec serrure 3 positions",
+            "textAr": "هيكل صلب من الفولاذ مع قفل بـ 3 وضعيات أمان",
+            "sortOrder": 0,
+            "productId": 61
+          },
+          {
+            "id": 186,
+            "text": "Câble d'interface RJ11 inclus",
+            "textAr": "كابل توصيل RJ11 مشمول للطابعة",
+            "sortOrder": 1,
+            "productId": 61
+          },
+          {
+            "id": 187,
+            "text": "Bac à monnaie amovible",
+            "textAr": "صينية نقدية متحركة قابلة للرفع",
+            "sortOrder": 2,
+            "productId": 61
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 62,
+        "slug": "pese-moutons-electronique-300kg",
+        "name": "Pèse-Moutons Électronique 300kg avec Cage",
+        "nameAr": "ميزان أغنام إلكتروني 300 كغ مع قفص احتجاز",
+        "description": "Balance pèse-bétail électronique avec cage de contention galvanisée pour moutons, chèvres et veaux. Affichage numérique à mémoire d'animal en mouvement.",
+        "descriptionAr": "ميزان مواشي إلكتروني مع قفص حجز مجلفن للأغنام والماعز والعجول. شاشة رقمية مجهزة بخاصية تثبيت وزن الحيوان المتحرك.",
+        "price": 650,
+        "oldPrice": 720,
+        "inStock": true,
+        "badge": "Pèse-Bétail",
+        "badgeAr": "ميزان مواشي",
+        "specBadge": "300 Kg",
+        "specBadgeAr": "300 كغ",
+        "specSub": "Précision 100g | Cage Inclus",
+        "specSubAr": "دقة 100 غرام | يشمل قفص الحجز",
+        "image": "/images/products/pese-moutons-electronique-300kg.jpg",
+        "thumbnail": "/images/products/pese-moutons-electronique-300kg.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 8,
+        "createdAt": "2026-08-03T12:18:28.599Z",
+        "updatedAt": "2026-08-03T12:18:28.599Z",
+        "features": [
+          {
+            "id": 188,
+            "text": "Portée 300kg avec précision 100g",
+            "textAr": "سعة 300 كغ بدقة 100 غرام",
+            "sortOrder": 0,
+            "productId": 62
+          },
+          {
+            "id": 189,
+            "text": "Cage galvanisée avec portes coulissantes avant/arrière",
+            "textAr": "قفص مجلفن مع أبواب منزلقة أمامية وخلفية",
+            "sortOrder": 1,
+            "productId": 62
+          },
+          {
+            "id": 190,
+            "text": "Indicateur étanche fonctionnant sur batterie",
+            "textAr": "شاشة إلكترونية عازلة تعمل على البطارية والكهرباء",
+            "sortOrder": 2,
+            "productId": 62
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 63,
+        "slug": "balance-plateforme-3-tonnes",
+        "name": "Balance Plateforme Ground 3 Tonnes",
+        "nameAr": "ميزان منصة أرضي حمولة 3 طن",
+        "description": "Plateforme de pesage industrielle au sol 1.2m x 1.2m avec 4 capteurs de pesage haute précision GRAM / CZNEWTON pour palettes et gros volumes.",
+        "descriptionAr": "ميزان منصة أرضي صناعي 1.2 م × 1.2 م مزود بـ 4 حساسات وزن عالية الدقة GRAM / CZNEWTON للشحنات الثقيلة والمواشي.",
+        "price": 1800,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": "3 Tonnes",
+        "badgeAr": "3 طن",
+        "specBadge": "3 Tonnes",
+        "specBadgeAr": "3 طن",
+        "specSub": "4 Capteurs | GRAM / CZNEWTON",
+        "specSubAr": "مزود بـ 4 حساسات دقيقة للوزن الثقيل",
+        "image": "/images/products/balance-plateforme-3-tonnes.jpg",
+        "thumbnail": "/images/products/balance-plateforme-3-tonnes.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 8,
+        "createdAt": "2026-08-03T12:18:28.603Z",
+        "updatedAt": "2026-08-03T12:18:28.603Z",
+        "features": [
+          {
+            "id": 191,
+            "text": "Capacité 3000 kg (3 Tonnes)",
+            "textAr": "حمولة قصوى 3000 كغ (3 طن)",
+            "sortOrder": 0,
+            "productId": 63
+          },
+          {
+            "id": 192,
+            "text": "4 capteurs en acier allié de haute précision",
+            "textAr": "4 حساسات وزنية من الفولاذ المقوى",
+            "sortOrder": 1,
+            "productId": 63
+          },
+          {
+            "id": 193,
+            "text": "Câble blindé de 5m vers l'indicateur",
+            "textAr": "كابل مصفح بطول 5 أمتار متصل بالشاشة",
+            "sortOrder": 2,
+            "productId": 63
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 64,
+        "slug": "generateur-diesel-emtop-5kva",
+        "name": "Générateur Diesel EMTOP 5kVA",
+        "nameAr": "مولد كهرباء ديزل EMTOP 5 كيلو فولت أمبير",
+        "description": "Groupe électrogène diesel monophasé insonorisé EMTOP 5kVA avec démarrage électrique et régulateur automatique de tension AVR.",
+        "descriptionAr": "مولد كهرباء ديزل كاتم للصوت EMTOP 5kVA مع نظام تشغيل أوتوماتيكي ومنظم جُهد AVR لحماية الأجهزة.",
+        "price": 2400,
+        "oldPrice": 2600,
+        "inStock": true,
+        "badge": "EMTOP 5kVA",
+        "badgeAr": "إمتوب 5kVA",
+        "specBadge": "5 kVA",
+        "specBadgeAr": "5 kVA",
+        "specSub": "Générateur Diesel | EMTOP",
+        "specSubAr": "مولد كهرباء بالديزل ماركة إمتوب",
+        "image": "/images/products/generateur-diesel-emtop-5kva.jpg",
+        "thumbnail": "/images/products/generateur-diesel-emtop-5kva.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 8,
+        "createdAt": "2026-08-03T12:18:28.610Z",
+        "updatedAt": "2026-08-03T12:18:28.610Z",
+        "features": [
+          {
+            "id": 194,
+            "text": "Puissance maximale 5kVA / 220V",
+            "textAr": "قوة قصوى 5kVA / 220V",
+            "sortOrder": 0,
+            "productId": 64
+          },
+          {
+            "id": 195,
+            "text": "Moteur Diesel 4 temps économique",
+            "textAr": "محرك ديزل 4 أوقات اقتصادي في الوقود",
+            "sortOrder": 1,
+            "productId": 64
+          },
+          {
+            "id": 196,
+            "text": "Régulateur de tension AVR intégré",
+            "textAr": "منظم جُهد أوتوماتيكي AVR لحماية الأجهزة",
+            "sortOrder": 2,
+            "productId": 64
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 65,
+        "slug": "thermo-hygrometre-htc-2",
+        "name": "Thermo-Hygromètre Digital HTC-2",
+        "nameAr": "مقياس حرارة ورطوبة رقمي HTC-2",
+        "description": "Station météo thermomètre-hygromètre d'intérieur/extérieur avec sonde filaire extérieure, affichage de l'heure et horloge alarme.",
+        "descriptionAr": "جهاز قياس الحرارة والرطوبة الرقمي HTC-2 مزود بسلك حساس خارجي مع عرض الوقت والتقويم والساعة.",
+        "price": 25,
+        "oldPrice": null,
+        "inStock": true,
+        "badge": null,
+        "badgeAr": "HTC-2",
+        "specBadge": "HTC-2 Digital",
+        "specBadgeAr": "HTC-2 رقمي",
+        "specSub": "Thermomètre-Hygromètre LCD",
+        "specSubAr": "شاشة رقمية لقراءة الحرارة والرطوبة",
+        "image": "/images/products/thermo-hygrometre-htc-2.jpg",
+        "thumbnail": "/images/products/thermo-hygrometre-htc-2.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 8,
+        "createdAt": "2026-08-03T12:18:28.614Z",
+        "updatedAt": "2026-08-03T21:18:11.442Z",
+        "features": [
+          {
+            "id": 197,
+            "text": "Double mesure de température int/ext et humidité",
+            "textAr": "قياس مزدوج للحرارة الداخلية والخارجية والرطوبة",
+            "sortOrder": 0,
+            "productId": 65
+          },
+          {
+            "id": 198,
+            "text": "Sonde filaire de 1.5m incluse",
+            "textAr": "سلك حساس بطول 1.5 متر مشمول",
+            "sortOrder": 1,
+            "productId": 65
+          },
+          {
+            "id": 199,
+            "text": "Mémoire des valeurs Min/Max",
+            "textAr": "ذاكرة لتسجيل أقصى وأدنى درجات حرارة",
+            "sortOrder": 2,
+            "productId": 65
+          }
+        ],
+        "variants": []
+      },
+      {
+        "id": 66,
+        "slug": "projecteur-panneau-solaire-200w",
+        "name": "Projecteur & Panneau Solaire 200W",
+        "nameAr": "كشاف ولائحة طاقة شمسية 200 وات",
+        "description": "Projecteur extérieur LED autonome 200W avec panneau solaire photovoltaïque, télécommande sans fil et détecteur de crepuscule.",
+        "descriptionAr": "كشاف ليد خارجي 200 وات يعمل بالطاقة الشمسية مع لوحة شمسية، ريموت تحكم وحساس تشغيل تلقائي عند الظلام.",
+        "price": 140,
+        "oldPrice": 160,
+        "inStock": true,
+        "badge": "Solaire 200W",
+        "badgeAr": "طاقة شمسية 200W",
+        "specBadge": "200W Solar",
+        "specBadgeAr": "200 وات شمس",
+        "specSub": "Projecteur LED Solaire avec Télécommande",
+        "specSubAr": "كشاف ليد بالطاقة الشمسية مع ريموت",
+        "image": "/images/products/projecteur-panneau-solaire-200w.jpg",
+        "thumbnail": "/images/products/projecteur-panneau-solaire-200w.jpg",
+        "isHidden": false,
+        "deletedAt": null,
+        "categoryId": 8,
+        "createdAt": "2026-08-03T12:18:28.618Z",
+        "updatedAt": "2026-08-03T21:13:47.981Z",
+        "features": [
+          {
+            "id": 200,
+            "text": "Projecteur LED 200W étanche IP67",
+            "textAr": "كشاف ليد 200W عازل للماء IP67",
+            "sortOrder": 0,
+            "productId": 66
+          },
+          {
+            "id": 201,
+            "text": "Batterie Lithium Haute Capacité 12h d'autonomie",
+            "textAr": "بطارية ليثيوم تعمل حتى 12 ساعة متواصلة",
+            "sortOrder": 1,
+            "productId": 66
+          },
+          {
+            "id": 202,
+            "text": "Télécommande de réglage de luminosité",
+            "textAr": "جهاز تحكم ريموت لضبط شدة الإضاءة والتوقيت",
+            "sortOrder": 2,
+            "productId": 66
+          }
+        ],
+        "variants": []
+      }
+    ]
+  }
+]

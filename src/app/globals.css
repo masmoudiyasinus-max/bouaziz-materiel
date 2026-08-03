@@ -44,8 +44,8 @@
   --font-body-ltr: var(--font-jakarta), 'Plus Jakarta Sans', -apple-system, sans-serif;
   --font-heading-ltr: var(--font-jakarta), 'Plus Jakarta Sans', sans-serif;
   
-  --font-body-rtl: var(--font-tajawal), sans-serif;
-  --font-heading-rtl: var(--font-tajawal), sans-serif;
+  --font-body-rtl: var(--font-tajawal), 'Tajawal', sans-serif;
+  --font-heading-rtl: var(--font-tajawal), 'Tajawal', sans-serif;
 
   --font-body: var(--font-body-ltr);
   --font-heading: var(--font-heading-ltr);
@@ -77,6 +77,21 @@
   --font-heading: var(--font-heading-rtl);
 }
 
+/* ─── STRICT ARABIC FONT ENFORCEMENT ─── */
+[dir="rtl"],
+[dir="rtl"] body,
+[dir="rtl"] input,
+[dir="rtl"] button,
+[dir="rtl"] select,
+[dir="rtl"] textarea,
+[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3, [dir="rtl"] h4, [dir="rtl"] h5, [dir="rtl"] h6,
+[dir="rtl"] p, [dir="rtl"] span, [dir="rtl"] a,
+[lang="ar"],
+[lang="ar"] *,
+*[dir="rtl"] {
+  font-family: var(--font-tajawal), 'Tajawal', -apple-system, sans-serif !important;
+}
+
 /* ─── RESET & BASE ─── */
 *,
 *::before,
@@ -88,6 +103,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: var(--bg-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -352,22 +368,35 @@ select.input-field {
   color: var(--text-muted);
 }
 
-/* ─── SCROLLBAR ─── */
-::-webkit-scrollbar {
-  width: 8px;
+/* ─── GLOBAL SCROLLBAR (OverlayScrollbars) ─── */
+
+/* Hide native scrollbar — OverlayScrollbars replaces it */
+html {
+  overflow: auto;
 }
 
-::-webkit-scrollbar-track {
-  background: var(--bg-subtle);
+/* Override built-in dark theme with brand colors */
+.os-theme-dark {
+  --os-handle-bg: rgba(255, 255, 255, 0.5);
+  --os-handle-bg-hover: rgba(255, 255, 255, 0.75);
+  --os-handle-bg-active: rgba(255, 255, 255, 0.9);
+  --os-handle-border-radius: 9999px;
+  --os-handle-min-size: 40px;
+  --os-handle-max-size: none;
+  --os-handle-perpendicular-size: 6px;
+  --os-handle-perpendicular-size-hover: 8px;
+  --os-handle-perpendicular-size-active: 8px;
+  --os-handle-interactive-area-offset: 4px;
+  --os-size: 10px;
+  --os-track-border-radius: 0;
+  --os-track-bg: transparent;
+  --os-track-bg-hover: transparent;
+  --os-track-bg-active: transparent;
 }
 
-::-webkit-scrollbar-thumb {
-  background: #d1d5db;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #9ca3af;
+/* Smooth transition for handle size on hover */
+.os-theme-dark .os-scrollbar-handle {
+  transition: width 0.2s ease, height 0.2s ease, background-color 0.2s ease, opacity 0.2s ease;
 }
 
 ::selection {

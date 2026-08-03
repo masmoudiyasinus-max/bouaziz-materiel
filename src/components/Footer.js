@@ -1,14 +1,17 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { useI18n } from "@/context/I18nContext";
-import { categories } from "@/data/categories";
 import { Phone, Mail, MapPin, Clock, Truck } from "lucide-react";
 import styles from "./Footer.module.css";
 
-export default function Footer() {
-  const { locale, t } = useI18n();
+export default function Footer({ initialCategories = [] }) {
+  const { locale, t, isAr } = useI18n();
+  const pathname = usePathname();
   const year = new Date().getFullYear();
+
+  if (pathname && pathname.includes('/admin')) return null;
 
   return (
     <footer className={styles.footer}>
@@ -35,10 +38,10 @@ export default function Footer() {
             {t.footer?.categoriesTitle || "Catégories"}
           </h3>
           <ul className={styles.linkList}>
-            {categories.map((cat) => (
+            {initialCategories.map((cat) => (
               <li key={cat.id}>
                 <Link href={`/${locale}/boutique/${cat.slug}`} className={styles.footerLink}>
-                  {cat.name}
+                  {isAr && cat.nameAr ? cat.nameAr : cat.name}
                 </Link>
               </li>
             ))}

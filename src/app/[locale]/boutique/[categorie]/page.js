@@ -1,11 +1,11 @@
-import { products } from "@/data/products";
-import { categories, getCategoryBySlug } from "@/data/categories";
+import { getCategories, getCategoryBySlug, getProductsByCategory } from "@/lib/data";
 import ProductCard from "@/components/ProductCard";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
   const locales = ["fr", "ar"];
+  const categories = await getCategories();
   return categories.flatMap((cat) =>
     locales.map((locale) => ({
       locale,
@@ -16,8 +16,8 @@ export function generateStaticParams() {
 
 export default async function CategoryPage({ params }) {
   const { locale, categorie } = await params;
-  const category = getCategoryBySlug(categorie);
-  const categoryProducts = products.filter((p) => p.category === categorie);
+  const category = await getCategoryBySlug(categorie);
+  const categoryProducts = await getProductsByCategory(categorie);
 
   if (!category) {
     return (

@@ -93,6 +93,11 @@
   width: 44px;
   height: 44px;
   object-fit: contain;
+  transition: filter 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.logoWhite {
+  filter: brightness(0) invert(1);
 }
 
 .logoText {
@@ -247,35 +252,42 @@
 .cartBtn {
   width: 40px;
   height: 40px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: var(--radius-md);
+  border-radius: 0;
   color: var(--text-secondary);
-  transition: background var(--transition-fast), color var(--transition-fast), border-color var(--transition-fast);
-  border: 1px solid var(--border-light);
-  background: #ffffff;
+  transition: color var(--transition-fast), opacity var(--transition-fast);
+  border: none;
+  background: transparent;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .actionBtn:hover,
 .cartBtn:hover {
-  background: var(--green-50);
+  background: transparent;
   color: var(--green-800);
-  border-color: var(--green-600);
+  border: none;
 }
 
 /* White Action Buttons for Transparent Header */
 .actionBtnWhite {
   color: #ffffff !important;
-  border: 1px solid rgba(255, 255, 255, 0.35) !important;
-  background: rgba(255, 255, 255, 0.15) !important;
-  backdrop-filter: blur(6px);
+  border: none !important;
+  background: transparent !important;
+  backdrop-filter: none !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 .actionBtnWhite:hover {
-  background: rgba(255, 255, 255, 0.28) !important;
+  background: transparent !important;
   color: #ffffff !important;
-  border-color: rgba(255, 255, 255, 0.6) !important;
+  opacity: 0.8;
+  border: none !important;
 }
 
 .cartBtn {

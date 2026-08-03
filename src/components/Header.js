@@ -5,7 +5,6 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useCart } from "@/context/CartContext";
 import { useI18n } from "@/context/I18nContext";
-import { categories } from "@/data/categories";
 import {
   Menu,
   X,
@@ -13,11 +12,10 @@ import {
   Search,
   Phone,
   ChevronDown,
-  Globe,
 } from "lucide-react";
 import styles from "./Header.module.css";
 
-export default function Header() {
+export default function Header({ initialCategories = [] }) {
   const { locale, t, isAr } = useI18n();
   const { totalItems } = useCart();
   const pathname = usePathname();
@@ -58,6 +56,13 @@ export default function Header() {
     }, 200);
   };
 
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
+
+  // Hide header on admin pages
+  if (pathname && pathname.includes('/admin')) return null;
+
   const toggleLanguage = () => {
     const newLocale = locale === "fr" ? "ar" : "fr";
     document.cookie = `locale=${newLocale}; path=/; max-age=31536000`;
@@ -96,7 +101,7 @@ export default function Header() {
               alt="Bouaziz Matériel Agricole"
               width={48}
               height={48}
-              className={styles.logoImg}
+              className={`${styles.logoImg} ${isTransparent ? styles.logoWhite : ""}`}
             />
             <div className={styles.logoText}>
               <span className={`${styles.logoName} ${isTransparent ? styles.textWhite : ""}`}>
@@ -126,7 +131,7 @@ export default function Header() {
               {isMegaMenuOpen && (
                 <div className={styles.megaMenu}>
                   <div className={styles.megaMenuGrid}>
-                    {categories.map((cat) => (
+                    {initialCategories.map((cat) => (
                       <Link
                         key={cat.id}
                         href={`/${locale}/boutique/${cat.slug}`}
@@ -170,9 +175,7 @@ export default function Header() {
               onClick={toggleLanguage}
               className={`${styles.actionBtn} ${isTransparent ? styles.actionBtnWhite : ""}`}
               title={locale === "fr" ? "العربية" : "Français"}
-              style={{ fontWeight: 600, fontSize: "0.85rem", gap: "6px" }}
             >
-              <Globe size={18} />
               {locale === "fr" ? "AR" : "FR"}
             </button>
             <Link
@@ -214,7 +217,7 @@ export default function Header() {
               {t.navigation?.boutique || "Boutique"}
             </Link>
             <div className={styles.mobileCats}>
-              {categories.map((cat) => (
+              {initialCategories.map((cat) => (
                 <Link
                   key={cat.id}
                   href={`/${locale}/boutique/${cat.slug}`}

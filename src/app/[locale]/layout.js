@@ -1,10 +1,13 @@
+import "overlayscrollbars/overlayscrollbars.css";
 import "../globals.css";
 import { Plus_Jakarta_Sans, Tajawal } from "next/font/google";
 import { CartProvider } from "@/context/CartContext";
 import { I18nProvider } from "@/context/I18nContext";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import OverlayScrollbarInit from "@/components/OverlayScrollbarInit";
 import { getDictionary } from "@/dictionaries";
+import { getCategories } from "@/lib/data";
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -61,19 +64,24 @@ export async function generateMetadata({ params }) {
   };
 }
 
+import ForcedPageLoader from "@/components/ForcedPageLoader";
+
 export default async function RootLayout({ children, params }) {
   const { locale } = await params;
   const dict = await getDictionary(locale);
   const dir = locale === "ar" ? "rtl" : "ltr";
+  const categories = await getCategories();
 
   return (
-    <html lang={locale} dir={dir} className={`${jakarta.variable} ${tajawal.variable}`}>
-      <body>
+    <html lang={locale} dir={dir} className={`${jakarta.variable} ${tajawal.variable}`} data-overlayscrollbars-initialize="">
+      <body data-overlayscrollbars-initialize="">
+        <ForcedPageLoader locale={locale} />
+        <OverlayScrollbarInit />
         <I18nProvider locale={locale} dict={dict}>
           <CartProvider>
-            <Header />
+            <Header initialCategories={categories} />
             <main>{children}</main>
-            <Footer />
+            <Footer initialCategories={categories} />
           </CartProvider>
         </I18nProvider>
       </body>

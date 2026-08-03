@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { categories } from "@/data/categories";
-import { getFeaturedProducts } from "@/data/products";
+import { getCategories, getFeaturedProducts } from "@/lib/data";
 import ProductCard from "@/components/ProductCard";
 import { getDictionary } from "@/dictionaries";
 import {
@@ -30,8 +29,14 @@ import styles from "./page.module.css";
 
 export default async function HomePage({ params }) {
   const { locale } = await params;
+  const isAr = locale === "ar";
   const dict = await getDictionary(locale);
-  const featuredProducts = getFeaturedProducts().slice(0, 8);
+
+  // Fetch data concurrently from DB
+  const [categories, featuredProducts] = await Promise.all([
+    getCategories(),
+    getFeaturedProducts(8)
+  ]);
 
   const getCategoryIcon = (id) => {
     switch (id) {

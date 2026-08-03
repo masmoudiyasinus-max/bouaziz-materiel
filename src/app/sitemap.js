@@ -1,7 +1,8 @@
-import { products } from "@/data/products";
-import { categories } from "@/data/categories";
+import { getProducts, getCategories } from "@/lib/data";
 
-export default function sitemap() {
+export default async function sitemap() {
+  const products = await getProducts();
+  const categories = await getCategories();
   const baseUrl = "https://bouazizmaterielagricole.tn";
 
   const staticRoutes = [

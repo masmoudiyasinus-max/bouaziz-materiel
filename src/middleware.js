@@ -26,6 +26,33 @@ export function middleware(request) {
       )
     );
   }
+
+  // Extract current locale from pathname
+  const currentLocale = locales.find((l) => pathname.startsWith(`/${l}/`) || pathname === `/${l}`) || defaultLocale;
+
+  // Protect Admin Routes
+  const isAdminRoute = locales.some((l) => pathname.startsWith(`/${l}/admin`));
+  const isLoginPage = locales.some((l) => pathname.startsWith(`/${l}/admin/login`));
+  const adminSession = request.cookies.get('admin_session')?.value;
+
+  if (isAdminRoute && !isLoginPage && !adminSession) {
+    const loginUrl = new URL(`/${currentLocale}/admin/login`, request.url);
+    return NextResponse.redirect(loginUrl);
+  }
+
+  if (isLoginPage && adminSession) {
+    const adminUrl = new URL(`/${currentLocale}/admin`, request.url);
+    return NextResponse.redirect(adminUrl);
+  }
+
+  const requestHeaders = new Headers(request.headers);
+  requestHeaders.set('x-pathname', pathname);
+
+  return NextResponse.next({
+    request: {
+      headers: requestHeaders,
+    },
+  });
 }
 
 export const config = {
