@@ -13,8 +13,9 @@ function getPoolConfig() {
       user: decodeURIComponent(parsed.username || "root"),
       password: decodeURIComponent(parsed.password || ""),
       database: parsed.pathname ? parsed.pathname.replace(/^\//, "") : "bouaziz_agri",
-      connectionLimit: 10,
-      connectTimeout: 10000,
+      connectionLimit: 30,
+      connectTimeout: 20000,
+      acquireTimeout: 20000,
     };
   } catch (e) {
     return {
@@ -23,7 +24,9 @@ function getPoolConfig() {
       user: "root",
       password: "",
       database: "bouaziz_agri",
-      connectionLimit: 10,
+      connectionLimit: 30,
+      connectTimeout: 20000,
+      acquireTimeout: 20000,
     };
   }
 }
