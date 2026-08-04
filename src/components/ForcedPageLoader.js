@@ -2,16 +2,26 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 
+let isLoadedInSession = false;
+
 export default function ForcedPageLoader({ locale }) {
   const isAr = locale === "ar";
 
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(() => {
+    if (isLoadedInSession) return false;
+    if (typeof window !== "undefined" && sessionStorage.getItem("site_has_loaded")) {
+      isLoadedInSession = true;
+      return false;
+    }
+    return true;
+  });
   const [isFadingOut, setIsFadingOut] = useState(false);
 
   useEffect(() => {
     // Only show loader on initial website opening
-    if (typeof window !== "undefined" && sessionStorage.getItem("site_has_loaded")) {
+    if (isLoadedInSession || (typeof window !== "undefined" && sessionStorage.getItem("site_has_loaded"))) {
       setIsLoading(false);
+      isLoadedInSession = true;
       return;
     }
 
@@ -26,6 +36,7 @@ export default function ForcedPageLoader({ locale }) {
       setIsFadingOut(true);
       exitTimer = setTimeout(() => {
         setIsLoading(false);
+        isLoadedInSession = true;
         try {
           sessionStorage.setItem("site_has_loaded", "true");
         } catch (e) {
@@ -39,8 +50,8 @@ export default function ForcedPageLoader({ locale }) {
       setTimeout(finishLoading, 400);
     } else {
       window.addEventListener("load", finishLoading);
-      // Fallback max timeout (4 seconds) in case external resources hang
-      maxTimeout = setTimeout(finishLoading, 4000);
+      // Fallback max timeout (3 seconds) in case external resources hang
+      maxTimeout = setTimeout(finishLoading, 3000);
     }
 
     return () => {
