@@ -15,20 +15,39 @@ export default function ForcedPageLoader({ locale }) {
       return;
     }
 
-    const minDisplayTimer = setTimeout(() => {
+    let isDone = false;
+    let exitTimer = null;
+    let maxTimeout = null;
+
+    const finishLoading = () => {
+      if (isDone) return;
+      isDone = true;
+
       setIsFadingOut(true);
-      const exitTimer = setTimeout(() => {
+      exitTimer = setTimeout(() => {
         setIsLoading(false);
         try {
           sessionStorage.setItem("site_has_loaded", "true");
         } catch (e) {
           // ignore session storage errors
         }
-      }, 400); // 400ms fade out animation
-      return () => clearTimeout(exitTimer);
-    }, 800); // Initial 800ms display time
+      }, 400); // 400ms fade-out transition
+    };
 
-    return () => clearTimeout(minDisplayTimer);
+    // Check if the site is already completely loaded
+    if (document.readyState === "complete") {
+      setTimeout(finishLoading, 400);
+    } else {
+      window.addEventListener("load", finishLoading);
+      // Fallback max timeout (4 seconds) in case external resources hang
+      maxTimeout = setTimeout(finishLoading, 4000);
+    }
+
+    return () => {
+      window.removeEventListener("load", finishLoading);
+      if (exitTimer) clearTimeout(exitTimer);
+      if (maxTimeout) clearTimeout(maxTimeout);
+    };
   }, []);
 
   if (!isLoading) return null;
