@@ -1,30 +1,35 @@
 "use client";
 import { useState, useEffect } from "react";
-import { usePathname } from "next/navigation";
 import Image from "next/image";
 
 export default function ForcedPageLoader({ locale }) {
-  const pathname = usePathname();
   const isAr = locale === "ar";
 
   const [isLoading, setIsLoading] = useState(true);
   const [isFadingOut, setIsFadingOut] = useState(false);
 
   useEffect(() => {
-    // Force the loader to show on every route change / initial load
-    setIsLoading(true);
-    setIsFadingOut(false);
+    // Only show loader on initial website opening
+    if (typeof window !== "undefined" && sessionStorage.getItem("site_has_loaded")) {
+      setIsLoading(false);
+      return;
+    }
 
     const minDisplayTimer = setTimeout(() => {
       setIsFadingOut(true);
       const exitTimer = setTimeout(() => {
         setIsLoading(false);
+        try {
+          sessionStorage.setItem("site_has_loaded", "true");
+        } catch (e) {
+          // ignore session storage errors
+        }
       }, 400); // 400ms fade out animation
       return () => clearTimeout(exitTimer);
-    }, 800); // Forced 800ms display time
+    }, 800); // Initial 800ms display time
 
     return () => clearTimeout(minDisplayTimer);
-  }, [pathname]);
+  }, []);
 
   if (!isLoading) return null;
 
