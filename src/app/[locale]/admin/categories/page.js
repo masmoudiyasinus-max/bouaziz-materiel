@@ -8,14 +8,19 @@ export default async function AdminCategoriesPage({ params }) {
   const { locale } = await params;
   const isAr = locale === 'ar';
   
-  const categories = await prisma.category.findMany({
-    include: {
-      _count: {
-        select: { products: true }
-      }
-    },
-    orderBy: { id: 'asc' }
-  });
+  let categories = [];
+  try {
+    categories = await prisma.category.findMany({
+      include: {
+        _count: {
+          select: { products: true }
+        }
+      },
+      orderBy: { id: 'asc' }
+    });
+  } catch (err) {
+    console.error("Admin categories DB error:", err);
+  }
 
   return (
     <div>

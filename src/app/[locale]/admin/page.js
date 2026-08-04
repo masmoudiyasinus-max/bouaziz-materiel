@@ -7,15 +7,26 @@ export const dynamic = 'force-dynamic';
 
 export default async function AdminDashboard({ params }) {
   const { locale } = await params;
-  
-  // Fetch stats concurrently
-  const [totalProducts, totalCategories, outOfStock] = await Promise.all([
-    prisma.product.count(),
-    prisma.category.count(),
-    prisma.product.count({ where: { inStock: false } })
-  ]);
-
   const isAr = locale === 'ar';
+
+  let totalProducts = 0;
+  let totalCategories = 0;
+  let outOfStock = 0;
+  let dbError = null;
+
+  try {
+    const [pCount, cCount, oCount] = await Promise.all([
+      prisma.product.count(),
+      prisma.category.count(),
+      prisma.product.count({ where: { inStock: false } })
+    ]);
+    totalProducts = pCount;
+    totalCategories = cCount;
+    outOfStock = oCount;
+  } catch (err) {
+    console.error("Database connection error in Admin dashboard:", err);
+    dbError = err.message || "Erreur de connexion à la base de données";
+  }
 
   return (
     <div>
@@ -24,6 +35,21 @@ export default async function AdminDashboard({ params }) {
           {isAr ? "نظرة عامة (Overview)" : "Aperçu (Overview)"}
         </h1>
       </div>
+
+      {dbError && (
+        <div style={{
+          padding: "16px",
+          borderRadius: "12px",
+          backgroundColor: "rgba(239, 68, 68, 0.15)",
+          border: "1px solid rgba(239, 68, 68, 0.3)",
+          color: "#ef4444",
+          marginBottom: "24px",
+          fontSize: "0.88rem"
+        }}>
+          <strong>{isAr ? "⚠️ تعذر الاتصال بقاعدة البيانات:" : "⚠️ Erreur de connexion à la base de données :"}</strong>
+          <p style={{ margin: "4px 0 0 0", fontFamily: "monospace", fontSize: "0.8rem" }}>{dbError}</p>
+        </div>
+      )}
       
       <div className={styles.statsGrid}>
         <div className={styles.statCard}>
