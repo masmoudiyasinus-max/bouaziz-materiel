@@ -11,7 +11,12 @@ import AdminView from "./views/AdminView";
 
 export default function App() {
   const [currentView, setCurrentView] = useState(() => {
-    return window.location.hash === "#admin" ? "admin" : "home";
+    if (typeof window !== "undefined") {
+      if (window.location.hash === "#admin" || window.location.pathname.startsWith("/admin")) {
+        return "admin";
+      }
+    }
+    return "home";
   }); // 'home' | 'boutique' | 'about' | 'contact' | 'faq' | 'admin'
   const [selectedCategory, setSelectedCategory] = useState("all");
   const [modalProduct, setModalProduct] = useState(null);
@@ -22,13 +27,17 @@ export default function App() {
   }, [currentView]);
 
   useEffect(() => {
-    const handleHashChange = () => {
-      if (window.location.hash === "#admin") {
+    const handleLocationCheck = () => {
+      if (window.location.hash === "#admin" || window.location.pathname.startsWith("/admin")) {
         setCurrentView("admin");
       }
     };
-    window.addEventListener("hashchange", handleHashChange);
-    return () => window.removeEventListener("hashchange", handleHashChange);
+    window.addEventListener("hashchange", handleLocationCheck);
+    window.addEventListener("popstate", handleLocationCheck);
+    return () => {
+      window.removeEventListener("hashchange", handleLocationCheck);
+      window.removeEventListener("popstate", handleLocationCheck);
+    };
   }, []);
 
   const handleNavigate = (view) => {
