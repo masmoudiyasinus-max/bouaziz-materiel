@@ -1,11 +1,11 @@
 {
-  "name": "Bouaziz Materiel",
-  "short_name": "Bouaziz Materiel",
+  "name": "AgriPro Matériel",
+  "short_name": "AgriPro",
   "description": "Le spécialiste N°1 en équipements agricoles et avicoles en Tunisie",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#153e2b",
+  "theme_color": "#09090b",
   "orientation": "portrait",
   "icons": [
     {

@@ -1,12 +1,12 @@
 /**
  * Centralized Local Storage Service with In-Memory Resilience Fallback
- * Pure Client-Side SPA Storage Architecture for Bouaziz Matériel Agricole
+ * Pure Client-Side SPA Storage Architecture for AgriPro Matériel Agricole
  */
 
 const STORAGE_KEYS = {
-  CART: "bouaziz_cart_items_v2",
-  CUSTOMER: "bouaziz_customer_info_v2",
-  ORDERS: "bouaziz_order_history_v2",
+  CART: "agripro_cart_items_v2",
+  CUSTOMER: "agripro_customer_info_v2",
+  ORDERS: "agripro_order_history_v2",
 };
 
 
@@ -18,7 +18,7 @@ function isStorageAvailable() {
     if (typeof window === "undefined" || !window.localStorage) {
       return false;
     }
-    const testKey = "__bouaziz_storage_test__";
+    const testKey = "__agripro_storage_test__";
     window.localStorage.setItem(testKey, "1");
     window.localStorage.removeItem(testKey);
     return true;

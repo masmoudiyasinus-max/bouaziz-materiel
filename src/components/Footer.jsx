@@ -13,7 +13,7 @@ import {
   Share2,
   Lock,
 } from "lucide-react";
-import { WHATSAPP_PHONE, SHOWROOM_PHONE_ALT } from "../services/whatsappService";
+import { WHATSAPP_PHONE, WHATSAPP_API_PHONE, SHOWROOM_PHONE_ALT } from "../services/whatsappService";
 
 export default function Footer({ onNavigate, onSelectCategory }) {
   const scrollToTop = () => {
@@ -40,7 +40,7 @@ export default function Footer({ onNavigate, onSelectCategory }) {
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4 pt-2 sm:pt-3 max-w-xs sm:max-w-none mx-auto">
             <a
-              href="tel:+21621361673"
+              href={`tel:${WHATSAPP_PHONE.replace(/\s+/g, '')}`}
               className="w-full sm:w-auto px-7 py-3.5 rounded-full bg-white hover:bg-slate-100 text-black font-black text-xs sm:text-sm shadow-xl flex items-center justify-center gap-2 transition active:scale-95"
             >
               <Phone className="h-4 w-4 text-black flex-shrink-0" />
@@ -48,7 +48,7 @@ export default function Footer({ onNavigate, onSelectCategory }) {
             </a>
 
             <a
-              href="https://wa.me/21621361673"
+              href={`https://wa.me/${WHATSAPP_API_PHONE}`}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto px-7 py-3.5 rounded-full bg-zinc-900 hover:bg-zinc-800 text-white font-bold text-xs sm:text-sm border border-zinc-700 shadow-xl flex items-center justify-center gap-2 transition active:scale-95"
@@ -66,7 +66,7 @@ export default function Footer({ onNavigate, onSelectCategory }) {
             <div className="flex items-center">
               <img
                 src="/logo.svg"
-                alt="Bouaziz Materiel"
+                alt="AgriPro Matériel"
                 className="h-9 sm:h-11 w-auto object-contain brightness-0 invert drop-shadow"
               />
             </div>
@@ -153,7 +153,7 @@ export default function Footer({ onNavigate, onSelectCategory }) {
                 Nos Rayons
               </h4>
               <ul className="space-y-1.5 sm:space-y-2 text-[11px] sm:text-xs">
-                {categories.slice(0, 6).map((cat) => (
+                {categories.map((cat) => (
                   <li key={cat.id}>
                     <a
                       href="#"
@@ -178,7 +178,7 @@ export default function Footer({ onNavigate, onSelectCategory }) {
               <div className="space-y-2 text-[11px] sm:text-xs text-slate-300">
                 <div className="flex items-start gap-1.5">
                   <MapPin className="h-3.5 w-3.5 text-[#38bdf8] flex-shrink-0 mt-0.5" />
-                  <span className="truncate">Sfax km 11</span>
+                  <span className="truncate">Tunis, Tunisie</span>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <Clock className="h-3.5 w-3.5 text-slate-400 flex-shrink-0" />
@@ -186,19 +186,19 @@ export default function Footer({ onNavigate, onSelectCategory }) {
                 </div>
                 <div className="flex items-center gap-1.5" dir="ltr">
                   <Phone className="h-3.5 w-3.5 text-[#38bdf8] flex-shrink-0" />
-                  <a href="tel:+21621361673" className="hover:text-white transition font-bold text-white truncate">
+                  <a href={`tel:${WHATSAPP_PHONE.replace(/\s+/g, '')}`} className="hover:text-white transition font-bold text-white truncate">
                     {WHATSAPP_PHONE}
                   </a>
                 </div>
                 <div className="flex items-center gap-1.5" dir="ltr">
                   <Phone className="h-3.5 w-3.5 text-[#38bdf8] flex-shrink-0" />
-                  <a href="tel:+21623461919" className="hover:text-white transition font-bold text-white truncate">
+                  <a href={`tel:${SHOWROOM_PHONE_ALT.replace(/\s+/g, '')}`} className="hover:text-white transition font-bold text-white truncate">
                     {SHOWROOM_PHONE_ALT}
                   </a>
                 </div>
                 <div className="flex items-center gap-1.5">
                   <Mail className="h-3.5 w-3.5 text-slate-400 flex-shrink-0" />
-                  <a href="mailto:contact@bouazizmaterielagricole.tn" className="hover:text-white transition truncate">
+                  <a href="mailto:contact@agripro-materiel.tn" className="hover:text-white transition truncate">
                     Email
                   </a>
                 </div>
@@ -216,7 +216,7 @@ export default function Footer({ onNavigate, onSelectCategory }) {
                   <Share2 className="h-3 w-3" />
                 </a>
                 <a
-                  href="https://bouazizmaterielagricole.tn"
+                  href="https://agripro-materiel.tn"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="h-7 w-7 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition active:scale-95"
@@ -225,7 +225,7 @@ export default function Footer({ onNavigate, onSelectCategory }) {
                   <Globe className="h-3 w-3" />
                 </a>
                 <a
-                  href="https://wa.me/21621361673"
+                  href="https://wa.me/21670000000"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="h-7 w-7 rounded-full bg-[#25D366]/20 hover:bg-[#25D366]/30 text-[#25D366] flex items-center justify-center transition active:scale-95 border border-[#25D366]/30"
@@ -241,7 +241,7 @@ export default function Footer({ onNavigate, onSelectCategory }) {
         {/* Bottom Bar */}
         <div className="pt-6 sm:pt-8 border-t border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <p className="text-center sm:text-left">
-            © {new Date().getFullYear()} Bouaziz Materiel. Tous droits réservés.
+            © {new Date().getFullYear()} AgriPro Matériel. Tous droits réservés.
           </p>
 
           <div className="flex flex-wrap items-center justify-center sm:justify-end gap-3 sm:gap-6">

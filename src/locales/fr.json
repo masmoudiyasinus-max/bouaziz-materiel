@@ -12,13 +12,13 @@
     "cart": "Panier"
   },
   "footer": {
-    "aboutTitle": "Bouaziz Matériel Agricole",
+    "aboutTitle": "AgriPro Matériel Agricole",
     "aboutText": "Le spécialiste N°1 en Tunisie pour l'équipement d'élevage et les machines agricoles.",
     "linksTitle": "Liens utiles",
     "contactTitle": "Contact",
-    "address": "Route Hzamia km 11, Sfax, Tunisie",
+    "address": "Zone Industrielle, Tunis, Tunisie",
     "hours": "Lun-Dim: 08h00 - 18h00",
-    "copyright": "© 2026 Tous droits réservés. Bouaziz matériel agricole et d'élevage."
+    "copyright": "© 2026 Tous droits réservés. AgriPro matériel agricole et d'élevage."
   },
   "hero": {
     "badge": "L'Excellence Agricole",
@@ -103,9 +103,9 @@
   },
   "about": {
     "badge": "À propos de nous",
-    "title1": "Bouaziz Matériel",
+    "title1": "AgriPro Matériel",
     "title2": "Agricole & Élevage",
-    "desc1": "Bouaziz Matériel Agricole est le partenaire de référence pour les éleveurs et agriculteurs tunisiens.",
+    "desc1": "AgriPro Matériel Agricole est le partenaire de référence pour les éleveurs et agriculteurs tunisiens.",
     "desc2": "Nous sommes spécialisés dans l'importation, la fabrication et la distribution d'équipements avicoles, couveuses automatiques, mangeoires, abreuvoirs et machines agricoles de haute performance.",
     "stat1": "+15",
     "stat1Label": "Années d'expérience",
@@ -135,7 +135,7 @@
       },
       {
         "q": "Où se trouve votre showroom ?",
-        "a": "Notre showroom principal se trouve à Sfax : Route Hzamia (Centre) km 11, ouvert 7j/7 de 08h00 à 18h00."
+        "a": "Notre showroom principal se trouve à Tunis : Zone Industrielle, ouvert 7j/7 de 08h00 à 18h00."
       },
       {
         "q": "Proposez-vous un accompagnement pour le réglage des couveuses ?",

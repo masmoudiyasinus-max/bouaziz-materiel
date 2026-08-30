@@ -221,9 +221,9 @@ function AdminProductCard({ product, onEdit, onDelete }) {
 // (100,000 Key Derivation Iterations + Salt + Anti-Brute-Force Lockout)
 // Zero plaintext PIN exists anywhere in the source code or build bundle.
 // -------------------------------------------------------------
-const PBKDF2_SALT = "Bouaziz_Agricultural_CMS_Secure_Salt_2026_x89!";
+const PBKDF2_SALT = "AgriPro_Agricultural_CMS_Secure_Salt_2026_x89!";
 const PBKDF2_ROUNDS = 100000;
-const PBKDF2_DERIVED_SIGNATURE = "eebdbbbbbb5baf8942994efe0fe5d2ff7834522281f92368a8cd8945a5de8ed9";
+const PBKDF2_DERIVED_SIGNATURE = "efa3111b6ffa058f77d11cd92c1484f327215e1d4ddaec244f23636e3d59bd5f";
 
 const MAX_FAILED_ATTEMPTS = 5;
 const LOCKOUT_DURATION_MS = 5 * 60 * 1000; // 5 minutes lockout
@@ -273,12 +273,12 @@ async function deriveAdminKey(input) {
 // Validates 8-hour cryptographic session token
 function validateSession() {
   try {
-    const raw = sessionStorage.getItem("bouaziz_admin_session");
+    const raw = sessionStorage.getItem("agripro_admin_session");
     if (!raw) return false;
     const session = JSON.parse(raw);
     if (!session || !session.token || !session.expiresAt) return false;
     if (Date.now() > session.expiresAt) {
-      sessionStorage.removeItem("bouaziz_admin_session");
+      sessionStorage.removeItem("agripro_admin_session");
       return false;
     }
     return timingSafeEqual(session.token, PBKDF2_DERIVED_SIGNATURE);
@@ -300,7 +300,7 @@ export default function AdminView({ onNavigate }) {
   const [lockoutRemaining, setLockoutRemaining] = useState(0);
   const [failedAttempts, setFailedAttempts] = useState(() => {
     try {
-      const stored = localStorage.getItem("bouaziz_admin_lockout");
+      const stored = localStorage.getItem("agripro_admin_lockout");
       if (stored) {
         const data = JSON.parse(stored);
         if (data.lockedUntil && Date.now() < data.lockedUntil) {
@@ -315,7 +315,7 @@ export default function AdminView({ onNavigate }) {
   useEffect(() => {
     const checkLockout = () => {
       try {
-        const stored = localStorage.getItem("bouaziz_admin_lockout");
+        const stored = localStorage.getItem("agripro_admin_lockout");
         if (stored) {
           const data = JSON.parse(stored);
           if (data.lockedUntil && Date.now() < data.lockedUntil) {
@@ -396,8 +396,8 @@ export default function AdminView({ onNavigate }) {
           issuedAt: Date.now(),
           expiresAt: Date.now() + 8 * 3600 * 1000,
         };
-        sessionStorage.setItem("bouaziz_admin_session", JSON.stringify(sessionPayload));
-        localStorage.removeItem("bouaziz_admin_lockout");
+        sessionStorage.setItem("agripro_admin_session", JSON.stringify(sessionPayload));
+        localStorage.removeItem("agripro_admin_lockout");
         setFailedAttempts(0);
         setIsAuthenticated(true);
         setPinError(false);
@@ -410,7 +410,7 @@ export default function AdminView({ onNavigate }) {
         if (newAttempts >= MAX_FAILED_ATTEMPTS) {
           const lockedUntil = Date.now() + LOCKOUT_DURATION_MS;
           localStorage.setItem(
-            "bouaziz_admin_lockout",
+            "agripro_admin_lockout",
             JSON.stringify({ attempts: newAttempts, lockedUntil })
           );
           setLockoutRemaining(Math.ceil(LOCKOUT_DURATION_MS / 1000));
@@ -426,7 +426,7 @@ export default function AdminView({ onNavigate }) {
 
   const handleLogout = () => {
     setIsAuthenticated(false);
-    sessionStorage.removeItem("bouaziz_admin_session");
+    sessionStorage.removeItem("agripro_admin_session");
   };
 
   const handleSort = (key) => {
@@ -678,7 +678,7 @@ export default function AdminView({ onNavigate }) {
 
   // Backup Download of products.js
   const handleDownloadFile = () => {
-    const fileContent = `// Fichier généré automatiquement par Bouaziz CMS\nexport const products = ${JSON.stringify(productList, null, 2)};\n`;
+    const fileContent = `// Fichier généré automatiquement par AgriPro CMS\nexport const products = ${JSON.stringify(productList, null, 2)};\n`;
     const blob = new Blob([fileContent], { type: "text/javascript" });
     const url = URL.createObjectURL(blob);
     const a = document.createElement("a");
@@ -741,7 +741,7 @@ export default function AdminView({ onNavigate }) {
               Espace Administration
             </h1>
             <p className="text-xs text-slate-400">
-              Bouaziz Matériel Agricole — Système Sécurisé
+              AgriPro Matériel Agricole — Système Sécurisé
             </p>
           </div>
 
@@ -847,7 +847,7 @@ export default function AdminView({ onNavigate }) {
               <div className="flex items-center gap-2">
                 <span className="h-2.5 w-2.5 rounded-full bg-emerald-500 animate-pulse" />
                 <h1 className="text-lg font-black text-slate-900">
-                  Bouaziz CMS — Gestion des Produits
+                  AgriPro CMS — Gestion des Produits
                 </h1>
               </div>
               <p className="text-xs text-slate-500 font-medium">

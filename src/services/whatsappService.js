@@ -1,6 +1,6 @@
-export const WHATSAPP_PHONE = "+216 21 361 673";
-export const WHATSAPP_API_PHONE = "21621361673";
-export const SHOWROOM_PHONE_ALT = "+216 23 461 919";
+export const WHATSAPP_PHONE = "+216 70 000 000";
+export const WHATSAPP_API_PHONE = "21670000000";
+export const SHOWROOM_PHONE_ALT = "+216 71 000 000";
 
 export function buildOrderWhatsAppUrl({
   orderRef,
@@ -25,7 +25,7 @@ export function buildOrderWhatsAppUrl({
     : "";
 
   const text =
-    `🛒 *NOUVELLE COMMANDE BOUAZIZ* (Réf: ${orderRef})\n\n` +
+    `🛒 *NOUVELLE COMMANDE AGRIPRO* (Réf: ${orderRef})\n\n` +
     `👤 *Client:* ${fullName}\n` +
     `📞 *Téléphone:* ${phone}\n` +
     `📍 *Gouvernorat:* ${governorate} — ${delegation}\n` +
@@ -44,7 +44,7 @@ export function buildProductWhatsAppUrl({
   price,
   quantity = 1,
 }) {
-  const text = `Bonjour Bouaziz Matériel, je souhaite commander :\n📦 *${title}*\n💰 Prix: *${Number(price || 0).toFixed(2)} DT*\n🔢 Quantité: *${quantity}*\n🚚 Livraison nationale`;
+  const text = `Bonjour AgriPro Matériel, je souhaite commander :\n📦 *${title}*\n💰 Prix: *${Number(price || 0).toFixed(2)} DT*\n🔢 Quantité: *${quantity}*\n🚚 Livraison nationale`;
 
   return `https://wa.me/${WHATSAPP_API_PHONE}?text=${encodeURIComponent(text)}`;
 }

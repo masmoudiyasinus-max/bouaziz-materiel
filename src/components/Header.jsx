@@ -103,7 +103,7 @@ export default function Header({
             >
               <img
                 src="/logo.svg"
-                alt="Bouaziz Materiel"
+                alt="AgriPro Matériel"
                 className="h-9 sm:h-11 w-auto object-contain transition-all duration-300 group-hover:scale-105 filter-none"
               />
             </a>
@@ -361,7 +361,7 @@ export default function Header({
             <div className="space-y-6">
               {/* Drawer Header */}
               <div className="flex items-center justify-between pb-4 border-b border-slate-100">
-                <img src="/logo.svg" alt="Bouaziz Materiel" className="h-8 w-auto object-contain filter-none" />
+                <img src="/logo.svg" alt="AgriPro Matériel" className="h-8 w-auto object-contain filter-none" />
                 <button
                   onClick={() => setMobileMenuOpen(false)}
                   className="p-1 rounded-lg text-slate-400 hover:bg-slate-100"
@@ -433,7 +433,7 @@ export default function Header({
             {/* Bottom Actions */}
             <div className="pt-6 border-t border-slate-100 space-y-3">
               <a
-                href="tel:+21621361673"
+                href={`tel:${WHATSAPP_PHONE.replace(/\s+/g, '')}`}
                 className="flex items-center justify-center gap-2 w-full py-3 rounded-full bg-black text-white font-bold text-xs shadow-md"
               >
                 <Phone className="h-4 w-4 text-[#38bdf8]" />

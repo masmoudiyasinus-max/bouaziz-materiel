@@ -21,7 +21,7 @@ import {
   Scale,
   Zap,
 } from "lucide-react";
-import { WHATSAPP_PHONE, SHOWROOM_PHONE_ALT } from "../services/whatsappService";
+import { WHATSAPP_PHONE, WHATSAPP_API_PHONE, SHOWROOM_PHONE_ALT } from "../services/whatsappService";
 
 const iconMap = {
   Egg,
@@ -90,7 +90,7 @@ export default function HomeView({ onNavigate, onSelectCategory, onOpenProductMo
             </button>
 
             <a
-              href="https://wa.me/21621361673"
+              href={`https://wa.me/${WHATSAPP_API_PHONE}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-xs text-slate-900 hover:text-black transition-colors duration-200 font-bold underline underline-offset-4 decoration-slate-900 hover:decoration-black pt-0.5"
@@ -252,7 +252,7 @@ export default function HomeView({ onNavigate, onSelectCategory, onOpenProductMo
                   3,400.00 DT
                 </span>
                 <a
-                  href="https://wa.me/21621361673?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20la%20d%C3%A9cortiqueuse%20d%27amandes%20Bouaziz"
+                  href={`https://wa.me/${WHATSAPP_API_PHONE}?text=${encodeURIComponent("Bonjour, je suis intéressé par la décortiqueuse d'amandes AgriPro")}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-3 rounded-full bg-white hover:bg-zinc-200 text-black font-black text-xs shadow-lg transition active:scale-95 flex items-center gap-2"
@@ -288,7 +288,7 @@ export default function HomeView({ onNavigate, onSelectCategory, onOpenProductMo
         </div>
       </section>
 
-      {/* 5. WHY BOUAZIZ & SFAX SHOWROOM */}
+      {/* 5. WHY AGRIPRO & SHOWROOM */}
       <section className="relative py-20 bg-gradient-to-b from-zinc-900 via-zinc-950 to-black text-white overflow-hidden border-t border-zinc-700/60">
         {/* White Gradient Light across entire section from top */}
         <div className="absolute top-0 inset-x-0 h-64 bg-gradient-to-b from-white/20 via-white/5 to-transparent pointer-events-none" />
@@ -345,14 +345,14 @@ export default function HomeView({ onNavigate, onSelectCategory, onOpenProductMo
               </div>
             </div>
 
-            {/* Showroom Sfax Card */}
+            {/* Showroom Card */}
             <div className="rounded-3xl bg-zinc-900 p-8 sm:p-10 border border-zinc-800 shadow-2xl space-y-6">
               <div className="space-y-3">
                 <span className="text-xs font-black tracking-widest text-slate-400 uppercase">
                   Showroom Principal
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-black text-white">
-                  Visitez Notre Showroom à Sfax
+                  Visitez Notre Showroom
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
                   Découvrez notre matériel en démonstration permanente.
@@ -362,7 +362,7 @@ export default function HomeView({ onNavigate, onSelectCategory, onOpenProductMo
               <div className="space-y-3 pt-4 border-t border-zinc-800 text-xs text-slate-300">
                 <div className="flex items-center gap-3">
                   <MapPin className="h-4 w-4 text-[#38bdf8] flex-shrink-0" />
-                  <span>Route Hzamia km 11, Sfax, Tunisie</span>
+                  <span>Zone Industrielle, Tunis, Tunisie</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Clock className="h-4 w-4 text-emerald-400 flex-shrink-0" />
@@ -370,7 +370,7 @@ export default function HomeView({ onNavigate, onSelectCategory, onOpenProductMo
                 </div>
                 <div className="flex items-center gap-3 pt-1" dir="ltr">
                   <Phone className="h-4 w-4 text-[#38bdf8] flex-shrink-0" />
-                  <a href="tel:+21621361673" className="font-bold text-white hover:text-slate-300">
+                  <a href={`tel:${WHATSAPP_PHONE.replace(/\s+/g, '')}`} className="font-bold text-white hover:text-slate-300">
                     {WHATSAPP_PHONE} / {SHOWROOM_PHONE_ALT}
                   </a>
                 </div>

@@ -1,4 +1,4 @@
-// Fichier généré automatiquement par Bouaziz CMS
+// Fichier généré automatiquement par AgriPro CMS
 export const products = [
   {
     "id": 1,
@@ -769,10 +769,10 @@ export const products = [
   },
   {
     "id": 34,
-    "name": "Décortiqueuse / Éplucheuse d'Amandes & Pistaches Bouaziz",
-    "slug": "decortiqueuse-amandes-bouaziz",
+    "name": "Décortiqueuse / Éplucheuse d'Amandes & Pistaches AgriPro",
+    "slug": "decortiqueuse-amandes-agripro",
     "category": "machines-agricoles",
-    "description": "Machine exclusive conçue et fabriquée par Bouaziz Matériel Agricole pour le dépouillage rapide et propre des amandes et pistaches vertes.",
+    "description": "Machine exclusive conçue et fabriquée par AgriPro Matériel Agricole pour le dépouillage rapide et propre des amandes et pistaches vertes.",
     "features": [
       "Moteur thermique essence 7.5 CV",
       "Rendement élevé : 300 à 500 kg/heure",
@@ -782,7 +782,7 @@ export const products = [
     "price": 3400,
     "oldPrice": 3700,
     "inStock": true,
-    "badge": "Exclusivité Bouaziz",
+    "badge": "Exclusivité AgriPro",
     "specBadge": "7.5 CV Thermique",
     "specSub": "Rendement 500 kg/h | Fabrication Pro",
     "image": "/images/products/decortiqueuse-amandes-v2.jpg",

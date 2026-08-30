@@ -6,7 +6,7 @@ const ProductsContext = createContext(null);
 export function ProductsProvider({ children }) {
   const [products, setProducts] = useState(() => {
     try {
-      const saved = localStorage.getItem("bouaziz_products_custom");
+      const saved = localStorage.getItem("agripro_products_custom");
       if (saved) {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed) && parsed.length > 0) {
@@ -23,7 +23,7 @@ export function ProductsProvider({ children }) {
   const saveProducts = useCallback(async (newProductsList) => {
     setProducts(newProductsList);
     try {
-      localStorage.setItem("bouaziz_products_custom", JSON.stringify(newProductsList));
+      localStorage.setItem("agripro_products_custom", JSON.stringify(newProductsList));
     } catch (e) {
       console.warn("Could not save to localStorage", e);
     }
@@ -42,7 +42,7 @@ export function ProductsProvider({ children }) {
   }, []);
 
   const resetToDefault = useCallback(async () => {
-    localStorage.removeItem("bouaziz_products_custom");
+    localStorage.removeItem("agripro_products_custom");
     setProducts(staticProducts);
     try {
       await fetch("/api/save-products", {

@@ -73,7 +73,7 @@ export function useCheckoutForm({ items = [], total = 0, clearCart }) {
       const cleanPhone = formData.phone.replace(/[\s\-\.\(\)]/g, "").replace(/^(\+216|00216)/, "");
       const isTunisianPhone = /^[24579]\d{7}$/.test(cleanPhone) || /^\d{8}$/.test(cleanPhone);
       if (!isTunisianPhone) {
-        setError("Veuillez entrer un numéro de téléphone tunisien valide (8 chiffres, ex: 21361673).");
+        setError("Veuillez entrer un numéro de téléphone tunisien valide (8 chiffres, ex: 20123456).");
         return;
       }
 

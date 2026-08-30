@@ -75,12 +75,12 @@ export default function CompanyView({ defaultTab = "about", onNavigate }) {
             {/* Text Content */}
             <div className="space-y-6">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight text-white">
-                Bouaziz Matériel Agricole —{" "}
+                AgriPro Matériel Agricole —{" "}
                 <span className="text-[#38bdf8] font-instrument italic">Partenaire de Confiance</span> des Éleveurs
               </h2>
 
               <p className="text-sm sm:text-base text-slate-300 leading-relaxed font-normal">
-                Depuis plusieurs années, Bouaziz Matériel Agricole accompagne les éleveurs et agriculteurs tunisiens avec des équipements performants, robustes et adaptés aux conditions locales : couveuses automatiques, mangeoires, décortiqueuses et machines d'élevage.
+                Depuis plusieurs années, AgriPro Matériel Agricole accompagne les éleveurs et agriculteurs tunisiens avec des équipements performants, robustes et adaptés aux conditions locales : couveuses automatiques, mangeoires, décortiqueuses et machines d'élevage.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
@@ -110,20 +110,20 @@ export default function CompanyView({ defaultTab = "about", onNavigate }) {
             <div className="rounded-3xl bg-zinc-900 p-8 sm:p-10 border border-zinc-800 shadow-2xl space-y-6">
               <div className="space-y-3">
                 <span className="text-xs font-black tracking-widest text-slate-400 uppercase">
-                  Showroom Sfax
+                  Showroom Principal
                 </span>
                 <h3 className="text-2xl sm:text-3xl font-black text-white">
                   Visitez Notre Showroom
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                  Sfax : Route Hzamia km 11. Venez découvrir l'ensemble de notre gamme en exposition.
+                  Venez découvrir l'ensemble de notre gamme d'équipements en exposition permanente.
                 </p>
               </div>
 
               <div className="space-y-3 pt-4 border-t border-zinc-800 text-xs text-slate-300">
                 <div className="flex items-center gap-2.5">
                   <MapPin className="h-4 w-4 text-[#38bdf8] flex-shrink-0" />
-                  <span>Route Hzamia km 11, Sfax, Tunisie</span>
+                  <span>Zone Industrielle, Tunis, Tunisie</span>
                 </div>
                 <div className="flex items-center gap-2.5">
                   <ShieldCheck className="h-4 w-4 text-emerald-400 flex-shrink-0" />
@@ -131,7 +131,7 @@ export default function CompanyView({ defaultTab = "about", onNavigate }) {
                 </div>
                 <div className="flex items-center gap-2.5 pt-2" dir="ltr">
                   <Phone className="h-4 w-4 text-[#38bdf8] flex-shrink-0" />
-                  <a href="tel:+21621361673" className="font-bold text-white hover:text-slate-300">
+                  <a href={`tel:${WHATSAPP_PHONE.replace(/\s+/g, '')}`} className="font-bold text-white hover:text-slate-300">
                     {WHATSAPP_PHONE} / {SHOWROOM_PHONE_ALT}
                   </a>
                 </div>
@@ -211,7 +211,7 @@ export default function CompanyView({ defaultTab = "about", onNavigate }) {
                         Adresse :
                       </strong>
                       <span className="text-slate-300">
-                        Route Hzamia (Centre) km 11, Sfax, Tunisie
+                        Zone Industrielle, Tunis, Tunisie
                       </span>
                     </div>
                   </div>
@@ -223,10 +223,10 @@ export default function CompanyView({ defaultTab = "about", onNavigate }) {
                         Téléphone direct :
                       </strong>
                       <div className="space-y-1 text-slate-300" dir="ltr">
-                        <a href="tel:+21621361673" className="block hover:text-white transition">
+                        <a href={`tel:${WHATSAPP_PHONE.replace(/\s+/g, '')}`} className="block hover:text-white transition">
                           {WHATSAPP_PHONE}
                         </a>
-                        <a href="tel:+21623461919" className="block hover:text-white transition">
+                        <a href={`tel:${SHOWROOM_PHONE_ALT.replace(/\s+/g, '')}`} className="block hover:text-white transition">
                           {SHOWROOM_PHONE_ALT}
                         </a>
                       </div>
@@ -240,10 +240,10 @@ export default function CompanyView({ defaultTab = "about", onNavigate }) {
                         Email :
                       </strong>
                       <a
-                        href="mailto:contact@bouazizmaterielagricole.tn"
+                        href="mailto:contact@agripro-materiel.tn"
                         className="text-slate-300 hover:text-white"
                       >
-                        contact@bouazizmaterielagricole.tn
+                        contact@agripro-materiel.tn
                       </a>
                     </div>
                   </div>

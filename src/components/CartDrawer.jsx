@@ -307,7 +307,7 @@ export default function CartDrawer() {
                   </button>
 
                   <a
-                    href="tel:+21621361673"
+                    href="tel:+21670000000"
                     className="btn btn-secondary btn-sm w-full sm:w-auto text-black"
                   >
                     <Phone className="h-3.5 w-3.5" />
@@ -336,7 +336,7 @@ export default function CartDrawer() {
                       type="text"
                       name="fullName"
                       required
-                      placeholder="Ex: Mohamed Bouaziz"
+                      placeholder="Ex: Mohamed Ben Ali"
                       value={formData.fullName}
                       onChange={handleInputChange}
                       className="w-full rounded-2xl border border-slate-200 p-3 text-xs bg-[#f8fafc] focus:bg-white focus:border-black focus:outline-none"
