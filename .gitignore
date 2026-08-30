@@ -19,6 +19,8 @@
 
 # production
 /build
+/dist
+/bouaziz-standalone
 
 # misc
 .DS_Store

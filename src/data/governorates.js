@@ -96,3 +96,4 @@ export const governorates = [
     delegations: ["Zaghouan", "Bir Mcherga", "El Fahs", "Nadhour", "Saouaf", "Zriba"],
   },
 ];
+

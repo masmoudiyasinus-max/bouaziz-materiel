@@ -1,0 +1,161 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "boutique": "Boutique",
+    "about": "À propos",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "cart": "Panier"
+  },
+  "header": {
+    "searchPlaceholder": "Rechercher un équipement...",
+    "cart": "Panier"
+  },
+  "footer": {
+    "aboutTitle": "Bouaziz Matériel Agricole",
+    "aboutText": "Le spécialiste N°1 en Tunisie pour l'équipement d'élevage et les machines agricoles.",
+    "linksTitle": "Liens utiles",
+    "contactTitle": "Contact",
+    "address": "Route Hzamia km 11, Sfax, Tunisie",
+    "hours": "Lun-Dim: 08h00 - 18h00",
+    "copyright": "© 2026 Tous droits réservés. Bouaziz matériel agricole et d'élevage."
+  },
+  "hero": {
+    "badge": "L'Excellence Agricole",
+    "title": "Équipez Votre Exploitation Avec Le",
+    "titleHighlight": "Meilleur Matériel",
+    "description": "Le spécialiste N°1 en Tunisie pour l'équipement d'élevage et les machines agricoles.",
+    "ctaPrimary": "Découvrir la Boutique",
+    "ctaSecondary": "Nos Services"
+  },
+  "product": {
+    "details": "Voir détails",
+    "inStock": "En stock",
+    "outOfStock": "Rupture de stock",
+    "addToCart": "Ajouter au panier",
+    "addedToCart": "Ajouté au panier !",
+    "quantity": "Quantité",
+    "features": "Caractéristiques techniques",
+    "notFound": "Produit introuvable",
+    "backShop": "Retour à la boutique",
+    "zoomHint": "survoler pour zoomer / cliquer pour grand format",
+    "model": "Modèle / Configuration :",
+    "brand": "Marque / Origine :",
+    "delivery": "Livraison nationale",
+    "deliverySub": "Toute la Tunisie — 8 DT",
+    "quality": "Qualité garantie",
+    "qualitySub": "SAV et support technique",
+    "package": "Emballage sécurisé",
+    "packageSub": "Protection maximale",
+    "related": "Produits",
+    "relatedHighlight": "similaires",
+    "close": "Fermer"
+  },
+  "boutique": {
+    "title1": "Notre",
+    "title2": "Catalogue",
+    "desc": "Découvrez notre gamme complète de produits professionnels pour l'agriculture et l'élevage.",
+    "searchPlaceholder": "Rechercher un produit (ex: décortiqueuse, amandes, couveuse)...",
+    "allCategories": "Toutes les catégories",
+    "sortName": "Trier par nom",
+    "sortPriceAsc": "Prix croissant",
+    "sortPriceDesc": "Prix décroissant",
+    "noProducts": "Aucun produit ne correspond à vos critères de recherche.",
+    "showing": "Affichage de",
+    "of": "sur",
+    "products": "produits"
+  },
+  "cart": {
+    "title": "Votre Panier",
+    "empty": "Votre panier est vide",
+    "emptyDesc": "Ajoutez des produits à votre panier pour commander",
+    "subtotal": "Sous-total",
+    "delivery": "Frais de livraison",
+    "deliveryFree": "Gratuit",
+    "deliveryFixed": "8.00 DT",
+    "total": "Total à payer",
+    "checkout": "Commander",
+    "continueShopping": "Continuer les achats",
+    "itemRemoved": "Produit retiré du panier",
+    "clear": "Vider le panier"
+  },
+  "checkout": {
+    "title": "Validation de la Commande",
+    "subtitle": "Paiement en espèces à la livraison. Remplissez vos coordonnées ci-dessous :",
+    "fullName": "Nom et prénom",
+    "fullNamePlaceholder": "Ex: Mohamed Trabelsi",
+    "phone": "Numéro de téléphone",
+    "phonePlaceholder": "Ex: 21 361 673",
+    "governorate": "Gouvernorat",
+    "selectGov": "Sélectionner un gouvernorat",
+    "delegation": "Délégation / Ville",
+    "selectDelegation": "Sélectionner une délégation",
+    "address": "Adresse complète",
+    "addressPlaceholder": "Rue, N° maison, indications de livraison...",
+    "notes": "Notes de commande (optionnel)",
+    "notesPlaceholder": "Instructions particulières pour la livraison...",
+    "orderSummary": "Récapitulatif de la commande",
+    "confirmWhatsapp": "Confirmer la commande via WhatsApp",
+    "submitting": "Préparation de la commande...",
+    "success": "Commande enregistrée avec succès !",
+    "successRef": "Votre référence de commande :",
+    "whatsappNotice": "Une discussion WhatsApp va s'ouvrir pour finaliser votre commande avec notre service client."
+  },
+  "about": {
+    "badge": "À propos de nous",
+    "title1": "Bouaziz Matériel",
+    "title2": "Agricole & Élevage",
+    "desc1": "Bouaziz Matériel Agricole est le partenaire de référence pour les éleveurs et agriculteurs tunisiens.",
+    "desc2": "Nous sommes spécialisés dans l'importation, la fabrication et la distribution d'équipements avicoles, couveuses automatiques, mangeoires, abreuvoirs et machines agricoles de haute performance.",
+    "stat1": "+15",
+    "stat1Label": "Années d'expérience",
+    "stat2": "+5000",
+    "stat2Label": "Clients satisfaits",
+    "stat3": "24",
+    "stat3Label": "Gouvernorats desservis",
+    "stat4": "100%",
+    "stat4Label": "Garantie & SAV"
+  },
+  "faq": {
+    "badge": "Foire Aux Questions",
+    "title1": "Questions",
+    "title2": "Fréquentes",
+    "list": [
+      {
+        "q": "Comment s'effectue le paiement ?",
+        "a": "Le paiement s'effectue en espèces à la livraison (contre remboursement), après réception et inspection de votre colis."
+      },
+      {
+        "q": "Quels sont les délais et frais de livraison ?",
+        "a": "La livraison est assurée sur toute la Tunisie (24 gouvernorats) à un tarif fixe de 8 DT sous 24 à 48 heures ouvrables."
+      },
+      {
+        "q": "Les couveuses et machines sont-elles garanties ?",
+        "a": "Oui, tous nos équipements bénéficient d'une garantie avec disponibilité continue des pièces de rechange et support technique."
+      },
+      {
+        "q": "Où se trouve votre showroom ?",
+        "a": "Notre showroom principal se trouve à Sfax : Route Hzamia (Centre) km 11, ouvert 7j/7 de 08h00 à 18h00."
+      },
+      {
+        "q": "Proposez-vous un accompagnement pour le réglage des couveuses ?",
+        "a": "Absolument. Notre équipe technique est disponible par téléphone et WhatsApp pour vous guider dans les réglages de température et d'humidité."
+      }
+    ]
+  },
+  "contact": {
+    "badge": "Contactez-nous",
+    "title1": "Nous sommes à",
+    "title2": "votre écoute",
+    "desc": "N'hésitez pas à nous contacter pour toute question, demande de devis ou assistance technique.",
+    "phone": "Téléphone / WhatsApp",
+    "email": "Email",
+    "address": "Adresse",
+    "hours": "Horaires",
+    "formTitle": "Envoyez-nous un message",
+    "name": "Nom complet",
+    "subject": "Sujet",
+    "message": "Message",
+    "send": "Envoyer via WhatsApp"
+  }
+}

@@ -4,110 +4,89 @@ export const categories = [
   {
     id: 1,
     name: "Couveuses & Chauffage",
-    nameAr: "الفقاسات والتدفئة",
     slug: "couveuses-chauffage",
     description: "Couveuses automatiques, incubateurs, systèmes de chauffage et accessoires de couvaison pour volailles",
-    descriptionAr: "فقاسات بيض أوتوماتيكية، حاضنات، أنظمة تدفئة ومستلزمات تفقيس الدواجن",
     icon: "Egg",
     get productCount() {
-      return products.filter((p) => p.category === "couveuses-chauffage").length;
+      return Array.isArray(products) ? products.filter((p) => p && p.category === "couveuses-chauffage").length : 0;
     },
-    image: "/images/categories/couveuses.jpg",
+    image: "/images/products/couveuse-durafiable-ah500.jpg",
   },
   {
     id: 2,
     name: "Mangeoires & Abreuvoirs",
-    nameAr: "المعالف والمشارب",
     slug: "mangeoires-abreuvoirs",
     description: "Mangeoires, abreuvoirs automatiques et systèmes d'alimentation pour volailles et oiseaux",
-    descriptionAr: "معالف، مشارب أوتوماتيكية وأنظمة تغذية للدواجن والطيور",
     icon: "Droplets",
     get productCount() {
-      return products.filter((p) => p.category === "mangeoires-abreuvoirs").length;
+      return Array.isArray(products) ? products.filter((p) => p && p.category === "mangeoires-abreuvoirs").length : 0;
     },
-    image: "/images/categories/mangeoires.jpg",
+    image: "/images/products/mangeoire-galvanisee-conique-20kg.jpg",
   },
   {
     id: 3,
     name: "Cages & Batteries",
-    nameAr: "الأقفاص والبطاريات",
     slug: "cages-batteries",
     description: "Cages d'élevage, batteries pour poules pondeuses, caisses de transport et équipements d'abattage",
-    descriptionAr: "أقفاص تربية، بطاريات دجاج بياض، صناديق نقل ومعدات ذبح",
     icon: "Grid3x3",
     get productCount() {
-      return products.filter((p) => p.category === "cages-batteries").length;
+      return Array.isArray(products) ? products.filter((p) => p && p.category === "cages-batteries").length : 0;
     },
-    image: "/images/categories/cages.jpg",
+    image: "/images/products/cage-poules-pondeuses-multi-etages.jpg",
   },
   {
     id: 4,
     name: "Élevage Bovin & Ovin",
-    nameAr: "تربية الأبقار والأغنام",
     slug: "elevage-bovin-ovin",
     description: "Machines à traire, matériel vétérinaire, tondeuses à laine et accessoires d'élevage",
-    descriptionAr: "آلات حلابة، معدات بيطرية، آلات جز صوف ومستلزمات تربية",
     icon: "Beef",
     get productCount() {
-      return products.filter((p) => p.category === "elevage-bovin-ovin").length;
+      return Array.isArray(products) ? products.filter((p) => p && p.category === "elevage-bovin-ovin").length : 0;
     },
-    image: "/images/categories/bovin.jpg",
+    image: "/images/products/machine-traire-omsa-20l.jpg",
   },
   {
     id: 5,
     name: "Machines Agricoles",
-    nameAr: "الآلات الزراعية",
     slug: "machines-agricoles",
-    description: "Motoculteurs, décortiqueuses, broyeurs d'aliments et équipements de récolte",
-    descriptionAr: "جرارات يدوية (Motoculteur)، مقشرات، مطاحن أعلاف ومعدات جني",
+    description: "Décortiqueuses d'amandes, broyeurs d'aliments, motoculteurs et équipements de récolte",
     icon: "Tractor",
     get productCount() {
-      return products.filter((p) => p.category === "machines-agricoles").length;
+      return Array.isArray(products) ? products.filter((p) => p && p.category === "machines-agricoles").length : 0;
     },
-    image: "/images/categories/machines.jpg",
+    image: "/images/products/decortiqueuse-amandes-v2.jpg",
   },
   {
     id: 6,
     name: "Ventilation & Irrigation",
-    nameAr: "التهوية والرش",
     slug: "ventilation-irrigation",
-    description: "Extracteurs d'air, pad cooling, pulvérisateurs et pompes d'irrigation",
-    descriptionAr: "مراوح سحب، لوحات تبريد، آلات رش مبيدات ومضخات مياه",
+    description: "Extracteurs d'air, panneaux cooling, systèmes de brumisation, pompes et tuyaux d'irrigation",
     icon: "Wind",
     get productCount() {
-      return products.filter((p) => p.category === "ventilation-irrigation").length;
+      return Array.isArray(products) ? products.filter((p) => p && p.category === "ventilation-irrigation").length : 0;
     },
-    image: "/images/categories/ventilation.jpg",
+    image: "/images/products/extracteur-air-industriel-140cm.jpg",
   },
   {
     id: 7,
-    name: "Alimentation & Santé Animale",
-    nameAr: "التغذية والصحة الحيوانية",
+    name: "Alimentation & Santé",
     slug: "alimentation-sante-animale",
-    description: "Aliments composés, vitamines, compléments alimentaires, antiparasitaires et raticides",
-    descriptionAr: "أعلاف مركبة، فيتامينات، مكملات غذائية، مبيدات حشرات وسموم فئران",
+    description: "Vitamines, compléments nutritionnels, désinfectants et produits d'hygiène pour élevages",
     icon: "Pill",
     get productCount() {
-      return products.filter((p) => p.category === "alimentation-sante-animale").length;
+      return Array.isArray(products) ? products.filter((p) => p && p.category === "alimentation-sante-animale").length : 0;
     },
-    image: "/images/categories/alimentation.jpg",
+    image: "/images/products/soluvit-ad3ec-vitamines-1l.jpg",
   },
   {
     id: 8,
-    name: "Balances & Équipements",
-    nameAr: "الموازين والمعدات",
+    name: "Balances & Pesage",
     slug: "balances-equipements",
-    description: "Balances commerciales, pèse-bétail, générateurs électriques et instruments de mesure",
-    descriptionAr: "موازين تجارية، موازين مواشي، مولدات كهرباء وأدوات قياس",
+    description: "Balances électroniques de précision, pesons suspendus et balances industrielles pour bétail et récoltes",
     icon: "Scale",
     get productCount() {
-      return products.filter((p) => p.category === "balances-equipements").length;
+      return Array.isArray(products) ? products.filter((p) => p && p.category === "balances-equipements").length : 0;
     },
-    image: "/images/categories/balances.jpg",
+    image: "/images/products/balance-elicom-s200l-30kg.jpg",
   },
 ];
-
-export function getCategoryBySlug(slug) {
-  return categories.find((c) => c.slug === slug);
-}
-
